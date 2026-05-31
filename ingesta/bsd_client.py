@@ -125,3 +125,50 @@ class BSDClient:
         if isinstance(data, list):
             return data
         return data.get("results", data.get("data", []))
+
+    def get_event_detail(self, event_id: int) -> Dict[str, Any]:
+        """Obtiene el detalle completo de un evento.
+
+        Args:
+            event_id: ID del evento.
+
+        Returns:
+            JSON completo del evento.
+        """
+        data = self._get(f"/events/{event_id}/")
+        if isinstance(data, dict):
+            return data
+        return {}
+
+    def get_team(self, team_id: int) -> Dict[str, Any]:
+        """Obtiene información de un equipo.
+
+        Args:
+            team_id: ID del equipo.
+
+        Returns:
+            JSON del equipo.
+        """
+        data = self._get(f"/teams/{team_id}/")
+        if isinstance(data, dict):
+            return data
+        return {}
+
+    def get_team_events(self, team_id: int, season_id: Optional[int] = None) -> List[Dict[str, Any]]:
+        """Obtiene eventos de un equipo.
+
+        Args:
+            team_id: ID del equipo.
+            season_id: ID de temporada opcional.
+
+        Returns:
+            Lista de eventos del equipo.
+        """
+        params: Dict[str, Any] = {"team": team_id}
+        if season_id is not None:
+            params["season"] = season_id
+
+        data = self._get("/events/", params=params)
+        if isinstance(data, list):
+            return data
+        return data.get("results", data.get("data", []))
