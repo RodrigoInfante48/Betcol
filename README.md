@@ -72,10 +72,47 @@ está listo.
 | Sprint | Objetivo | Estado |
 |--------|----------|--------|
 | **Sprint 0** | Setup del entorno, estructura del proyecto, validación de conexión BSD API | ✅ Completado |
-| **Sprint 1** | Ingesta histórica: descargar partidos de selecciones y guardar en `data/raw/` | 🔜 Pendiente |
-| **Sprint 2** | Feature engineering: calcular ratings ELO y parámetros Poisson por selección | 🔜 Pendiente |
-| **Sprint 3** | Modelo predictivo: generar distribución de resultados y probabilidades | 🔜 Pendiente |
-| **Sprint 4** | Detección de value bets y dashboard Streamlit con predicciones Mundial 2026 | 🔜 Pendiente |
+| **Sprint 1** | Ingesta histórica: descargar partidos de selecciones y guardar en `data/raw/` | ✅ Completado |
+| **Sprint 2** | Feature engineering: calcular ratings ELO y parámetros Poisson por selección | ✅ Completado |
+| **Sprint 3** | Modelo predictivo: generar distribución de resultados y probabilidades | ✅ Completado |
+| **Sprint 4** | Detección de value bets y dashboard Streamlit con predicciones Mundial 2026 | ✅ Completado |
+
+---
+
+## Uso
+
+### Generar datos base
+
+```bash
+python scripts/generate_wc2026_data.py   # fixtures, odds, stats sintéticas
+python features/build_features.py        # features_master.csv + elo_ratings.csv
+```
+
+### Predicción de partido individual
+
+```bash
+python modelo/predict.py "Colombia" "Argentina"
+```
+
+### Detectar value bets
+
+```bash
+python modelo/value_bets.py
+# Genera: data/processed/value_bets.csv
+#         data/processed/full_analysis.csv
+```
+
+### Dashboard interactivo
+
+```bash
+streamlit run dashboard/app.py
+```
+
+### Ejecutar todos los tests
+
+```bash
+pytest tests/ -v
+```
 
 ---
 
