@@ -16,7 +16,10 @@ _WC_DATE_TO = "2026-07-19"
 
 def _infer_stage(event: Dict[str, Any]) -> str:
     """Infiere la fase del torneo a partir de campos del evento."""
-    raw_stage = str(event.get("stage", event.get("round", event.get("group_stage", "")))).lower()
+    # La API devuelve round_name (ej: "Group Stage", "Round of 16", "Semi-Final")
+    raw_stage = str(
+        event.get("round_name", event.get("stage", event.get("round", "")))
+    ).lower()
     if "final" in raw_stage and "semi" not in raw_stage and "quarter" not in raw_stage:
         return "final"
     if "semi" in raw_stage:
@@ -29,8 +32,8 @@ def _infer_stage(event: Dict[str, Any]) -> str:
 
 
 def _infer_group(event: Dict[str, Any]) -> Optional[str]:
-    """Extrae la letra de grupo si el evento es de fase de grupos."""
-    group = event.get("group", event.get("group_name", None))
+    """Extrae la letra de grupo; la API usa group_name."""
+    group = event.get("group_name", event.get("group", None))
     if group:
         letter = str(group).strip().upper().replace("GROUP", "").strip()
         return letter if letter else None
@@ -38,23 +41,34 @@ def _infer_group(event: Dict[str, Any]) -> Optional[str]:
 
 
 def _normalize_fixture(event: Dict[str, Any]) -> Dict[str, Any]:
-    """Normaliza un evento raw al schema de fixture del Mundial."""
-    home = event.get("home_team", {})
-    away = event.get("away_team", {})
+    """Normaliza un evento raw al schema de fixture del Mundial.
 
-    home_name = home.get("name", home) if isinstance(home, dict) else str(home)
-    away_name = away.get("name", away) if isinstance(away, dict) else str(away)
-    home_id = home.get("id", event.get("home_team_id")) if isinstance(home, dict) else event.get("home_team_id")
-    away_id = away.get("id", event.get("away_team_id")) if isinstance(away, dict) else event.get("away_team_id")
+    La API devuelve home_team/away_team como strings y los objetos completos
+    en home_team_obj/away_team_obj.
+    """
+    # Nombres: vienen como string directo
+    home_name = event.get("home_team", "")
+    away_name = event.get("away_team", "")
+    if isinstance(home_name, dict):
+        home_name = home_name.get("name", "")
+    if isinstance(away_name, dict):
+        away_name = away_name.get("name", "")
 
-    venue = event.get("venue", event.get("stadium", None))
+    # IDs: vienen en los objetos _obj
+    home_obj = event.get("home_team_obj", {}) or {}
+    away_obj = event.get("away_team_obj", {}) or {}
+    home_id = home_obj.get("id", event.get("home_team_id"))
+    away_id = away_obj.get("id", event.get("away_team_id"))
+
+    # Venue: objeto en el top level con campo "name"
+    venue = event.get("venue", None)
     if isinstance(venue, dict):
         venue = venue.get("name", None)
 
     return {
         "event_id": event.get("id", event.get("event_id")),
-        "home_team": home_name,
-        "away_team": away_name,
+        "home_team": str(home_name),
+        "away_team": str(away_name),
         "home_team_id": home_id,
         "away_team_id": away_id,
         "event_date": event.get("event_date", event.get("date", event.get("datetime", ""))),
