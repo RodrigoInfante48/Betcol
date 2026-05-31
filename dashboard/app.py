@@ -12,6 +12,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
 
+from dashboard.components.head_to_head import render_head_to_head
 from dashboard.components.match_card import render_match_card
 from dashboard.components.scoreline import render_scoreline_chart
 from dashboard.components.value_table import render_value_table
@@ -60,6 +61,11 @@ def load_full_analysis() -> pd.DataFrame:
     return det.get_full_analysis()
 
 
+@st.cache_data
+def load_teams_stats() -> pd.DataFrame:
+    return pd.read_csv(_PROC / "teams_stats.csv")
+
+
 @st.cache_resource
 def get_poisson_model():
     from modelo.poisson import BivariatePoisson
@@ -76,7 +82,7 @@ with st.sidebar:
 
     page = st.radio(
         "Navegar:",
-        ["🏆 Predicciones", "💰 Value Bets", "🔍 Análisis por partido"],
+        ["🏆 Predicciones", "💰 Value Bets", "🔍 Análisis por partido", "⚔️ Head-to-Head"],
     )
 
     st.divider()
@@ -385,5 +391,12 @@ if page == "🏆 Predicciones":
     page_predictions()
 elif page == "💰 Value Bets":
     page_value_bets()
-else:
+elif page == "🔍 Análisis por partido":
     page_analysis()
+else:
+    render_head_to_head(
+        teams_stats_df=load_teams_stats(),
+        predictions_df=load_predictions(),
+        value_bets_df=load_value_bets(),
+        features_df=load_features(),
+    )
