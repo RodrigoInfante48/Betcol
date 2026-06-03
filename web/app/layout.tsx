@@ -5,6 +5,9 @@ import Sidebar from '@/components/Sidebar'
 export const metadata: Metadata = {
   title: 'Betcol — Mundial 2026',
   description: 'Modelo predictivo para el Mundial 2026',
+  icons: {
+    icon: '/favicon.svg',
+  },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
