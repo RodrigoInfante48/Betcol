@@ -127,11 +127,11 @@ export default function PartidosPage() {
         </div>
       </div>
 
-      {/* Date scroll tabs */}
-      <div className="flex gap-2 mb-6 overflow-x-auto pb-2">
+      {/* Date tabs */}
+      <div className="flex flex-wrap gap-2 mb-6">
         <button
           onClick={() => setDayFilter('Todos')}
-          className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium border transition-colors ${
+          className={`px-3 py-1.5 rounded-lg text-xs font-medium border transition-colors ${
             dayFilter === 'Todos' ? 'bg-green-500 text-white border-green-500' : 'border-gray-700 text-gray-400 hover:border-gray-500'
           }`}
         >
@@ -143,7 +143,7 @@ export default function PartidosPage() {
             <button
               key={d}
               onClick={() => setDayFilter(d)}
-              className={`flex-shrink-0 px-3 py-1.5 rounded-lg text-xs font-medium border transition-colors whitespace-nowrap ${
+              className={`px-3 py-1.5 rounded-lg text-xs font-medium border transition-colors whitespace-nowrap ${
                 dayFilter === d ? 'bg-green-500 text-white border-green-500' : 'border-gray-700 text-gray-400 hover:border-gray-500'
               }`}
             >

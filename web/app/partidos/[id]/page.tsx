@@ -11,19 +11,21 @@ function ProbCircle({ label, value, color }: { label: string; value: number; col
 
   return (
     <div className="flex flex-col items-center gap-2">
-      <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} className="-rotate-90">
-        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="#374151" strokeWidth="8" />
-        <circle
-          cx={size / 2} cy={size / 2} r={r} fill="none"
-          stroke={color} strokeWidth="8"
-          strokeDasharray={`${dash} ${circ - dash}`}
-          strokeLinecap="round"
-        />
-      </svg>
-      <div className="text-center -mt-[60px] mb-[48px]">
-        <p className="text-2xl font-extrabold" style={{ color }}>{pct}%</p>
+      <div className="relative" style={{ width: size, height: size }}>
+        <svg width={size} height={size} viewBox={`0 0 ${size} ${size}`} className="-rotate-90">
+          <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="#374151" strokeWidth="8" />
+          <circle
+            cx={size / 2} cy={size / 2} r={r} fill="none"
+            stroke={color} strokeWidth="8"
+            strokeDasharray={`${dash} ${circ - dash}`}
+            strokeLinecap="round"
+          />
+        </svg>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <p className="text-2xl font-extrabold leading-none" style={{ color }}>{pct}%</p>
+        </div>
       </div>
-      <p className="text-xs text-gray-400 uppercase tracking-wide font-medium">{label}</p>
+      <p className="text-xs text-gray-400 uppercase tracking-wide font-medium text-center">{label}</p>
     </div>
   )
 }
@@ -199,13 +201,13 @@ export default function MatchDetailPage({ params }: { params: { id: string } }) 
             <div key={team.name} className={`rounded-xl p-3 bg-gray-800/40 border ${color.split(' ')[1]}`}>
               <p className={`text-xs font-bold mb-3 ${color.split(' ')[0]}`}>{team.flag} {team.name}</p>
               <div className="grid grid-cols-3 gap-2 text-center text-xs mb-3">
-                <div><p className="text-green-400 font-bold text-lg">{team.wins}</p><p className="text-gray-500">G</p></div>
-                <div><p className="text-yellow-400 font-bold text-lg">{team.draws}</p><p className="text-gray-500">E</p></div>
-                <div><p className="text-red-400 font-bold text-lg">{team.losses}</p><p className="text-gray-500">P</p></div>
+                <div className="flex flex-col items-center"><p className="text-green-400 font-bold text-lg leading-tight">{team.wins}</p><p className="text-gray-500">G</p></div>
+                <div className="flex flex-col items-center"><p className="text-yellow-400 font-bold text-lg leading-tight">{team.draws}</p><p className="text-gray-500">E</p></div>
+                <div className="flex flex-col items-center"><p className="text-red-400 font-bold text-lg leading-tight">{team.losses}</p><p className="text-gray-500">P</p></div>
               </div>
-              <div className="flex items-center gap-1.5">
-                <span className="text-[10px] text-gray-500">Forma:</span>
-                <div className="flex gap-1">
+              <div className="flex items-start gap-1.5">
+                <span className="text-[10px] text-gray-500 shrink-0 mt-0.5">Forma:</span>
+                <div className="flex flex-wrap gap-1">
                   {team.form.map((r, i) => <FormBadge key={i} r={r} />)}
                 </div>
               </div>
