@@ -1,5 +1,3 @@
-'use client'
-import { use } from 'react'
 import Link from 'next/link'
 import { getMatchById, TEAMS, GROUP_STAGE_MATCHES } from '@/lib/worldcupData'
 import { calculateProbabilities, pct, pctNum } from '@/lib/bettingCalc'
@@ -91,8 +89,8 @@ function FormBadge({ r }: { r: string }) {
   return <span className={`inline-flex w-6 h-6 rounded-full text-xs font-bold items-center justify-center ${cls}`}>{lbl}</span>
 }
 
-export default function MatchDetailPage({ params }: { params: Promise<{ id: string }> }) {
-  const { id } = use(params)
+export default function MatchDetailPage({ params }: { params: { id: string } }) {
+  const { id } = params
   const match = getMatchById(id)
 
   if (!match) {
