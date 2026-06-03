@@ -129,7 +129,7 @@
 | Grupo | Estado | Fecha |
 |-------|--------|-------|
 | A | ✅ Completado | 2026-06-03 |
-| B | ⏳ Pendiente | — |
+| B | ✅ Completado | 2026-06-03 |
 | C | ⏳ Pendiente | — |
 | D | ⏳ Pendiente | — |
 | E | ⏳ Pendiente | — |
