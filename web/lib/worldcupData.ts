@@ -85,11 +85,36 @@ export const TEAMS: Record<string, TeamData> = {
     ranking: 19, group: 'B',
   },
 
-  // Grupo C
-  'Brasil': { name: 'Brasil', flag: '🇧🇷', wins: 7, draws: 1, losses: 2, goalsFor: 21, goalsAgainst: 9, form: ['W','W','D','W','W'], ranking: 6, group: 'C' },
-  'Marruecos': { name: 'Marruecos', flag: '🇲🇦', wins: 6, draws: 2, losses: 2, goalsFor: 14, goalsAgainst: 9, form: ['W','W','D','W','L'], ranking: 14, group: 'C' },
-  'Escocia': { name: 'Escocia', flag: '🏴', wins: 4, draws: 2, losses: 4, goalsFor: 12, goalsAgainst: 14, form: ['L','W','W','D','L'], ranking: 38, group: 'C' },
-  'Haití': { name: 'Haití', flag: '🇭🇹', wins: 3, draws: 1, losses: 6, goalsFor: 9, goalsAgainst: 18, form: ['L','L','W','D','L'], ranking: 95, group: 'C' },
+  // ── GRUPO C ── datos verificados 2026-06-03 · ver /data/wc2026/groups/grupo-C.json
+  // Ranking FIFA: última actualización pública 01/04/2026
+  'Brasil': {
+    name: 'Brasil', flag: '🇧🇷',
+    // CONMEBOL WCQ 2026 MD9-18 (Oct 2024 – Sep 2025)
+    wins: 5, draws: 3, losses: 2, goalsFor: 15, goalsAgainst: 9,
+    form: ['W','W','D','D','W','L','D','W','W','L'],
+    ranking: 6, group: 'C',
+  },
+  'Marruecos': {
+    name: 'Marruecos', flag: '🇲🇦',
+    // CAF WCQ 2026 Grupo E (últimos 3, ganó 6/6) · AFCON 2025 (7 partidos, campeón)
+    wins: 9, draws: 1, losses: 0, goalsFor: 25, goalsAgainst: 1,
+    form: ['W','W','W','W','D','W','W','W','W','W'],
+    ranking: 8, group: 'C',
+  },
+  'Escocia': {
+    name: 'Escocia', flag: '🏴󠁧󠁢󠁳󠁣󠁴󠁿',
+    // UEFA NL 2024-25 Liga A Grupo 1 (4 partidos) · UEFA WCQ 2026 Grupo C (6 partidos)
+    wins: 6, draws: 2, losses: 2, goalsFor: 17, goalsAgainst: 10,
+    form: ['L','D','W','W','D','W','W','W','L','W'],
+    ranking: 43, group: 'C',
+  },
+  'Haití': {
+    name: 'Haití', flag: '🇭🇹',
+    // CNL 2024-25 Liga B (4 partidos) · CONCACAF WCQ 2026 3ra Ronda Grupo C (6 partidos)
+    wins: 7, draws: 2, losses: 1, goalsFor: 28, goalsAgainst: 10,
+    form: ['W','W','W','W','W','D','D','L','W','W'],
+    ranking: 83, group: 'C',
+  },
 
   // Grupo D
   'Estados Unidos': { name: 'Estados Unidos', flag: '🇺🇸', wins: 5, draws: 2, losses: 3, goalsFor: 15, goalsAgainst: 13, form: ['W','W','D','L','W'], ranking: 13, group: 'D' },
