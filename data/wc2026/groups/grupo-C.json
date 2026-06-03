@@ -1,0 +1,480 @@
+{
+  "group": "C",
+  "lastUpdated": "2026-06-03",
+  "sources": [
+    "ESPN.com (CONMEBOL match scores)",
+    "copaamerica.com (CONMEBOL WCQ R13-14 March 2025)",
+    "cafonline.com (AFCON 2025 results)",
+    "Olympics.com (AFCON 2025 scores & standings)",
+    "aljazeera.com (Morocco vs Cameroon QF)",
+    "euronews.com (Morocco declared AFCON winners)",
+    "UEFA.com (Scotland Nations League 2024-25)",
+    "goal.com (Scotland WCQ 2026 Group C)",
+    "ScottishFA.co.uk (Scotland WCQ results)",
+    "concacaf.com (Haiti NL B + WCQ 3rd Round)",
+    "haitiantimes.com (Haiti WCQ results)",
+    "FIFA.com (Rankings April 2026)"
+  ],
+  "teams": {
+    "Brasil": {
+      "flag": "🇧🇷",
+      "ranking": 6,
+      "notes": "Torneos: CONMEBOL WCQ 2026 MD9-18 (Oct 2024 - Sep 2025). Todos verificados vía ESPN y copaamerica.com. Ancelotti asumió en mayo 2025 tras 4-1 vs Argentina. Brasil ya clasificado con 2 fechas de sobra.",
+      "matches": [
+        {
+          "date": "2024-10-11",
+          "opponent": "Chile",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "CONMEBOL WCQ 2026 MD9",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-10-16",
+          "opponent": "Perú",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL WCQ 2026 MD10",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-14",
+          "opponent": "Venezuela",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "CONMEBOL WCQ 2026 MD11",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-20",
+          "opponent": "Uruguay",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "CONMEBOL WCQ 2026 MD12",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-20",
+          "opponent": "Colombia",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "CONMEBOL WCQ 2026 MD13",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-26",
+          "opponent": "Argentina",
+          "scoreFor": 1,
+          "scoreAgainst": 4,
+          "result": "L",
+          "competition": "CONMEBOL WCQ 2026 MD14",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-06",
+          "opponent": "Ecuador",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "CONMEBOL WCQ 2026 MD15",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-11",
+          "opponent": "Paraguay",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL WCQ 2026 MD16",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-05",
+          "opponent": "Chile",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL WCQ 2026 MD17",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-10",
+          "opponent": "Bolivia",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "CONMEBOL WCQ 2026 MD18",
+          "venue": "A",
+          "confirmed": true
+        }
+      ],
+      "computed": {
+        "wins": 5,
+        "draws": 3,
+        "losses": 2,
+        "goalsFor": 15,
+        "goalsAgainst": 9,
+        "form": ["W","W","D","D","W","L","D","W","W","L"]
+      }
+    },
+    "Marruecos": {
+      "flag": "🇲🇦",
+      "ranking": 8,
+      "notes": "Torneos: CAF WCQ 2026 Grupo E (últimos 3 de 6, ganó 6/6) + AFCON 2025 (7 partidos, campeón). Final de AFCON vs Senegal: en campo 0-1 pero CAF adjudicó 3-0 a Marruecos por abandono de Senegal. SF vs Nigeria: 0-0, ganó penales 4-2. Primer país africano en clasificar al Mundial 2026. Fuentes: cafonline.com, Olympics.com, aljazeera.com.",
+      "matches": [
+        {
+          "date": "2024-06-07",
+          "opponent": "Congo",
+          "scoreFor": 6,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CAF WCQ 2026 Grupo E MD4",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2024-10-11",
+          "opponent": "Níger",
+          "scoreFor": 5,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CAF WCQ 2026 Grupo E MD5 (clasifica al Mundial)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-15",
+          "opponent": "Tanzania",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CAF WCQ 2026 Grupo E MD6",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-12-22",
+          "opponent": "Comoras",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Grupo A",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-26",
+          "opponent": "Mali",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "AFCON 2025 Grupo A",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-29",
+          "opponent": "Zambia",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Grupo A",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-04",
+          "opponent": "Tanzania",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Ronda de 16",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-09",
+          "opponent": "Camerún",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Cuartos de final",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-15",
+          "opponent": "Nigeria",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Semifinal (W 4-2 penales)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-18",
+          "opponent": "Senegal",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Final (adjudicado 3-0 por abandono de Senegal — campeón)",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "computed": {
+        "wins": 9,
+        "draws": 1,
+        "losses": 0,
+        "goalsFor": 25,
+        "goalsAgainst": 1,
+        "form": ["W","W","W","W","D","W","W","W","W","W"]
+      }
+    },
+    "Escocia": {
+      "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "ranking": 43,
+      "notes": "Torneos: UEFA Nations League 2024-25 Liga A Grupo 1 (últimas 4 jornadas) + UEFA WCQ 2026 Grupo C (6 partidos vs Dinamarca/Bielorrusia/Grecia). Clasificó directamente con 4V-1E-1D en los qualifiers (dramático 4-2 vs Dinamarca en jornada final). Primera Copa del Mundo de Escocia desde 1998. Fuentes: UEFA.com, ScottishFA.co.uk, goal.com.",
+      "matches": [
+        {
+          "date": "2024-10-12",
+          "opponent": "Croacia",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 1 MD3",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-10-15",
+          "opponent": "Portugal",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 1 MD4",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-15",
+          "opponent": "Croacia",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 1 MD5",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-18",
+          "opponent": "Polonia",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 1 MD6",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-04",
+          "opponent": "Dinamarca",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "UEFA WCQ 2026 Grupo C MD1",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-07",
+          "opponent": "Bielorrusia",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo C MD2",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-10",
+          "opponent": "Grecia",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo C MD3",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-13",
+          "opponent": "Bielorrusia",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo C MD4",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-13",
+          "opponent": "Grecia",
+          "scoreFor": 2,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "UEFA WCQ 2026 Grupo C MD5",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-18",
+          "opponent": "Dinamarca",
+          "scoreFor": 4,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo C MD6 (clasifica al Mundial)",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "computed": {
+        "wins": 6,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 17,
+        "goalsAgainst": 10,
+        "form": ["L","D","W","W","D","W","W","W","L","W"]
+      }
+    },
+    "Haití": {
+      "flag": "🇭🇹",
+      "ranking": 83,
+      "notes": "Torneos: CNL 2024-25 Liga B Grupo C (últimas 4 de 6 jornadas — invicto 6/6, promovido) + CONCACAF WCQ 2026 3ra Ronda Grupo C (vs Honduras/Costa Rica/Nicaragua). Récord WCQ: 3V-2E-1D. Primer clasificación de Haití a un Mundial desde 1974. Fuentes: concacaf.com, haitiantimes.com, ticotimes.net.",
+      "matches": [
+        {
+          "date": "2024-10-12",
+          "opponent": "Aruba",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "CONCACAF NL 2024-25 Liga B Grupo C MD3",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-10-15",
+          "opponent": "Aruba",
+          "scoreFor": 5,
+          "scoreAgainst": 3,
+          "result": "W",
+          "competition": "CONCACAF NL 2024-25 Liga B Grupo C MD4",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-15",
+          "opponent": "Sint Maarten",
+          "scoreFor": 8,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONCACAF NL 2024-25 Liga B Grupo C MD5",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-18",
+          "opponent": "Puerto Rico",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONCACAF NL 2024-25 Liga B Grupo C MD6",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-06",
+          "opponent": "Nicaragua",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONCACAF WCQ 2026 3ra Ronda Grupo C MD1",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Honduras",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "CONCACAF WCQ 2026 3ra Ronda Grupo C MD2",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-11",
+          "opponent": "Costa Rica",
+          "scoreFor": 3,
+          "scoreAgainst": 3,
+          "result": "D",
+          "competition": "CONCACAF WCQ 2026 3ra Ronda Grupo C MD3",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-14",
+          "opponent": "Honduras",
+          "scoreFor": 0,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "CONCACAF WCQ 2026 3ra Ronda Grupo C MD4",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-14",
+          "opponent": "Costa Rica",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONCACAF WCQ 2026 3ra Ronda Grupo C MD5",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-19",
+          "opponent": "Nicaragua",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONCACAF WCQ 2026 3ra Ronda Grupo C MD6 (clasifica al Mundial)",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "computed": {
+        "wins": 7,
+        "draws": 2,
+        "losses": 1,
+        "goalsFor": 28,
+        "goalsAgainst": 10,
+        "form": ["W","W","W","W","W","D","D","L","W","W"]
+      }
+    }
+  }
+}
