@@ -23,11 +23,36 @@ export interface WCMatch {
 }
 
 export const TEAMS: Record<string, TeamData> = {
-  // Grupo A
-  'México': { name: 'México', flag: '🇲🇽', wins: 5, draws: 3, losses: 2, goalsFor: 15, goalsAgainst: 12, form: ['W','D','W','L','W'], ranking: 15, group: 'A' },
-  'Sudáfrica': { name: 'Sudáfrica', flag: '🇿🇦', wins: 4, draws: 2, losses: 4, goalsFor: 11, goalsAgainst: 14, form: ['L','W','D','W','L'], ranking: 65, group: 'A' },
-  'Corea del Sur': { name: 'Corea del Sur', flag: '🇰🇷', wins: 5, draws: 2, losses: 3, goalsFor: 14, goalsAgainst: 13, form: ['W','W','D','L','W'], ranking: 22, group: 'A' },
-  'Chequia': { name: 'Chequia', flag: '🇨🇿', wins: 4, draws: 3, losses: 3, goalsFor: 12, goalsAgainst: 12, form: ['D','W','L','W','D'], ranking: 35, group: 'A' },
+  // ── GRUPO A ── datos verificados 2026-06-03 · ver /data/wc2026/groups/grupo-A.json
+  // Ranking FIFA: última actualización pública 01/04/2026
+  'México': {
+    name: 'México', flag: '🇲🇽',
+    // CNL 2023-24 (QF+SF+Final) · Copa América 2024 · CNL 2024-25 (QF+SF+Final)
+    wins: 6, draws: 1, losses: 3, goalsFor: 14, goalsAgainst: 6,
+    form: ['W','W','L','W','L','D','L','W','W','W'],
+    ranking: 15, group: 'A',
+  },
+  'Sudáfrica': {
+    name: 'Sudáfrica', flag: '🇿🇦',
+    // CAF WCQ 2026 Grupo C (últimos 6) · AFCON 2025 (grupo+R16) — 2 partidos estimados
+    wins: 5, draws: 2, losses: 3, goalsFor: 15, goalsAgainst: 12,
+    form: ['D','W','L','D','W','W','W','W','L','L'],
+    ranking: 60, group: 'A',
+  },
+  'Corea del Sur': {
+    name: 'Corea del Sur', flag: '🇰🇷',
+    // AFC WCQ 2026 Tercera Ronda Grupo B — 10 partidos, invictos (único equipo de Asia)
+    wins: 6, draws: 4, losses: 0, goalsFor: 20, goalsAgainst: 7,
+    form: ['W','W','W','D','W','D','D','D','W','W'],
+    ranking: 25, group: 'A',
+  },
+  'Chequia': {
+    name: 'Chequia', flag: '🇨🇿',
+    // UEFA WCQ 2026 Grupo C (8 partidos) · Playoffs vs Irlanda + Dinamarca (penales)
+    wins: 7, draws: 1, losses: 2, goalsFor: 22, goalsAgainst: 12,
+    form: ['W','W','W','L','W','D','L','W','W','W'],
+    ranking: 41, group: 'A',
+  },
 
   // Grupo B
   'Canadá': { name: 'Canadá', flag: '🇨🇦', wins: 5, draws: 2, losses: 3, goalsFor: 13, goalsAgainst: 13, form: ['W','D','W','L','W'], ranking: 40, group: 'B' },
