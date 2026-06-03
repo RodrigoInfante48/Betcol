@@ -1,0 +1,434 @@
+{
+  "group": "D",
+  "lastUpdated": "2026-06-03",
+  "teams": {
+    "Estados Unidos": {
+      "flag": "🇺🇸",
+      "ranking": 16,
+      "matches": [
+        {
+          "date": "2025-07-06",
+          "opponent": "México",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "CONCACAF Gold Cup 2025 Final",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-06",
+          "opponent": "Corea del Sur",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "Amistoso",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Japón",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-11",
+          "opponent": "Ecuador",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-15",
+          "opponent": "Australia",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-15",
+          "opponent": "Paraguay",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-18",
+          "opponent": "Uruguay",
+          "scoreFor": 5,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-24",
+          "opponent": "Portugal",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-28",
+          "opponent": "Bélgica",
+          "scoreFor": 2,
+          "scoreAgainst": 5,
+          "result": "L",
+          "competition": "Amistoso",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-05-28",
+          "opponent": "Senegal",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": false
+        }
+      ],
+      "notes": "Co-anfitrión — sin clasificatoria. Ciclo Mauricio Pochettino. Gold Cup 2025: subcampeón (perdió final vs México 1-2). Fuentes: NBCSports, ESPN, USSoccer.com"
+    },
+    "Paraguay": {
+      "flag": "🇵🇾",
+      "ranking": 40,
+      "matches": [
+        {
+          "date": "2024-11-19",
+          "opponent": "Bolivia",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "Eliminatorias CONMEBOL 2026 F12",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-20",
+          "opponent": "Chile",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Eliminatorias CONMEBOL 2026 F13",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-25",
+          "opponent": "Colombia",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "Eliminatorias CONMEBOL 2026 F14",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-05",
+          "opponent": "Uruguay",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Eliminatorias CONMEBOL 2026 F15",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-10",
+          "opponent": "Brasil",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "Eliminatorias CONMEBOL 2026 F16",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-04",
+          "opponent": "Ecuador",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "Eliminatorias CONMEBOL 2026 F17",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Perú",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Eliminatorias CONMEBOL 2026 F18",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-15",
+          "opponent": "Estados Unidos",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "Amistoso",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-21",
+          "opponent": "Marruecos",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-25",
+          "opponent": "Grecia",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "notes": "Clasificó 6º en WCQ CONMEBOL 2026. Racha final: F13-18 = 3V 2E 1D. Dir. técnico: Gustavo Alfaro. Fuentes: CONMEBOL.com, ESPN Deportes, Infobae, ABC Color"
+    },
+    "Australia": {
+      "flag": "🇦🇺",
+      "ranking": 27,
+      "matches": [
+        {
+          "date": "2024-11-19",
+          "opponent": "Arabia Saudita",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2025-03-20",
+          "opponent": "Indonesia",
+          "scoreFor": 5,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-25",
+          "opponent": "China",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-05",
+          "opponent": "Japón",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-10",
+          "opponent": "Arabia Saudita",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-04",
+          "opponent": "Nueva Zelanda",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-09",
+          "opponent": "Canadá",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-15",
+          "opponent": "Estados Unidos",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "Amistoso",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-27",
+          "opponent": "Camerún",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso FIFA Series 2026",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Curazao",
+          "scoreFor": 5,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso FIFA Series 2026",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Clasificó directo 2º del Grupo C AFC (19 pts, 5V 4E 1D de 10 partidos). Dir. técnico: Tony Popovic. Nov 2024 vs KSA score estimado. Fuentes: Socceroos.com.au, FIFA.com, ESPN AU, Football Australia"
+    },
+    "Turquía": {
+      "flag": "🇹🇷",
+      "ranking": 22,
+      "matches": [
+        {
+          "date": "2025-06-07",
+          "opponent": "Estados Unidos",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-04",
+          "opponent": "Georgia",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "España",
+          "scoreFor": 0,
+          "scoreAgainst": 6,
+          "result": "L",
+          "competition": "UEFA WCQ 2026 Grupo",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-09",
+          "opponent": "Bulgaria",
+          "scoreFor": 6,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-13",
+          "opponent": "Georgia",
+          "scoreFor": 4,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-13",
+          "opponent": "Bulgaria",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-18",
+          "opponent": "España",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "UEFA WCQ 2026 Grupo",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-26",
+          "opponent": "Rumanía",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Playoff SF (Path C)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Kosovo",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Playoff Final (Path C)",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-06-01",
+          "opponent": "Macedonia del Norte",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Clasificó via Playoff Path C (1-0 vs Rumanía, 1-0 vs Kosovo). Regresa al Mundial tras 24 años. Dir. técnico: Vincenzo Montella. Fuentes: UEFA.com, TurkiyeToday.com, BeIN Sports"
+    }
+  }
+}
