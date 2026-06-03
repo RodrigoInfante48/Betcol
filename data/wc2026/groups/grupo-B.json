@@ -1,0 +1,474 @@
+{
+  "group": "B",
+  "lastUpdated": "2026-06-03",
+  "sources": [
+    "CONCACAF.com (CNL results)",
+    "Soccerway.com (Copa América 2024)",
+    "FIFA.com (rankings, AFC qualifiers)",
+    "UEFA.com (WCQ 2026, Nations League)",
+    "ESPN (Copa América, CNL)",
+    "AFC.com (WCQ 2026 Round 3 & 4)"
+  ],
+  "teams": {
+    "Canadá": {
+      "flag": "🇨🇦",
+      "ranking": 30,
+      "notes": "Co-anfitrión — sin eliminatoria. Torneos: CNL 2023-24 (QF, eliminado por Jamaica en goles visitante 4-4 agg) + Copa América 2024 (3 partidos grupo + QF) + CNL 2024-25 (QF+SF+3er lugar). Matches 7 y 8 (QF vs Surinam) son estimados. México 2-0 Canadá en SF confirmado vía grupo-A.json.",
+      "matches": [
+        {
+          "date": "2023-11-18",
+          "opponent": "Jamaica",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "CONCACAF Nations League 2023-24 QF vuelta 1 (fuera)",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2023-11-21",
+          "opponent": "Jamaica",
+          "scoreFor": 2,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "CONCACAF Nations League 2023-24 QF vuelta 2 (Jamaica avanza por goles visitante, 4-4 agg)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-06-20",
+          "opponent": "Argentina",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "Copa América 2024 Fase de Grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2024-06-25",
+          "opponent": "Perú",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Copa América 2024 Fase de Grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2024-06-29",
+          "opponent": "Chile",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "Copa América 2024 Fase de Grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2024-07-05",
+          "opponent": "Venezuela",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "Copa América 2024 Cuartos de Final",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-15",
+          "opponent": "Surinam",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONCACAF Nations League 2024-25 QF vuelta 1",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2024-11-19",
+          "opponent": "Surinam",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONCACAF Nations League 2024-25 QF vuelta 2 (ganó 5-0 en agg)",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-03-20",
+          "opponent": "México",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "CONCACAF Nations League 2024-25 Semifinal",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-23",
+          "opponent": "Estados Unidos",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "CONCACAF Nations League 2024-25 Tercer Lugar",
+          "venue": "N",
+          "confirmed": false
+        }
+      ],
+      "computed": {
+        "wins": 5,
+        "draws": 1,
+        "losses": 4,
+        "goalsFor": 12,
+        "goalsAgainst": 10,
+        "form": ["W","L","L","W","D","L","W","W","L","W"]
+      }
+    },
+    "Bosnia y Herzegovina": {
+      "flag": "🇧🇦",
+      "ranking": 65,
+      "notes": "Torneos: UEFA WCQ 2026 Grupo H (8 partidos, vs Eslovenia/Austria/Chipre/Malta/San Marino) + Playoffs (2 partidos: vs Gales SF + vs Italia Final, ambos 1-1 aet ganados en penales). Matches 6-7 son estimados (orden/rival de jornadas no confirmados al 100%). Italia no clasificó. Fuentes: UEFA.com, ESPN.",
+      "matches": [
+        {
+          "date": "2025-03-22",
+          "opponent": "San Marino",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo H MD1",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-25",
+          "opponent": "Eslovenia",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "UEFA WCQ 2026 Grupo H MD2",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-07",
+          "opponent": "San Marino",
+          "scoreFor": 6,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo H MD3",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-10",
+          "opponent": "Austria",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "UEFA WCQ 2026 Grupo H MD4",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-05",
+          "opponent": "Chipre",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "UEFA WCQ 2026 Grupo H MD5",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Malta",
+          "scoreFor": 4,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo H MD6",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-10-10",
+          "opponent": "Rumania",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo H MD7 (rival estimado — puede ser Chipre/Malta en vuelta)",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2025-11-14",
+          "opponent": "Austria",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "UEFA WCQ 2026 Grupo H MD8",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-26",
+          "opponent": "Gales",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Playoff SF (W 4-3 penales)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Italia",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Playoff Final (W 3-2 penales) — clasifica al Mundial",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "computed": {
+        "wins": 6,
+        "draws": 2,
+        "losses": 2,
+        "goalsFor": 21,
+        "goalsAgainst": 11,
+        "form": ["W","L","W","L","D","W","W","D","W","W"]
+      }
+    },
+    "Catar": {
+      "flag": "🇶🇦",
+      "ranking": 55,
+      "notes": "Torneos: AFC WCQ 2026 3ª Ronda Grupo C (8 partidos, vs Irán/EAU/Uzbekistán/Corea del Norte/Kirguistán) + Ronda 4 (2 partidos, vs Omán + EAU — clasifica). Match 6 (derrota vs Kirguistán 1-3) y Match 9 (Omán 0-0) estimados. Fuentes: AFC.com, FIFA.com, beIN Sports.",
+      "matches": [
+        {
+          "date": "2024-09-05",
+          "opponent": "Kirguistán",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C MD1",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-09-10",
+          "opponent": "Corea del Norte",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C MD2",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-10-10",
+          "opponent": "Uzbekistán",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C MD3",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-10-15",
+          "opponent": "Emiratos Árabes",
+          "scoreFor": 0,
+          "scoreAgainst": 5,
+          "result": "L",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C MD4",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-14",
+          "opponent": "Corea del Norte",
+          "scoreFor": 5,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C MD5",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-19",
+          "opponent": "Kirguistán",
+          "scoreFor": 1,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C MD6",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-03-20",
+          "opponent": "Irán",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C MD7",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-05",
+          "opponent": "Uzbekistán",
+          "scoreFor": 0,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "AFC WCQ 2026 3ª Ronda Grupo C MD8",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-09",
+          "opponent": "Omán",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "AFC WCQ 2026 Ronda 4 MD1",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2025-10-14",
+          "opponent": "Emiratos Árabes",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "AFC WCQ 2026 Ronda 4 MD2 (clasifica al Mundial)",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "computed": {
+        "wins": 5,
+        "draws": 2,
+        "losses": 3,
+        "goalsFor": 17,
+        "goalsAgainst": 18,
+        "form": ["W","D","W","L","W","L","W","L","D","W"]
+      }
+    },
+    "Suiza": {
+      "flag": "🇨🇭",
+      "ranking": 17,
+      "notes": "Torneos: UEFA Nations League 2024-25 Liga A Grupo 4 (últimos 4 partidos: vs Serbia×2/Dinamarca/España) + UEFA WCQ 2026 Grupo G (6 partidos, vs Kosovo/Eslovenia/Suecia) — clasifica directo como primero de grupo. Todos los partidos confirmados. Fuentes: UEFA.com, ESPN, FIFA.com.",
+      "matches": [
+        {
+          "date": "2024-10-10",
+          "opponent": "Serbia",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 4 MD3",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-10-13",
+          "opponent": "Dinamarca",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 4 MD4",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-14",
+          "opponent": "Serbia",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 4 MD5",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-17",
+          "opponent": "España",
+          "scoreFor": 2,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 4 MD6",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-21",
+          "opponent": "Kosovo",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo G MD1",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-24",
+          "opponent": "Eslovenia",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo G MD2",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-06",
+          "opponent": "Suecia",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo G MD3",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-09",
+          "opponent": "Eslovenia",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "UEFA WCQ 2026 Grupo G MD4",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-05",
+          "opponent": "Suecia",
+          "scoreFor": 4,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo G MD5",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-10",
+          "opponent": "Kosovo",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "UEFA WCQ 2026 Grupo G MD6 (clasifica al Mundial directo)",
+          "venue": "A",
+          "confirmed": true
+        }
+      ],
+      "computed": {
+        "wins": 4,
+        "draws": 4,
+        "losses": 2,
+        "goalsFor": 19,
+        "goalsAgainst": 10,
+        "form": ["L","D","D","L","W","W","W","D","W","D"]
+      }
+    }
+  }
+}

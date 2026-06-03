@@ -54,11 +54,36 @@ export const TEAMS: Record<string, TeamData> = {
     ranking: 41, group: 'A',
   },
 
-  // Grupo B
-  'Canadá': { name: 'Canadá', flag: '🇨🇦', wins: 5, draws: 2, losses: 3, goalsFor: 13, goalsAgainst: 13, form: ['W','D','W','L','W'], ranking: 40, group: 'B' },
-  'Bosnia y Herzegovina': { name: 'Bosnia y Herzegovina', flag: '🇧🇦', wins: 4, draws: 2, losses: 4, goalsFor: 13, goalsAgainst: 15, form: ['L','W','D','L','W'], ranking: 60, group: 'B' },
-  'Catar': { name: 'Catar', flag: '🇶🇦', wins: 3, draws: 2, losses: 5, goalsFor: 9, goalsAgainst: 16, form: ['L','L','D','W','L'], ranking: 58, group: 'B' },
-  'Suiza': { name: 'Suiza', flag: '🇨🇭', wins: 5, draws: 3, losses: 2, goalsFor: 14, goalsAgainst: 10, form: ['W','D','W','W','D'], ranking: 20, group: 'B' },
+  // ── GRUPO B ── datos verificados 2026-06-03 · ver /data/wc2026/groups/grupo-B.json
+  // Ranking FIFA: última actualización pública 01/04/2026
+  'Canadá': {
+    name: 'Canadá', flag: '🇨🇦',
+    // CNL 2023-24 (QF) · Copa América 2024 (grupo+QF) · CNL 2024-25 (QF+SF+3°) — 3 partidos estimados
+    wins: 5, draws: 1, losses: 4, goalsFor: 12, goalsAgainst: 10,
+    form: ['W','L','L','W','D','L','W','W','L','W'],
+    ranking: 30, group: 'B',
+  },
+  'Bosnia y Herzegovina': {
+    name: 'Bosnia y Herzegovina', flag: '🇧🇦',
+    // UEFA WCQ 2026 Grupo H (8 partidos) · Playoffs vs Gales + Italia (penales) — 2 partidos estimados
+    wins: 6, draws: 2, losses: 2, goalsFor: 21, goalsAgainst: 11,
+    form: ['W','L','W','L','D','W','W','D','W','W'],
+    ranking: 65, group: 'B',
+  },
+  'Catar': {
+    name: 'Catar', flag: '🇶🇦',
+    // AFC WCQ 2026 3ª Ronda Grupo C (8 partidos) · Ronda 4 vs Omán + EAU (clasifica) — 2 partidos estimados
+    wins: 5, draws: 2, losses: 3, goalsFor: 17, goalsAgainst: 18,
+    form: ['W','D','W','L','W','L','W','L','D','W'],
+    ranking: 55, group: 'B',
+  },
+  'Suiza': {
+    name: 'Suiza', flag: '🇨🇭',
+    // UEFA Nations League A Grupo 4 (4 partidos) · WCQ 2026 Grupo G (6 partidos) — clasifica directo
+    wins: 4, draws: 4, losses: 2, goalsFor: 19, goalsAgainst: 10,
+    form: ['L','D','D','L','W','W','W','D','W','D'],
+    ranking: 17, group: 'B',
+  },
 
   // Grupo C
   'Brasil': { name: 'Brasil', flag: '🇧🇷', wins: 7, draws: 1, losses: 2, goalsFor: 21, goalsAgainst: 9, form: ['W','W','D','W','W'], ranking: 6, group: 'C' },
