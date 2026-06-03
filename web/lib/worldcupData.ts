@@ -116,11 +116,36 @@ export const TEAMS: Record<string, TeamData> = {
     ranking: 83, group: 'C',
   },
 
-  // Grupo D
-  'Estados Unidos': { name: 'Estados Unidos', flag: '🇺🇸', wins: 5, draws: 2, losses: 3, goalsFor: 15, goalsAgainst: 13, form: ['W','W','D','L','W'], ranking: 13, group: 'D' },
-  'Paraguay': { name: 'Paraguay', flag: '🇵🇾', wins: 4, draws: 2, losses: 4, goalsFor: 11, goalsAgainst: 14, form: ['L','W','D','W','L'], ranking: 50, group: 'D' },
-  'Australia': { name: 'Australia', flag: '🇦🇺', wins: 4, draws: 2, losses: 4, goalsFor: 12, goalsAgainst: 13, form: ['W','D','L','W','L'], ranking: 25, group: 'D' },
-  'Turquía': { name: 'Turquía', flag: '🇹🇷', wins: 5, draws: 2, losses: 3, goalsFor: 14, goalsAgainst: 13, form: ['W','L','W','D','W'], ranking: 45, group: 'D' },
+  // ── GRUPO D ── datos verificados 2026-06-03 · ver /data/wc2026/groups/grupo-D.json
+  // Ranking FIFA: última actualización pública 01/04/2026
+  'Estados Unidos': {
+    name: 'Estados Unidos', flag: '🇺🇸',
+    // Gold Cup 2025 Final · Amistosos Sep-Nov 2025 · Amistosos Mar-May 2026 · Co-anfitrión sin clasificatoria
+    wins: 5, draws: 1, losses: 4, goalsFor: 17, goalsAgainst: 15,
+    form: ['L','L','W','D','W','W','W','L','L','W'],
+    ranking: 16, group: 'D',
+  },
+  'Paraguay': {
+    name: 'Paraguay', flag: '🇵🇾',
+    // CONMEBOL WCQ 2026 F12-F18 (Nov 2024 – Sep 2025) · Amistosos Nov 2025 – Mar 2026
+    wins: 4, draws: 3, losses: 3, goalsFor: 11, goalsAgainst: 9,
+    form: ['D','W','D','W','L','D','W','L','L','W'],
+    ranking: 40, group: 'D',
+  },
+  'Australia': {
+    name: 'Australia', flag: '🇦🇺',
+    // AFC WCQ 3ª Ronda Grupo C (Nov 2024 – Jun 2025) · Amistosos Sep-Oct 2025 · FIFA Series 2026 (Mar 2026)
+    wins: 8, draws: 1, losses: 1, goalsFor: 20, goalsAgainst: 5,
+    form: ['D','W','W','W','W','W','W','L','W','W'],
+    ranking: 27, group: 'D',
+  },
+  'Turquía': {
+    name: 'Turquía', flag: '🇹🇷',
+    // UEFA WCQ 2026 Grupo (Sep-Nov 2025) · Playoffs Path C: Rumanía + Kosovo (Mar 2026) · Amistoso Jun 2026
+    wins: 8, draws: 1, losses: 1, goalsFor: 25, goalsAgainst: 13,
+    form: ['W','W','L','W','W','W','D','W','W','W'],
+    ranking: 22, group: 'D',
+  },
 
   // Grupo E
   'Alemania': { name: 'Alemania', flag: '🇩🇪', wins: 6, draws: 2, losses: 2, goalsFor: 19, goalsAgainst: 12, form: ['W','W','D','W','L'], ranking: 12, group: 'E' },

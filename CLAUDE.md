@@ -131,7 +131,7 @@
 | A | ✅ Completado | 2026-06-03 |
 | B | ✅ Completado | 2026-06-03 |
 | C | ✅ Completado | 2026-06-03 |
-| D | ⏳ Pendiente | — |
+| D | ✅ Completado | 2026-06-03 |
 | E | ⏳ Pendiente | — |
 | F | ⏳ Pendiente | — |
 | G | ⏳ Pendiente | — |
