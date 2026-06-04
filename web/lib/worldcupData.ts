@@ -357,10 +357,67 @@ export const TEAMS: Record<string, TeamData> = {
   'RD Congo': { name: 'RD Congo', flag: '🇨🇩', wins: 7, draws: 2, losses: 1, goalsFor: 11, goalsAgainst: 3, form: ['W','W','W','W','D','W','L','W','W','D'], ranking: 46, group: 'K' },
 
   // Grupo L
-  'Inglaterra': { name: 'Inglaterra', flag: '🏴', wins: 7, draws: 2, losses: 1, goalsFor: 22, goalsAgainst: 8, form: ['W','W','D','W','W'], ranking: 5, group: 'L' },
-  'Croacia': { name: 'Croacia', flag: '🇭🇷', wins: 5, draws: 2, losses: 3, goalsFor: 13, goalsAgainst: 12, form: ['W','D','W','L','D'], ranking: 15, group: 'L' },
-  'Panamá': { name: 'Panamá', flag: '🇵🇦', wins: 4, draws: 1, losses: 5, goalsFor: 10, goalsAgainst: 15, form: ['L','W','D','L','W'], ranking: 65, group: 'L' },
-  'Ghana': { name: 'Ghana', flag: '🇬🇭', wins: 4, draws: 3, losses: 3, goalsFor: 12, goalsAgainst: 14, form: ['D','W','L','D','W'], ranking: 55, group: 'L' },
+  // Investigado: 2026-06-04 | Fuentes: ESPN, UEFA.com, CONCACAF.com, FIFA.com, ghanafa.org
+  'Inglaterra': {
+    name: 'Inglaterra',
+    flag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    // Competiciones: WC 2026 Qualifier UEFA Group K (8 partidos, 8V-0E-0D, 0 goles en contra), Friendlies
+    // Partido más reciente: 2026-06-01 vs Japan 0-1 (Friendly)
+    // Fuente: ESPN, Goal.com, englandfootball.com
+    wins: 8,
+    draws: 1,
+    losses: 1,
+    goalsFor: 21,
+    goalsAgainst: 1,
+    form: ['W','W','W','W','W','W','W','W','D','L'],
+    ranking: 4,
+    group: 'L',
+  },
+  'Croacia': {
+    name: 'Croacia',
+    flag: '🇭🇷',
+    // Competiciones: WC 2026 Qualifier UEFA Group L (8 partidos, 7V-1E-0D, 26 GF 4 GA), Friendlies
+    // Partido más reciente: 2026-03-31 vs Brazil 1-3 (Friendly)
+    // Fuente: UEFA.com, ESPN, FlashScore
+    wins: 8,
+    draws: 1,
+    losses: 1,
+    goalsFor: 29,
+    goalsAgainst: 9,
+    form: ['W','W','W','W','D','W','W','W','W','L'],
+    ranking: 11,
+    group: 'L',
+  },
+  'Panamá': {
+    name: 'Panamá',
+    flag: '🇵🇦',
+    // Competiciones: CONCACAF Nations League 2024-25 (Final — runner-up), WC 2026 Qualifier CONCACAF Group A (3V-3E-0D, 1er lugar)
+    // Partido más reciente: 2025-11-18 vs El Salvador 3-0 (WC Qualifier)
+    // Fuente: CONCACAF.com, ESPN, Wikipedia
+    wins: 6,
+    draws: 3,
+    losses: 1,
+    goalsFor: 17,
+    goalsAgainst: 7,
+    form: ['W','D','W','L','W','D','W','D','W','W'],
+    ranking: 33,
+    group: 'L',
+  },
+  'Ghana': {
+    name: 'Ghana',
+    flag: '🇬🇭',
+    // Competiciones: WC 2026 Qualifier CAF Group I (10 partidos, 8V-1E-1D, 23 GF 6 GA, 25 pts — 1er lugar)
+    // Partido más reciente: 2025-10-13 vs Comoros 1-0 (WC Qualifier — clinched qualification)
+    // Fuente: FIFA.com, ghanafa.org, ESPN, Wikipedia
+    wins: 8,
+    draws: 1,
+    losses: 1,
+    goalsFor: 23,
+    goalsAgainst: 6,
+    form: ['W','W','W','L','W','W','D','W','W','W'],
+    ranking: 74,
+    group: 'L',
+  },
 }
 
 export const GROUPS: Record<string, string[]> = {

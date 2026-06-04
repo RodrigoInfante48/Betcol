@@ -139,7 +139,7 @@
 | I | ⏳ Pendiente | — |
 | J | ✅ Completado | 2026-06-04 |
 | K | ✅ Completado | 2026-06-04 |
-| L | ⏳ Pendiente | — |
+| L | ✅ Completado | 2026-06-04 |
 
 ---
 

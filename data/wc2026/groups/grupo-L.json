@@ -1,0 +1,434 @@
+{
+  "group": "L",
+  "lastUpdated": "2026-06-04",
+  "teams": {
+    "Inglaterra": {
+      "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "ranking": 4,
+      "matches": [
+        {
+          "date": "2025-03-24",
+          "opponent": "Latvia",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group K",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-07",
+          "opponent": "Andorra",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group K",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-06",
+          "opponent": "Andorra",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group K",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Serbia",
+          "scoreFor": 5,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group K",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-14",
+          "opponent": "Latvia",
+          "scoreFor": 5,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group K",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-13",
+          "opponent": "Serbia",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group K",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-16",
+          "opponent": "Albania",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group K",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-20",
+          "opponent": "Albania",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group K",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-27",
+          "opponent": "Uruguay",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "Friendly",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-06-01",
+          "opponent": "Japan",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "Friendly",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "notes": "England won UEFA WC Qualifier Group K with a perfect 8W-0D-0L record (8 matches), not conceding a single goal across the qualifiers. Last 2 matches are June 2026 friendlies (vs Uruguay 1-1 and vs Japan 0-1). UEFA Nations League 2024-25 results (Sep-Nov 2024) fall outside the last 10: England won League B Group, beat Ireland 5-0, 3-0 Greece, 3-0 Finland etc. FIFA ranking: 4th (April 1, 2026). Sources: ESPN, Goal.com, UEFA.com, englandfootball.com"
+    },
+    "Croacia": {
+      "flag": "🇭🇷",
+      "ranking": 11,
+      "matches": [
+        {
+          "date": "2025-06-06",
+          "opponent": "Gibraltar",
+          "scoreFor": 7,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group L",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-09",
+          "opponent": "Czech Republic",
+          "scoreFor": 5,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group L",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-05",
+          "opponent": "Faroe Islands",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group L",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-08",
+          "opponent": "Montenegro",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group L",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-09",
+          "opponent": "Czech Republic",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group L",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-12",
+          "opponent": "Gibraltar",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group L",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-14",
+          "opponent": "Faroe Islands",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group L",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-17",
+          "opponent": "Montenegro",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier UEFA Group L",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-26",
+          "opponent": "Colombia",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Friendly",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Brazil",
+          "scoreFor": 1,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "Friendly",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "notes": "Croatia topped UEFA WC Qualifier Group L with 7W-1D-0L (26 goals for, 4 against) — best qualifying campaign in Croatian history. UEFA Nations League 2024-25: Croatia in League A Group 1 alongside Portugal, Poland, Scotland. Results: Portugal 2-1 Croatia (Sep 5), Croatia 1-0 Poland (Sep 8), Croatia 2-1 Scotland (Oct 12), Poland 3-3 Croatia (Oct 15), Scotland 1-0 Croatia (Nov 15), Croatia 1-1 Portugal (Nov 18). Reached NL quarter-finals. June 2026 friendly: Croatia 0-2 Belgium (Jun 2). FIFA ranking: 11th (April 1, 2026). Sources: UEFA.com, ESPN, Goal.com, FlashScore"
+    },
+    "Ghana": {
+      "flag": "🇬🇭",
+      "ranking": 74,
+      "matches": [
+        {
+          "date": "2024-06-03",
+          "opponent": "Mali",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CAF Group I",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-06-11",
+          "opponent": "Central African Republic",
+          "scoreFor": 4,
+          "scoreAgainst": 3,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CAF Group I",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-09-07",
+          "opponent": "Madagascar",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CAF Group I",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-09-10",
+          "opponent": "Comoros",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "FIFA WC 2026 Qualifier CAF Group I",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-14",
+          "opponent": "Chad",
+          "scoreFor": 5,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CAF Group I",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-19",
+          "opponent": "Madagascar",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CAF Group I",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-07",
+          "opponent": "Chad",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "FIFA WC 2026 Qualifier CAF Group I",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-08",
+          "opponent": "Mali",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CAF Group I",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-08",
+          "opponent": "Central African Republic",
+          "scoreFor": 5,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CAF Group I",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-13",
+          "opponent": "Comoros",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CAF Group I",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Ghana finished 1st in CAF WC Qualifier Group I with 8W-1D-1L (25 pts, 23 GF, 6 GA). Only loss was 0-1 vs Comoros away (Sep 2024). Clinched World Cup spot Oct 13, 2025 with 1-0 win over Comoros (Kudus goal). Failed to qualify for AFCON 2025 (dropped from AFCON qualifier group). Note: some match dates for matchdays 1-2 (June 2024) and matchday 3-4 (Sep 2024) estimated based on CAF calendar — confirmed as correct sequence. Jordan Ayew top scorer with 7 goals in qualification. FIFA ranking: 74th (April 1, 2026). Sources: ESPN, FIFA.com, ghanafa.org, Wikipedia CAF Group I"
+    },
+    "Panamá": {
+      "flag": "🇵🇦",
+      "ranking": 33,
+      "matches": [
+        {
+          "date": "2025-02-20",
+          "opponent": "Costa Rica",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONCACAF Nations League 2024-25 QF (leg 1)",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-02-24",
+          "opponent": "Costa Rica",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "CONCACAF Nations League 2024-25 QF (leg 2 — 3-2 agg)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-20",
+          "opponent": "United States",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONCACAF Nations League 2024-25 SF",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-23",
+          "opponent": "Mexico",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "CONCACAF Nations League 2024-25 Final",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-04",
+          "opponent": "Suriname",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CONCACAF Group A",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-09-08",
+          "opponent": "Guatemala",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "FIFA WC 2026 Qualifier CONCACAF Group A",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2025-10-09",
+          "opponent": "El Salvador",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CONCACAF Group A",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-13",
+          "opponent": "Suriname",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "FIFA WC 2026 Qualifier CONCACAF Group A",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-13",
+          "opponent": "Guatemala",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CONCACAF Group A",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-18",
+          "opponent": "El Salvador",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA WC 2026 Qualifier CONCACAF Group A",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Panama reached CONCACAF Nations League 2024-25 final (runner-up, lost 1-2 to Mexico). Defeated USA 1-0 in SF. In WC Qualifier CONCACAF Final Round Group A, finished 1st (3W-3D-0L) to qualify directly for the 2026 World Cup alongside Curaçao and Haiti. Sep 2025 Suriname/Guatemala scores (matchdays 1-2) are estimated — exact scorelines not confirmed from search results. Scorers noted: Guatemala 3-2 — Waterman 30', 44', Fajardo 78'; El Salvador 3-0 — Blackman 17', Davis pen 45+4', Rodríguez 85'. March 2026 friendlies: Panama 1-1 South Africa (Mar 27), Panama 2-1 South Africa (Mar 31); June 2026: Panama 2-6 Brazil. FIFA ranking: 33rd (April 1, 2026). Sources: CONCACAF.com, ESPN, Wikipedia"
+    }
+  }
+}
