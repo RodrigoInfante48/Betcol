@@ -16,7 +16,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
       )}
 
       <button
-        className="fixed top-4 left-4 z-40 lg:hidden flex items-center justify-center w-9 h-9 bg-gray-900 border border-gray-800 rounded-xl text-gray-400 hover:text-gray-100 transition-colors"
+        className="fixed top-4 left-4 z-40 lg:hidden flex items-center justify-center w-9 h-9 bg-gray-900 border border-gray-800 rounded-xl text-green-400 hover:text-green-300 transition-colors"
         onClick={() => setMobileOpen(true)}
         aria-label="Abrir menú"
       >
