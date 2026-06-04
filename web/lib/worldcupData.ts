@@ -183,10 +183,18 @@ export const TEAMS: Record<string, TeamData> = {
   },
 
   // Grupo F
-  'Países Bajos': { name: 'Países Bajos', flag: '🇳🇱', wins: 6, draws: 3, losses: 1, goalsFor: 18, goalsAgainst: 10, form: ['W','W','D','W','D'], ranking: 10, group: 'F' },
-  'Japón': { name: 'Japón', flag: '🇯🇵', wins: 6, draws: 2, losses: 2, goalsFor: 17, goalsAgainst: 10, form: ['W','W','D','W','L'], ranking: 16, group: 'F' },
-  'Suecia': { name: 'Suecia', flag: '🇸🇪', wins: 5, draws: 2, losses: 3, goalsFor: 16, goalsAgainst: 14, form: ['W','D','W','L','W'], ranking: 25, group: 'F' },
-  'Túnez': { name: 'Túnez', flag: '🇹🇳', wins: 4, draws: 3, losses: 3, goalsFor: 11, goalsAgainst: 12, form: ['D','W','L','D','W'], ranking: 30, group: 'F' },
+  // Países Bajos: Clasificó 1º Grupo G UEFA (6V 2E 0D, 27GF 4GC). Friendly reciente: 0-1 vs Argelia (Jun 3)
+  // Partido más reciente: 0-1 vs Argelia (Jun 3, 2026). Fuentes: ESPN, UEFA.com, FIFA.com
+  'Países Bajos': { name: 'Países Bajos', flag: '🇳🇱', wins: 6, draws: 3, losses: 1, goalsFor: 28, goalsAgainst: 7, form: ['W','D','W','W','W','D','W','W','D','L'], ranking: 7, group: 'F' },
+  // Japón: Clasificó 1º Grupo C AFC (30GF en 10 partidos). Amistosos: venció a Brasil, Escocia, Inglaterra, Islandia
+  // Partido más reciente: 1-0 vs Islandia (May 31, 2026). Fuentes: ESPN, Al Jazeera, Japan Times
+  'Japón': { name: 'Japón', flag: '🇯🇵', wins: 7, draws: 1, losses: 2, goalsFor: 19, goalsAgainst: 7, form: ['L','W','L','D','W','W','W','W','W','W'], ranking: 18, group: 'F' },
+  // Suecia: Calificó vía Playoff Senda B UEFA (3-1 vs Ucrania, 3-2 vs Polonia). Grupo malo: 2E 4D en fase regular
+  // Partido más reciente: 3-2 vs Polonia (Mar 31, 2026). Fuentes: ESPN, UEFA.com, Sofascore
+  'Suecia': { name: 'Suecia', flag: '🇸🇪', wins: 4, draws: 2, losses: 4, goalsFor: 16, goalsAgainst: 18, form: ['W','W','D','L','L','L','L','D','W','W'], ranking: 38, group: 'F' },
+  // Túnez: Copa Árabe 2025 + AFCON 2025 (eliminado en octavos por Malí en penales). Ranking FIFA 44
+  // Partido más reciente: 0-1 vs Austria (Jun 1, 2026). Fuentes: ESPN, CAFonline, Al Jazeera
+  'Túnez': { name: 'Túnez', flag: '🇹🇳', wins: 3, draws: 3, losses: 4, goalsFor: 13, goalsAgainst: 10, form: ['L','D','W','W','L','D','L','W','D','L'], ranking: 44, group: 'F' },
 
   // Grupo G
   'Bélgica': { name: 'Bélgica', flag: '🇧🇪', wins: 6, draws: 2, losses: 2, goalsFor: 17, goalsAgainst: 11, form: ['W','W','D','L','W'], ranking: 9, group: 'G' },

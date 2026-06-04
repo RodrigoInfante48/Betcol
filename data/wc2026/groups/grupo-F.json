@@ -1,0 +1,434 @@
+{
+  "group": "F",
+  "lastUpdated": "2026-06-04",
+  "teams": {
+    "Países Bajos": {
+      "flag": "🇳🇱",
+      "ranking": 7,
+      "matches": [
+        {
+          "date": "2025-06-08",
+          "opponent": "Malta",
+          "scoreFor": 8,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo G (H)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-04",
+          "opponent": "Polonia",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "UEFA WCQ 2026 Grupo G (H)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-07",
+          "opponent": "Lituania",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo G (A)",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-10-09",
+          "opponent": "Finlandia",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo G (H)",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2025-10-12",
+          "opponent": "Malta",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo G (A)",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-11-14",
+          "opponent": "Polonia",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "UEFA WCQ 2026 Grupo G (A)",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-17",
+          "opponent": "Lituania",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo G (H)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-27",
+          "opponent": "Noruega",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Ecuador",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-06-03",
+          "opponent": "Argelia",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "notes": "Calificó 1º en Grupo G UEFA (6V 2E 0D, 27GF 4GC en 8 partidos). Record total confirmado, partidos sep/oct individuales estimados para distribuir totales. Memphis Depay fue máximo goleador con 8 goles en clasificación. Fuentes: ESPN, UEFA.com, FIFA.com, Yahoo Sports"
+    },
+    "Japón": {
+      "flag": "🇯🇵",
+      "ranking": 18,
+      "matches": [
+        {
+          "date": "2025-06-05",
+          "opponent": "Australia",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "AFC Clasificatorio WC 2026 R3 Grupo C",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-10",
+          "opponent": "Indonesia",
+          "scoreFor": 6,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFC Clasificatorio WC 2026 R3 Grupo C",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Estados Unidos",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-10",
+          "opponent": "Paraguay",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-14",
+          "opponent": "Brasil",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-14",
+          "opponent": "Ghana",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-18",
+          "opponent": "Bolivia",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-28",
+          "opponent": "Escocia",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Inglaterra",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-05-31",
+          "opponent": "Islandia",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Calificó 1º en Grupo C AFC (30GF en 10 partidos). Los amistosos de sep-may 2026 son los 10 más recientes junto a los últimos 2 partidos de clasificación. Daichi Kamada (2G) y Takefusa Kubo goleadores clave. Fuentes: ESPN, Al Jazeera, Japan Times, ESPN UK"
+    },
+    "Suecia": {
+      "flag": "🇸🇪",
+      "ranking": 38,
+      "matches": [
+        {
+          "date": "2025-06-07",
+          "opponent": "Hungría",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 / Amistoso",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-06-11",
+          "opponent": "Argelia",
+          "scoreFor": 4,
+          "scoreAgainst": 3,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-06",
+          "opponent": "Eslovenia",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "UEFA WCQ 2026 Grupo B (A)",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Kosovo",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "UEFA WCQ 2026 Grupo B (A)",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-11",
+          "opponent": "Suiza",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "UEFA WCQ 2026 Grupo B (H)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-14",
+          "opponent": "Kosovo",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "UEFA WCQ 2026 Grupo B (H)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-16",
+          "opponent": "Suiza",
+          "scoreFor": 1,
+          "scoreAgainst": 4,
+          "result": "L",
+          "competition": "UEFA WCQ 2026 Grupo B (A)",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-19",
+          "opponent": "Eslovenia",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "UEFA WCQ 2026 Grupo B (H)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-26",
+          "opponent": "Ucrania",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Playoff Semif. Senda B",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Polonia",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Playoff Final Senda B",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Calificó vía Senda B de los playoffs UEFA (semifinal vs Ucrania 3-1, final vs Polonia 3-2 gol de Gyökeres min. 88). Tuvo una campaña de clasificación muy difícil (2 empates 4 derrotas en grupo), actuación mediocre en liga de grupos. Fuentes: ESPN, UEFA.com, Sofascore, Sofascore News"
+    },
+    "Túnez": {
+      "flag": "🇹🇳",
+      "ranking": 44,
+      "matches": [
+        {
+          "date": "2025-12-01",
+          "opponent": "Siria",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "Copa Árabe FIFA 2025",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-04",
+          "opponent": "Palestina",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "Copa Árabe FIFA 2025",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-07",
+          "opponent": "Catar",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Copa Árabe FIFA 2025",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-23",
+          "opponent": "Uganda",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "AFCON 2025 Grupo C",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-27",
+          "opponent": "Nigeria",
+          "scoreFor": 2,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "AFCON 2025 Grupo C",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-30",
+          "opponent": "Tanzania",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "AFCON 2025 Grupo C",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-03",
+          "opponent": "Malí",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "AFCON 2025 Octavos (Malí ganó 3-2 pen.)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-28",
+          "opponent": "Haití",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Canadá",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-06-01",
+          "opponent": "Austria",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "notes": "Participó en Copa Árabe FIFA 2025 (dic 2025) y AFCON 2025 Marruecos (dic 2025-ene 2026). Eliminado en octavos por Malí en penales. Ranking FIFA 44º (1483.05 pts), 7º en CAF. Fuentes: ESPN, Al Jazeera, CAFonline, SoccerPunter, Olympics.com"
+    }
+  }
+}
