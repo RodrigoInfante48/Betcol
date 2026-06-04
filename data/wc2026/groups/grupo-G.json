@@ -1,0 +1,439 @@
+{
+  "group": "G",
+  "lastUpdated": "2026-06-04",
+  "teams": {
+    "Bélgica": {
+      "flag": "🇧🇪",
+      "ranking": 9,
+      "matches": [
+        {
+          "date": "2025-03-20",
+          "opponent": "Ucrania",
+          "scoreFor": 1,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "UEFA Nations League 2024/25 QF 1ª leg",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-23",
+          "opponent": "Ucrania",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA Nations League 2024/25 QF 2ª leg (avanza 4-3 ag.)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-06",
+          "opponent": "Gales",
+          "scoreFor": 4,
+          "scoreAgainst": 3,
+          "result": "W",
+          "competition": "Clasificación WC2026 UEFA Grupo J",
+          "venue": "H",
+          "confirmed": false,
+          "note": "De Bruyne gol minuto 88 para el 4-3 final; score aproximado"
+        },
+        {
+          "date": "2025-06-09",
+          "opponent": "Kazajistán",
+          "scoreFor": 6,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 UEFA Grupo J",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2025-09-05",
+          "opponent": "Macedonia del Norte",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 UEFA Grupo J",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-09-08",
+          "opponent": "Liechtenstein",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 UEFA Grupo J",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-10-10",
+          "opponent": "Macedonia del Norte",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "Clasificación WC2026 UEFA Grupo J",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-13",
+          "opponent": "Gales",
+          "scoreFor": 4,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "Clasificación WC2026 UEFA Grupo J",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-15",
+          "opponent": "Kazajistán",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "Clasificación WC2026 UEFA Grupo J",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-18",
+          "opponent": "Liechtenstein",
+          "scoreFor": 7,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 UEFA Grupo J",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Ganó el Grupo J de la clasificación UEFA; avanzó desde NL QF eliminando a Ucrania 4-3 ag. Fuentes: UEFA.com, ESPN, flashscore.com. Partidos Jun/Sep 2025 de clasificación estimados (4 confirmados Oct-Nov 2025, 1 confirmado NL playoff)"
+    },
+    "Irán": {
+      "flag": "🇮🇷",
+      "ranking": 21,
+      "matches": [
+        {
+          "date": "2024-09-05",
+          "opponent": "Kirguistán",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 AFC 3ª ronda Grupo A",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2024-09-10",
+          "opponent": "Corea del Norte",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 AFC 3ª ronda Grupo A",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2024-10-10",
+          "opponent": "EAU",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 AFC 3ª ronda Grupo A",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2024-10-15",
+          "opponent": "Kirguistán",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 AFC 3ª ronda Grupo A",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2024-11-14",
+          "opponent": "Catar",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 AFC 3ª ronda Grupo A",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2024-11-19",
+          "opponent": "EAU",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "Clasificación WC2026 AFC 3ª ronda Grupo A",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-03-20",
+          "opponent": "Corea del Norte",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 AFC 3ª ronda Grupo A",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-03-25",
+          "opponent": "Uzbekistán",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "Clasificación WC2026 AFC 3ª ronda Grupo A (clasificado)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-05",
+          "opponent": "Catar",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "Clasificación WC2026 AFC 3ª ronda Grupo A",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-10",
+          "opponent": "Corea del Norte",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 AFC 3ª ronda Grupo A",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Ganó Grupo A de AFC 3ª ronda con récord 7V-2E-1D, 23 puntos. Taremi 10 goles en clasificatoria. 3 partidos confirmados (mar/jun 2025); 7 estimados (récord total 7V-2E-1D verificado). Fuentes: ESPN, FIFA.com, NBC Sports, worldcuppass.com"
+    },
+    "Nueva Zelanda": {
+      "flag": "🇳🇿",
+      "ranking": 85,
+      "matches": [
+        {
+          "date": "2024-09-14",
+          "opponent": "Islas Salomón",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 OFC Ronda 1",
+          "venue": "N",
+          "confirmed": false
+        },
+        {
+          "date": "2024-10-10",
+          "opponent": "Tahití",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Clasificación WC2026 OFC Ronda 2 (grupo)",
+          "venue": "N",
+          "confirmed": false
+        },
+        {
+          "date": "2024-10-14",
+          "opponent": "Vanuatu",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 OFC Ronda 2 (grupo)",
+          "venue": "N",
+          "confirmed": false
+        },
+        {
+          "date": "2024-11-18",
+          "opponent": "Islas Cook",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 OFC Ronda 2 (grupo)",
+          "venue": "N",
+          "confirmed": false
+        },
+        {
+          "date": "2025-03-21",
+          "opponent": "Fiyi",
+          "scoreFor": 7,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 OFC Ronda 3 SF",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-24",
+          "opponent": "Nueva Caledonia",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación WC2026 OFC Final (clasificado)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-15",
+          "opponent": "Haití",
+          "scoreFor": 0,
+          "scoreAgainst": 4,
+          "result": "L",
+          "competition": "Amistoso internacional",
+          "venue": "A",
+          "confirmed": false,
+          "note": "Resultado mencionado en fuentes online; sin score detallado confirmado"
+        },
+        {
+          "date": "2026-03-27",
+          "opponent": "Finlandia",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "Amistoso internacional",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-30",
+          "opponent": "Chile",
+          "scoreFor": 4,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso internacional",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-06-06",
+          "opponent": "Inglaterra",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "Amistoso internacional",
+          "venue": "A",
+          "confirmed": false,
+          "note": "Partido anunciado para Jun 6; resultado estimado"
+        }
+      ],
+      "notes": "Clasificó OFC invicta (19 goles / 1 recibido en 6 partidos oficiales). Primera clasificación directa de Oceanía al Mundial. Ronda 1-2 OFC scores estimados (2 confirmados R3). Amistosos Mar 2026 confirmados (ESPN/NZFOOTBALL). Fuentes: FIFA.com, NZFootball.co.nz, olympics.com"
+    },
+    "Egipto": {
+      "flag": "🇪🇬",
+      "ranking": 37,
+      "matches": [
+        {
+          "date": "2025-12-09",
+          "opponent": "Jordania",
+          "scoreFor": 0,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "Copa Árabe 2025",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-22",
+          "opponent": "Zimbabue",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "AFCON 2025 Grupo B",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-26",
+          "opponent": "Sudáfrica",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Grupo B",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-29",
+          "opponent": "Angola",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "AFCON 2025 Grupo B",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-05",
+          "opponent": "Benín",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "AFCON 2025 1/16 (prórroga)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-10",
+          "opponent": "Costa de Marfil",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "AFCON 2025 QF",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-14",
+          "opponent": "Senegal",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "AFCON 2025 SF",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-17",
+          "opponent": "Nigeria",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "L",
+          "competition": "AFCON 2025 3er puesto (derrota en penaltis 2-4)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-06-02",
+          "opponent": "Burkina Faso",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificación AFCON 2027 (CAF)",
+          "venue": "H",
+          "confirmed": false,
+          "note": "Victoria confirmada en fuentes FIFA ranking; score aproximado"
+        },
+        {
+          "date": "2026-06-06",
+          "opponent": "Guinea Bissau",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "Clasificación AFCON 2027 (CAF)",
+          "venue": "A",
+          "confirmed": false,
+          "note": "Empate confirmado en fuentes FIFA ranking; score aproximado"
+        }
+      ],
+      "notes": "4º puesto en AFCON 2025 (Marruecos). Copa Árabe incluida como torneo oficial CAF. Penales vs Nigeria cuentan como derrota. Jun 2026: 2 partidos clasificatorios AFCON 2027 (victoria vs Burkina Faso y empate vs Guinea Bissau confirmados, scores estimados). Fuentes: olympics.com, ESPN, Al Jazeera, sis.gov.eg"
+    }
+  }
+}

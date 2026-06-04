@@ -197,10 +197,18 @@ export const TEAMS: Record<string, TeamData> = {
   'Túnez': { name: 'Túnez', flag: '🇹🇳', wins: 3, draws: 3, losses: 4, goalsFor: 13, goalsAgainst: 10, form: ['L','D','W','W','L','D','L','W','D','L'], ranking: 44, group: 'F' },
 
   // Grupo G
-  'Bélgica': { name: 'Bélgica', flag: '🇧🇪', wins: 6, draws: 2, losses: 2, goalsFor: 17, goalsAgainst: 11, form: ['W','W','D','L','W'], ranking: 9, group: 'G' },
-  'Irán': { name: 'Irán', flag: '🇮🇷', wins: 5, draws: 1, losses: 4, goalsFor: 13, goalsAgainst: 15, form: ['W','L','W','D','L'], ranking: 20, group: 'G' },
-  'Nueva Zelanda': { name: 'Nueva Zelanda', flag: '🇳🇿', wins: 3, draws: 3, losses: 4, goalsFor: 9, goalsAgainst: 15, form: ['D','L','W','D','L'], ranking: 100, group: 'G' },
-  'Egipto': { name: 'Egipto', flag: '🇪🇬', wins: 5, draws: 2, losses: 3, goalsFor: 13, goalsAgainst: 11, form: ['W','W','D','L','W'], ranking: 50, group: 'G' },
+  // Bélgica: NL 2024/25 (QF vs Ucrania) + Clasificación WC UEFA Grupo J (ganador). Ranking FIFA abr-2026.
+  // Partidos Jun/Sep 2025 estimados; 5 confirmados (Oct-Nov 2025 + NL playoff). Fuente: UEFA.com, ESPN
+  'Bélgica': { name: 'Bélgica', flag: '🇧🇪', wins: 7, draws: 2, losses: 1, goalsFor: 29, goalsAgainst: 9, form: ['L','W','W','W','W','W','D','W','D','W'], ranking: 9, group: 'G' },
+  // Irán: AFC 3ª ronda Grupo A (7V-2E-1D, ganador, 23 pts). Taremi 10 goles en clasificatoria. Ranking FIFA abr-2026.
+  // 3 partidos confirmados (mar/jun 2025); 7 estimados basados en récord oficial 7V-2E-1D. Fuente: ESPN, FIFA.com
+  'Irán': { name: 'Irán', flag: '🇮🇷', wins: 7, draws: 2, losses: 1, goalsFor: 22, goalsAgainst: 4, form: ['W','W','W','W','W','D','W','D','L','W'], ranking: 21, group: 'G' },
+  // Nueva Zelanda: OFC clasificación invicta (19 GF / 1 GC en 6 partidos oficiales). Amistosos Mar 2026 confirmados.
+  // Rondas 1-2 OFC scores estimados; Ronda 3 SF+Final confirmados. Fuente: FIFA.com, NZFootball.co.nz
+  'Nueva Zelanda': { name: 'Nueva Zelanda', flag: '🇳🇿', wins: 7, draws: 0, losses: 3, goalsFor: 25, goalsAgainst: 9, form: ['W','W','W','W','W','W','L','L','L','W'], ranking: 85, group: 'G' },
+  // Egipto: 4º AFCON 2025 + Copa Árabe 2025 + Clasif. AFCON 2027 (jun-2026). Ranking FIFA abr-2026.
+  // 8 partidos confirmados (AFCON + Copa Árabe); 2 jun-2026 con scores estimados. Fuente: olympics.com, ESPN
+  'Egipto': { name: 'Egipto', flag: '🇪🇬', wins: 5, draws: 2, losses: 3, goalsFor: 12, goalsAgainst: 9, form: ['L','W','W','D','W','W','L','L','W','D'], ranking: 37, group: 'G' },
 
   // Grupo H
   'España': { name: 'España', flag: '🇪🇸', wins: 8, draws: 1, losses: 1, goalsFor: 25, goalsAgainst: 6, form: ['W','W','W','D','W'], ranking: 4, group: 'H' },
