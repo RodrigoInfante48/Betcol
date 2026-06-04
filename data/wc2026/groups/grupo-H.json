@@ -1,0 +1,434 @@
+{
+  "group": "H",
+  "lastUpdated": "2026-06-04",
+  "teams": {
+    "España": {
+      "flag": "🇪🇸",
+      "ranking": 2,
+      "matches": [
+        {
+          "date": "2025-03-20",
+          "opponent": "Países Bajos",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "UEFA Nations League 2024-25 QF L1",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-23",
+          "opponent": "Países Bajos",
+          "scoreFor": 3,
+          "scoreAgainst": 3,
+          "result": "W",
+          "competition": "UEFA Nations League 2024-25 QF L2 (W pens 5-4)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-05",
+          "opponent": "Francia",
+          "scoreFor": 5,
+          "scoreAgainst": 4,
+          "result": "W",
+          "competition": "UEFA Nations League 2024-25 SF",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-08",
+          "opponent": "Portugal",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "UEFA Nations League 2024-25 Final (L pens 3-5)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-05",
+          "opponent": "Rival WC Qual #1",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WC Qualifiers 2026",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Rival WC Qual #2",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WC Qualifiers 2026",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-10-10",
+          "opponent": "Rival WC Qual #3",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WC Qualifiers 2026",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2025-10-14",
+          "opponent": "Rival WC Qual #4",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "UEFA WC Qualifiers 2026",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-11-14",
+          "opponent": "Turquía",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "UEFA WC Qualifiers 2026",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-17",
+          "opponent": "Georgia",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WC Qualifiers 2026",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Campeón Euro 2024. Subcampeón Nations League 2024-25 (perdió final vs Portugal en pens). Clasificado directo UEFA. Partidos WC Qual Sep-Oct 2025 estimados; NL y WC Qual Nov 2025 confirmados. Fuentes: UEFA.com, ESPN, ESPN"
+    },
+    "Cabo Verde": {
+      "flag": "🇨🇻",
+      "ranking": 69,
+      "matches": [
+        {
+          "date": "2025-06-08",
+          "opponent": "Georgia",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "Amistoso internacional",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-04",
+          "opponent": "Mauricio",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso internacional",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Camerún",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "WC 2026 Qualifiers CAF - Ronda 3 Grupo D",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-08",
+          "opponent": "Libia",
+          "scoreFor": 3,
+          "scoreAgainst": 3,
+          "result": "D",
+          "competition": "WC 2026 Qualifiers CAF - Ronda 3 Grupo D",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-13",
+          "opponent": "Esuatini",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "WC 2026 Qualifiers CAF - Ronda 3 Grupo D (clasificó aquí)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-13",
+          "opponent": "Irán",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "Amistoso internacional",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-17",
+          "opponent": "Egipto",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "Amistoso internacional",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-26",
+          "opponent": "Chile",
+          "scoreFor": 2,
+          "scoreAgainst": 4,
+          "result": "L",
+          "competition": "Amistoso internacional",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-29",
+          "opponent": "Finlandia",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "FIFA Series 2026",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-05-31",
+          "opponent": "Serbia",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso internacional (prep. Mundial)",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "notes": "Primera clasificación histórica al Mundial. Ganó Grupo D CAF Ronda 3 con 23 puntos (7V-2E-1D). Dailon Livramento máximo goleador de la calificatoria (4 goles). Fuentes: beIN Sports, Al Jazeera, Outlook India, FIFA.com"
+    },
+    "Arabia Saudita": {
+      "flag": "🇸🇦",
+      "ranking": 61,
+      "matches": [
+        {
+          "date": "2024-09-05",
+          "opponent": "Indonesia",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "AFC WC Qualifiers 2026 - 3ª Ronda Grupo C",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-09-10",
+          "opponent": "China",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFC WC Qualifiers 2026 - 3ª Ronda Grupo C",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-14",
+          "opponent": "Baréin",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFC WC Qualifiers 2026 - 3ª Ronda Grupo C",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2024-11-19",
+          "opponent": "Japón",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "AFC WC Qualifiers 2026 - 3ª Ronda Grupo C",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2025-03-20",
+          "opponent": "China",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFC WC Qualifiers 2026 - 3ª Ronda Grupo C",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-25",
+          "opponent": "Japón",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "AFC WC Qualifiers 2026 - 3ª Ronda Grupo C",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-05",
+          "opponent": "Indonesia",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "AFC WC Qualifiers 2026 - 3ª Ronda Grupo C",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-06-10",
+          "opponent": "Australia",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "AFC WC Qualifiers 2026 - 3ª Ronda Grupo C (último partido, Australia remontó)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-08",
+          "opponent": "Indonesia",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "AFC WC Qualifiers 2026 - 4ª Ronda Grupo B",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-14",
+          "opponent": "Irak",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "AFC WC Qualifiers 2026 - 4ª Ronda Grupo B (clasificó en diferencia de goles)",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Clasificó en 4ª Ronda AFC por diferencia de goles vs Irak e Indonesia. En 3ª Ronda quedó 3º (Australia y Japón adelante). Hervé Renard cesado en abril 2026. Fuentes: Al Jazeera, beIN Sports, NBC Sports, ESPN"
+    },
+    "Uruguay": {
+      "flag": "🇺🇾",
+      "ranking": 17,
+      "matches": [
+        {
+          "date": "2025-06-05",
+          "opponent": "Paraguay",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "CONMEBOL WC Qualifiers 2026 - MD15",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-10",
+          "opponent": "Venezuela",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL WC Qualifiers 2026 - MD16",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-04",
+          "opponent": "Perú",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL WC Qualifiers 2026 - MD17",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Chile",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "CONMEBOL WC Qualifiers 2026 - MD18 (último partido clasificatorio)",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-10",
+          "opponent": "Rep. Dominicana",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso internacional",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-13",
+          "opponent": "Uzbekistán",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso internacional",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-15",
+          "opponent": "México",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "Amistoso internacional",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-19",
+          "opponent": "Estados Unidos",
+          "scoreFor": 1,
+          "scoreAgainst": 5,
+          "result": "L",
+          "competition": "Amistoso internacional",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-27",
+          "opponent": "Inglaterra",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "Amistoso internacional",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Argelia",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "Amistoso internacional",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "notes": "Clasificó 4º en CONMEBOL (MD17-18 en sep 2025). Darwin Núñez máximo anotador clasificatorio. Clasificó tras CONMEBOL Qualifier Sep 2025. Fuentes: NBC Sports, Wikipedia CONMEBOL, SoccerPunter, espn.com"
+    }
+  }
+}
