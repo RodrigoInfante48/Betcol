@@ -58,7 +58,7 @@ export default function Sidebar({ collapsed, mobileOpen, onToggleCollapse, onClo
       <div
         className={clsx(
           'pt-5 pb-4 border-b border-gray-800 flex items-center gap-2',
-          collapsed ? 'lg:justify-center px-3' : 'justify-between px-4'
+          collapsed ? 'lg:justify-center px-3' : 'justify-end px-4'
         )}
       >
         <Link href="/" onClick={onCloseMobile} className="block min-w-0">
