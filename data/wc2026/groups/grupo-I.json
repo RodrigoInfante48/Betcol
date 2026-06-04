@@ -1,0 +1,434 @@
+{
+  "group": "I",
+  "lastUpdated": "2026-06-04",
+  "teams": {
+    "Francia": {
+      "flag": "🇫🇷",
+      "ranking": 1,
+      "matches": [
+        {
+          "date": "2025-06-05",
+          "opponent": "España",
+          "scoreFor": 4,
+          "scoreAgainst": 5,
+          "result": "L",
+          "competition": "UEFA Nations League 2024/25 Semifinal",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-08",
+          "opponent": "Alemania",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA Nations League 2024/25 3er lugar",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-06",
+          "opponent": "Ucrania",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-10",
+          "opponent": "Islandia",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-11",
+          "opponent": "Azerbaiyán",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-14",
+          "opponent": "Islandia",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-14",
+          "opponent": "Ucrania",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-17",
+          "opponent": "Azerbaiyán",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-27",
+          "opponent": "Brasil",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-29",
+          "opponent": "Colombia",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "notes": "Clasificó directamente por UEFA. Nations League SF + 3er lugar + 6 partidos clasificatorios + 2 amistosos. Fuentes: UEFA.com, ESPN, Goal.com. Ranking #1 (abril 2026)."
+    },
+    "Senegal": {
+      "flag": "🇸🇳",
+      "ranking": 15,
+      "matches": [
+        {
+          "date": "2025-12-23",
+          "opponent": "Botswana",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Fase de Grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-27",
+          "opponent": "RD Congo",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "AFCON 2025 Fase de Grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-30",
+          "opponent": "Benin",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Fase de Grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-03",
+          "opponent": "Sudán",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "AFCON 2025 Octavos de Final",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-09",
+          "opponent": "Mali",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Cuartos de Final",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-14",
+          "opponent": "Egipto",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Semifinal",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-18",
+          "opponent": "Marruecos",
+          "scoreFor": 0,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "AFCON 2025 Final (resultado adjudicado por CAF)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-28",
+          "opponent": "Perú",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Gambia",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-05-31",
+          "opponent": "Estados Unidos",
+          "scoreFor": 2,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "Amistoso",
+          "venue": "A",
+          "confirmed": true
+        }
+      ],
+      "notes": "AFCON 2025 campeón inicial; final adjudicada 3-0 a Marruecos por CAF el 17/03/2026. 7 partidos AFCON (oficiales) + 3 amistosos. Fuentes: CAF, Olympics.com, NBC Sports."
+    },
+    "Irak": {
+      "flag": "🇮🇶",
+      "ranking": 57,
+      "matches": [
+        {
+          "date": "2025-06-06",
+          "opponent": "Corea del Sur",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "AFC WC2026 Qualifiers R3",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-11",
+          "opponent": "Jordania",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFC WC2026 Qualifiers R3",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-15",
+          "opponent": "Arabia Saudita",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "AFC WC2026 Qualifiers R4",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-14",
+          "opponent": "EAU",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "AFC WC2026 Qualifiers R5 (playoff leg 1)",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-19",
+          "opponent": "EAU",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "AFC WC2026 Qualifiers R5 (playoff leg 2)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-03",
+          "opponent": "Bahréin",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Copa Árabe 2025",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-07",
+          "opponent": "Sudán",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Copa Árabe 2025",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-10",
+          "opponent": "Argelia",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "Copa Árabe 2025",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-12",
+          "opponent": "Jordania",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "Copa Árabe 2025",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-04-01",
+          "opponent": "Bolivia",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "FIFA Playoff Intercontinental WC2026",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "notes": "Clasificó vía playoff intercontinental vs Bolivia. AFC R3 (Grupo B: Corea del Sur, Jordania, Palestina, Omán, Kuwait) → R5 playoff vs EAU → playoff FIFA vs Bolivia. Copa Árabe Dic 2025. Fuentes: FIFA.com, ESPN, NBC Sports."
+    },
+    "Noruega": {
+      "flag": "🇳🇴",
+      "ranking": 32,
+      "matches": [
+        {
+          "date": "2025-06-06",
+          "opponent": "Italia",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-05",
+          "opponent": "Estonia",
+          "scoreFor": 5,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Moldavia",
+          "scoreFor": 11,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-12",
+          "opponent": "Israel",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2025-10-15",
+          "opponent": "Israel",
+          "scoreFor": 4,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-13",
+          "opponent": "Estonia",
+          "scoreFor": 4,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-16",
+          "opponent": "Italia",
+          "scoreFor": 4,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WC2026 Qualifiers",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-27",
+          "opponent": "Países Bajos",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "Amistoso",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Suiza",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2026-06-01",
+          "opponent": "Suecia",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Amistoso",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Ganó UEFA WCQ Grupo I con 24 pts, 37 goles a favor, 5 en contra. 8 partidos clasificatorios (perfectos excepto cifras Israel H estimadas) + 3 amistosos. Haaland 16 goles en clasificatoria. Fuentes: UEFA.com, FIFA.com, ESPN. Ranking #32 (abril 2026)."
+    }
+  }
+}

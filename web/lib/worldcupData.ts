@@ -273,10 +273,60 @@ export const TEAMS: Record<string, TeamData> = {
   },
 
   // Grupo I
-  'Francia': { name: 'Francia', flag: '🇫🇷', wins: 7, draws: 2, losses: 1, goalsFor: 23, goalsAgainst: 8, form: ['W','W','W','D','W'], ranking: 2, group: 'I' },
-  'Senegal': { name: 'Senegal', flag: '🇸🇳', wins: 5, draws: 3, losses: 2, goalsFor: 13, goalsAgainst: 10, form: ['W','D','W','D','W'], ranking: 18, group: 'I' },
-  'Irak': { name: 'Irak', flag: '🇮🇶', wins: 4, draws: 2, losses: 4, goalsFor: 11, goalsAgainst: 14, form: ['W','D','L','W','L'], ranking: 65, group: 'I' },
-  'Noruega': { name: 'Noruega', flag: '🇳🇴', wins: 5, draws: 2, losses: 3, goalsFor: 18, goalsAgainst: 14, form: ['W','W','D','L','W'], ranking: 30, group: 'I' },
+  // Competiciones: UEFA NL 2024/25 SF+3er + WCQ UEFA (Francia); AFCON 2025 + amistosos (Senegal);
+  //                AFC WCQ R3/R5 + Copa Árabe 2025 + playoff FIFA vs Bolivia (Irak);
+  //                UEFA WCQ Grupo I (ganador 24pts) + amistosos (Noruega)
+  // Partido más reciente: Francia 3-1 Colombia (29/03/26); USA 3-2 Senegal (31/05/26);
+  //                       Irak 2-1 Bolivia (01/04/26); Noruega 3-1 Suecia (01/06/26)
+  // Fuente: UEFA.com, CAF, FIFA.com, ESPN, Goal.com — ranking FIFA abril 2026
+  'Francia': {
+    name: 'Francia',
+    flag: '🇫🇷',
+    wins: 8,
+    draws: 1,
+    losses: 1,
+    goalsFor: 27,
+    goalsAgainst: 11,
+    form: ['L','W','W','W','W','D','W','W','W','W'],
+    ranking: 1,
+    group: 'I',
+  },
+  'Senegal': {
+    name: 'Senegal',
+    flag: '🇸🇳',
+    wins: 7,
+    draws: 1,
+    losses: 2,
+    goalsFor: 19,
+    goalsAgainst: 9,
+    form: ['W','D','W','W','W','W','L','W','W','L'],
+    ranking: 15,
+    group: 'I',
+  },
+  'Irak': {
+    name: 'Irak',
+    flag: '🇮🇶',
+    wins: 5,
+    draws: 2,
+    losses: 3,
+    goalsFor: 10,
+    goalsAgainst: 9,
+    form: ['L','W','D','D','W','W','W','L','L','W'],
+    ranking: 57,
+    group: 'I',
+  },
+  'Noruega': {
+    name: 'Noruega',
+    flag: '🇳🇴',
+    wins: 8,
+    draws: 1,
+    losses: 1,
+    goalsFor: 36,
+    goalsAgainst: 8,
+    form: ['W','W','W','W','W','W','W','L','D','W'],
+    ranking: 32,
+    group: 'I',
+  },
 
   // Grupo J
   'Argentina': { name: 'Argentina', flag: '🇦🇷', wins: 7, draws: 2, losses: 1, goalsFor: 24, goalsAgainst: 7, form: ['W','W','W','D','W'], ranking: 1, group: 'J' },
