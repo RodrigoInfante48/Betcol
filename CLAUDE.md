@@ -138,7 +138,7 @@
 | H | ✅ Completado | 2026-06-04 |
 | I | ⏳ Pendiente | — |
 | J | ✅ Completado | 2026-06-04 |
-| K | ⏳ Pendiente | — |
+| K | ✅ Completado | 2026-06-04 |
 | L | ⏳ Pendiente | — |
 
 ---

@@ -339,10 +339,22 @@ export const TEAMS: Record<string, TeamData> = {
   'Jordania': { name: 'Jordania', flag: '🇯🇴', wins: 6, draws: 2, losses: 2, goalsFor: 20, goalsAgainst: 11, form: ['W','W','W','W','W','W','L','D','D','L'], ranking: 63, group: 'J' },
 
   // Grupo K
-  'Portugal': { name: 'Portugal', flag: '🇵🇹', wins: 7, draws: 1, losses: 2, goalsFor: 24, goalsAgainst: 10, form: ['W','W','W','D','L'], ranking: 7, group: 'K' },
-  'Uzbekistán': { name: 'Uzbekistán', flag: '🇺🇿', wins: 5, draws: 1, losses: 4, goalsFor: 13, goalsAgainst: 13, form: ['W','L','W','D','L'], ranking: 75, group: 'K' },
-  'Colombia': { name: 'Colombia', flag: '🇨🇴', wins: 6, draws: 3, losses: 1, goalsFor: 16, goalsAgainst: 9, form: ['W','W','D','W','W'], ranking: 22, group: 'K' },
-  'RD Congo': { name: 'RD Congo', flag: '🇨🇩', wins: 4, draws: 2, losses: 4, goalsFor: 11, goalsAgainst: 13, form: ['W','D','L','W','L'], ranking: 58, group: 'K' },
+  // Competiciones: UEFA NL 2024/25 (QF+SF+Final) + WCQ UEFA Grupo F (Sep-Nov 2025)
+  // Partido más reciente: 16/11/2025 Portugal 9-1 Armenia (WCQ)
+  // Fuente: UEFA.com, ESPN, Wikipedia
+  'Portugal': { name: 'Portugal', flag: '🇵🇹', wins: 7, draws: 1, losses: 2, goalsFor: 29, goalsAgainst: 13, form: ['L','W','W','W','W','W','W','D','L','W'], ranking: 5, group: 'K' },
+  // Competiciones: Copa Asia 2023 (QF), AFC WCQ Ronda 2, CAFA Nations Cup 2025
+  // Partido más reciente: 08/09/2025 Uzbekistán 1-0 Irán (CAFA Final)
+  // Fuente: ESPN, VAVEL, Wikipedia
+  'Uzbekistán': { name: 'Uzbekistán', flag: '🇺🇿', wins: 6, draws: 3, losses: 1, goalsFor: 16, goalsAgainst: 5, form: ['D','W','L','W','D','W','D','W','W','W'], ranking: 50, group: 'K' },
+  // Competiciones: Copa América 2024 (Final) + CONMEBOL Eliminatorias WC26 J9-J18
+  // Partido más reciente: 09/09/2025 Venezuela 3-6 Colombia (Eliminatorias)
+  // Fuente: ESPN, CONMEBOL, Wikipedia
+  'Colombia': { name: 'Colombia', flag: '🇨🇴', wins: 4, draws: 3, losses: 3, goalsFor: 19, goalsAgainst: 11, form: ['L','W','W','L','L','D','D','D','W','W'], ranking: 13, group: 'K' },
+  // Competiciones: CAF WCQ Repesca (vs Camerún, Nigeria) + AFCON 2025 + Inter-Conf Playoff WC26
+  // Partido más reciente: 31/03/2026 RD Congo 1-0 Jamaica aet (Inter-Conf Playoff Final)
+  // Fuente: CAFonline, FIFA.com, France24, Al Jazeera
+  'RD Congo': { name: 'RD Congo', flag: '🇨🇩', wins: 7, draws: 2, losses: 1, goalsFor: 11, goalsAgainst: 3, form: ['W','W','W','W','D','W','L','W','W','D'], ranking: 46, group: 'K' },
 
   // Grupo L
   'Inglaterra': { name: 'Inglaterra', flag: '🏴', wins: 7, draws: 2, losses: 1, goalsFor: 22, goalsAgainst: 8, form: ['W','W','D','W','W'], ranking: 5, group: 'L' },

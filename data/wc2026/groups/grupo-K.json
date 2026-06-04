@@ -1,0 +1,434 @@
+{
+  "group": "K",
+  "lastUpdated": "2026-06-04",
+  "teams": {
+    "Portugal": {
+      "flag": "🇵🇹",
+      "ranking": 5,
+      "matches": [
+        {
+          "date": "2025-03-27",
+          "opponent": "Dinamarca",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "UEFA Nations League 2024/25 QF 1ª vuelta",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-04-03",
+          "opponent": "Dinamarca",
+          "scoreFor": 5,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "UEFA Nations League 2024/25 QF 2ª vuelta (prórr., 5-3 agg)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-04",
+          "opponent": "Alemania",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA Nations League 2024/25 SF (Final Four, Alemania)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-08",
+          "opponent": "España",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "UEFA Nations League 2024/25 Final (prórr. 2-2, pens 5-3) — CAMPEÓN",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-06",
+          "opponent": "Armenia",
+          "scoreFor": 5,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo F",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Hungría",
+          "scoreFor": 3,
+          "scoreAgainst": 2,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo F",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-11",
+          "opponent": "Irlanda",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo F",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-14",
+          "opponent": "Hungría",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "UEFA WCQ 2026 Grupo F",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-13",
+          "opponent": "Irlanda",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "UEFA WCQ 2026 Grupo F",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-16",
+          "opponent": "Armenia",
+          "scoreFor": 9,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA WCQ 2026 Grupo F — clasifica al Mundial",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Campeón UEFA Nations League 2024/25 (venció a España 5-3 en penales tras 2-2). Clasificó al WC26 ganando el Grupo F UEFA. Ranking FIFA abril 2026: 5º. Fuentes: UEFA.com, ESPN, Wikipedia"
+    },
+    "RD Congo": {
+      "flag": "🇨🇩",
+      "ranking": 46,
+      "matches": [
+        {
+          "date": "2025-10-10",
+          "opponent": "Guinea Ecuatorial",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CAF WCQ 2026 Grupo E",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2025-11-13",
+          "opponent": "Camerún",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CAF Repesca WCQ 2026 SF",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-16",
+          "opponent": "Nigeria",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "CAF Repesca WCQ 2026 Final (pens 4-3)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-23",
+          "opponent": "Benín",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Grupo D (Marruecos)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-27",
+          "opponent": "Senegal",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "AFCON 2025 Grupo D",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-30",
+          "opponent": "Botsuana",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 Grupo D",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-06",
+          "opponent": "Argelia",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "AFCON 2025 Octavos de final (prórr.)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-25",
+          "opponent": "Bermuda",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA Inter-Conf Playoff WC26 SF (Guadalajara)",
+          "venue": "N",
+          "confirmed": false
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Jamaica",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "FIFA Inter-Conf Playoff WC26 Final (prórr.) — clasifica al Mundial",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-06-03",
+          "opponent": "Dinamarca",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "Amistoso internacional (Liège, Bélgica)",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "notes": "Regresa al Mundial por primera vez desde 1974. Ganó la repesca CAF (vs Camerún y Nigeria) y el playoff intercontinental vs Jamaica (gol en el min.100 de Tuanzebe). Partido CAF Grupo E (oct 2025) y SF inter-conf vs Bermuda confirmados = false (scores estimados). Ranking FIFA abril 2026: 46. Fuentes: CAFonline, FIFA.com, France24, Al Jazeera"
+    },
+    "Uzbekistán": {
+      "flag": "🇺🇿",
+      "ranking": 50,
+      "matches": [
+        {
+          "date": "2024-01-23",
+          "opponent": "Australia",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "Copa Asia 2023 Grupo B (Qatar)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2024-01-30",
+          "opponent": "Tailandia",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Copa Asia 2023 Octavos de final",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2024-02-03",
+          "opponent": "Catar",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "Copa Asia 2023 Cuartos de final (pens 2-3)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-20",
+          "opponent": "Kirguistán",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFC WCQ 2026 Ronda 2",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-06",
+          "opponent": "Emiratos Árabes",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "AFC WCQ 2026 Ronda 2 — clasifica al Mundial",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-10",
+          "opponent": "Catar",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFC WCQ 2026 Ronda 2",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-08-30",
+          "opponent": "Omán",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "CAFA Nations Cup 2025 Fase de grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-02",
+          "opponent": "Turkmenistán",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "CAFA Nations Cup 2025 Fase de grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-05",
+          "opponent": "Kirguistán",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CAFA Nations Cup 2025 Fase de grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-08",
+          "opponent": "Irán",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CAFA Nations Cup 2025 Final — CAMPEÓN",
+          "venue": "N",
+          "confirmed": true
+        }
+      ],
+      "notes": "Primera participación histórica en un Mundial. Invictos en la Ronda 2 AFC (4V 2E). Ganaron la CAFA Nations Cup 2025. Ranking FIFA abril 2026: 50. Fuentes: Goal.com, VAVEL, Wikipedia, ESPN"
+    },
+    "Colombia": {
+      "flag": "🇨🇴",
+      "ranking": 13,
+      "matches": [
+        {
+          "date": "2024-07-14",
+          "opponent": "Argentina",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "Copa América 2024 Final (prórr.)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2024-09-10",
+          "opponent": "Argentina",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "CONMEBOL Eliminatorias WC26 J9",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-10-15",
+          "opponent": "Chile",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL Eliminatorias WC26 J10",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-19",
+          "opponent": "Ecuador",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "CONMEBOL Eliminatorias WC26 J12",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-20",
+          "opponent": "Brasil",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "CONMEBOL Eliminatorias WC26 J13",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-25",
+          "opponent": "Paraguay",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "CONMEBOL Eliminatorias WC26 J14",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-06",
+          "opponent": "Perú",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "CONMEBOL Eliminatorias WC26 J15",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-10",
+          "opponent": "Argentina",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "CONMEBOL Eliminatorias WC26 J16",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-04",
+          "opponent": "Bolivia",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL Eliminatorias WC26 J17 — clasifica al Mundial",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-09",
+          "opponent": "Venezuela",
+          "scoreFor": 6,
+          "scoreAgainst": 3,
+          "result": "W",
+          "competition": "CONMEBOL Eliminatorias WC26 J18",
+          "venue": "A",
+          "confirmed": true
+        }
+      ],
+      "notes": "Finalista Copa América 2024 (perdió ante Argentina 1-0 prórr.). Clasificó al WC26 en Jornada 17 (3-0 vs Bolivia). Terminó 3ª en CONMEBOL con 28pts (7V 7E 4D, 28GF 18GC). Ranking FIFA abril 2026: 13. Fuentes: ESPN, CONMEBOL, Wikipedia"
+    }
+  }
+}
