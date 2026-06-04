@@ -147,11 +147,40 @@ export const TEAMS: Record<string, TeamData> = {
     ranking: 22, group: 'D',
   },
 
-  // Grupo E
-  'Alemania': { name: 'Alemania', flag: '🇩🇪', wins: 6, draws: 2, losses: 2, goalsFor: 19, goalsAgainst: 12, form: ['W','W','D','W','L'], ranking: 12, group: 'E' },
-  'Curazao': { name: 'Curazao', flag: '🇨🇼', wins: 3, draws: 1, losses: 6, goalsFor: 8, goalsAgainst: 17, form: ['L','D','L','W','L'], ranking: 75, group: 'E' },
-  'Costa de Marfil': { name: 'Costa de Marfil', flag: '🇨🇮', wins: 5, draws: 2, losses: 3, goalsFor: 14, goalsAgainst: 12, form: ['W','D','W','L','W'], ranking: 50, group: 'E' },
-  'Ecuador': { name: 'Ecuador', flag: '🇪🇨', wins: 5, draws: 2, losses: 3, goalsFor: 14, goalsAgainst: 13, form: ['W','W','D','L','W'], ranking: 45, group: 'E' },
+  // ── GRUPO E ── datos verificados 2026-06-03 · ver /data/wc2026/groups/grupo-E.json
+  // Ranking FIFA: última actualización pública 01/04/2026
+  'Alemania': {
+    name: 'Alemania', flag: '🇩🇪',
+    // UEFA Nations League 2024-25 (QF 2 legs + SF + 3P) · UEFA WCQ 2026 Grupo A (6 partidos sep-nov 2025)
+    // Partido más reciente: Alemania 6-0 Eslovaquia (17 nov 2025, WCQ)
+    wins: 6, draws: 1, losses: 3, goalsFor: 22, goalsAgainst: 11,
+    form: ['W','D','L','L','L','W','W','W','W','W'],
+    ranking: 10, group: 'E',
+  },
+  'Curazao': {
+    name: 'Curazao', flag: '🇨🇼',
+    // CONCACAF WCQ 2026 2a Ronda Grupo C (4 partidos, jun 2025) · Final Round Grupo B (6 partidos, sep-nov 2025)
+    // Invicto en clasificatoria · Partido más reciente: Jamaica 0-0 Curaçao (nov 2025)
+    wins: 7, draws: 3, losses: 0, goalsFor: 28, goalsAgainst: 5,
+    form: ['W','W','W','W','D','W','W','D','W','D'],
+    ranking: 82, group: 'E',
+  },
+  'Costa de Marfil': {
+    name: 'Costa de Marfil', flag: '🇨🇮',
+    // CAF WCQ 2026 Grupo F MD6-MD10 (jun 2024 – oct 2025, 0 goles en contra) · AFCON 2025 (dic 2025 – ene 2026, eliminada QF)
+    // Partido más reciente: Egipto 3-2 Costa de Marfil (10 ene 2026, AFCON QF)
+    wins: 8, draws: 1, losses: 1, goalsFor: 20, goalsAgainst: 6,
+    form: ['W','W','W','W','W','W','D','W','W','L'],
+    ranking: 34, group: 'E',
+  },
+  'Ecuador': {
+    name: 'Ecuador', flag: '🇪🇨',
+    // CONMEBOL WCQ 2026 MD9-MD18 (oct 2024 – sep 2025) · Clasificó 2do con 29 pts
+    // Partido más reciente: Ecuador 1-0 Argentina (14 sep 2025, WCQ MD18)
+    wins: 4, draws: 6, losses: 0, goalsFor: 8, goalsAgainst: 1,
+    form: ['D','D','W','W','W','D','D','D','D','W'],
+    ranking: 23, group: 'E',
+  },
 
   // Grupo F
   'Países Bajos': { name: 'Países Bajos', flag: '🇳🇱', wins: 6, draws: 3, losses: 1, goalsFor: 18, goalsAgainst: 10, form: ['W','W','D','W','D'], ranking: 10, group: 'F' },
