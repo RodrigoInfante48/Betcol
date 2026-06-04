@@ -210,11 +210,67 @@ export const TEAMS: Record<string, TeamData> = {
   // 8 partidos confirmados (AFCON + Copa Árabe); 2 jun-2026 con scores estimados. Fuente: olympics.com, ESPN
   'Egipto': { name: 'Egipto', flag: '🇪🇬', wins: 5, draws: 2, losses: 3, goalsFor: 12, goalsAgainst: 9, form: ['L','W','W','D','W','W','L','L','W','D'], ranking: 37, group: 'G' },
 
-  // Grupo H
-  'España': { name: 'España', flag: '🇪🇸', wins: 8, draws: 1, losses: 1, goalsFor: 25, goalsAgainst: 6, form: ['W','W','W','D','W'], ranking: 4, group: 'H' },
-  'Cabo Verde': { name: 'Cabo Verde', flag: '🇨🇻', wins: 4, draws: 2, losses: 4, goalsFor: 11, goalsAgainst: 13, form: ['W','D','L','W','L'], ranking: 70, group: 'H' },
-  'Arabia Saudita': { name: 'Arabia Saudita', flag: '🇸🇦', wins: 4, draws: 2, losses: 4, goalsFor: 11, goalsAgainst: 14, form: ['L','W','D','W','L'], ranking: 57, group: 'H' },
-  'Uruguay': { name: 'Uruguay', flag: '🇺🇾', wins: 6, draws: 1, losses: 3, goalsFor: 16, goalsAgainst: 13, form: ['W','W','L','D','W'], ranking: 15, group: 'H' },
+  // Grupo H — investigado 2026-06-04
+  'España': {
+    name: 'España',
+    flag: '🇪🇸',
+    // Competiciones: NL 2024-25 (QF vs Países Bajos, SF España 5-4 Francia, Final L pens vs Portugal) + WC Qualifiers UEFA Sep-Nov 2025
+    // Partido más reciente: 17/11/2025 España 4-0 Georgia (WC Qual confirmado)
+    // Fuente: UEFA.com, ESPN
+    wins: 6,
+    draws: 3,
+    losses: 1,
+    goalsFor: 25,
+    goalsAgainst: 14,
+    form: ['D','W','W','L','W','W','W','D','D','W'],
+    ranking: 2,
+    group: 'H',
+  },
+  'Cabo Verde': {
+    name: 'Cabo Verde',
+    flag: '🇨🇻',
+    // Competiciones: WC Qualifiers CAF Ronda 3 Grupo D (Camerún W 1-0, Libia D 3-3, Esuatini W 3-0) + amistosos (Serbia W 3-0, Chile L 2-4, Finlandia D, Irán D, Egipto D, etc.)
+    // Partido más reciente: 31/05/2026 Cabo Verde 3-0 Serbia (amistoso)
+    // Fuente: beIN Sports, Al Jazeera, FIFA.com, Outlook India
+    wins: 4,
+    draws: 5,
+    losses: 1,
+    goalsFor: 17,
+    goalsAgainst: 10,
+    form: ['D','W','W','D','W','D','D','L','D','W'],
+    ranking: 69,
+    group: 'H',
+  },
+  'Arabia Saudita': {
+    name: 'Arabia Saudita',
+    flag: '🇸🇦',
+    // Competiciones: AFC WC Qualifiers 3ª Ronda Grupo C (Indonesia D, China W×2, Japón D, Baréin W, Australia L) + 4ª Ronda Grupo B (Indonesia W 3-2, Irak D 0-0)
+    // Partido más reciente: 14/10/2025 Arabia Saudita 0-0 Irak (AFC 4ª Ronda, clasificó por dif. goles)
+    // Fuente: Al Jazeera, beIN Sports, NBC Sports, FIFA.com
+    wins: 4,
+    draws: 2,
+    losses: 4,
+    goalsFor: 10,
+    goalsAgainst: 12,
+    form: ['D','W','W','L','W','D','L','L','W','D'],
+    ranking: 61,
+    group: 'H',
+  },
+  'Uruguay': {
+    name: 'Uruguay',
+    flag: '🇺🇾',
+    // Competiciones: CONMEBOL WC Qualifiers MD15-18 (Paraguay L 0-2, Venezuela W 2-0, Perú W 3-0, Chile D 0-0) + amistosos Oct 2025-Mar 2026
+    // Partido más reciente: 31/03/2026 Argelia 0-0 Uruguay (amistoso)
+    // Fuente: NBC Sports, SoccerPunter, ESPN
+    wins: 4,
+    draws: 4,
+    losses: 2,
+    goalsFor: 10,
+    goalsAgainst: 9,
+    form: ['L','W','W','D','W','W','D','L','D','D'],
+    ranking: 17,
+    group: 'H',
+  },
 
   // Grupo I
   'Francia': { name: 'Francia', flag: '🇫🇷', wins: 7, draws: 2, losses: 1, goalsFor: 23, goalsAgainst: 8, form: ['W','W','W','D','W'], ranking: 2, group: 'I' },
