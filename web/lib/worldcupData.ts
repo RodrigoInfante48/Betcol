@@ -329,10 +329,14 @@ export const TEAMS: Record<string, TeamData> = {
   },
 
   // Grupo J
-  'Argentina': { name: 'Argentina', flag: '🇦🇷', wins: 7, draws: 2, losses: 1, goalsFor: 24, goalsAgainst: 7, form: ['W','W','W','D','W'], ranking: 1, group: 'J' },
-  'Argelia': { name: 'Argelia', flag: '🇩🇿', wins: 5, draws: 2, losses: 3, goalsFor: 13, goalsAgainst: 12, form: ['W','D','W','L','W'], ranking: 42, group: 'J' },
-  'Austria': { name: 'Austria', flag: '🇦🇹', wins: 5, draws: 3, losses: 2, goalsFor: 15, goalsAgainst: 12, form: ['D','W','W','D','W'], ranking: 24, group: 'J' },
-  'Jordania': { name: 'Jordania', flag: '🇯🇴', wins: 3, draws: 2, losses: 5, goalsFor: 10, goalsAgainst: 16, form: ['L','D','W','L','L'], ranking: 90, group: 'J' },
+  // Argentina: CONMEBOL WC qualifiers MD9-17 (2024-2025). Ranking FIFA abr-2026: #3
+  'Argentina': { name: 'Argentina', flag: '🇦🇷', wins: 7, draws: 2, losses: 1, goalsFor: 21, goalsAgainst: 3, form: ['D','W','W','W','D','W','W','L','W','W'], ranking: 3, group: 'J' },
+  // Argelia: Copa Árabe (eliminado QF pens vs EAU) + AFCON 2025 (eliminado QF vs Nigeria) + 2 amistosos. Ranking FIFA abr-2026: #28
+  'Argelia': { name: 'Argelia', flag: '🇩🇿', wins: 7, draws: 1, losses: 2, goalsFor: 23, goalsAgainst: 5, form: ['W','W','L','W','W','W','W','L','W','D'], ranking: 28, group: 'J' },
+  // Austria: UEFA NL 2024-25 (5 fase grupos + 2 playoff) + WC qualifier Grupo H (ganó el grupo 6V-1E-1D). Ranking FIFA abr-2026: #24
+  'Austria': { name: 'Austria', flag: '🇦🇹', wins: 6, draws: 3, losses: 1, goalsFor: 27, goalsAgainst: 8, form: ['L','W','W','D','D','L','W','W','W','D'], ranking: 24, group: 'J' },
+  // Jordania: 1ª clasificación mundialista. Finalista Copa Árabe FIFA 2025. Últimas 10: 1 clf AFC + 6 Copa Árabe + 3 amistosos. Ranking FIFA abr-2026: #63
+  'Jordania': { name: 'Jordania', flag: '🇯🇴', wins: 6, draws: 2, losses: 2, goalsFor: 20, goalsAgainst: 11, form: ['W','W','W','W','W','W','L','D','D','L'], ranking: 63, group: 'J' },
 
   // Grupo K
   'Portugal': { name: 'Portugal', flag: '🇵🇹', wins: 7, draws: 1, losses: 2, goalsFor: 24, goalsAgainst: 10, form: ['W','W','W','D','L'], ranking: 7, group: 'K' },

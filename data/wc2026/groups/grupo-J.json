@@ -1,0 +1,434 @@
+{
+  "group": "J",
+  "lastUpdated": "2026-06-04",
+  "teams": {
+    "Argentina": {
+      "flag": "🇦🇷",
+      "ranking": 3,
+      "matches": [
+        {
+          "date": "2024-10-10",
+          "opponent": "Venezuela",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "CONMEBOL WC Qualifier MD9",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-10-15",
+          "opponent": "Bolivia",
+          "scoreFor": 6,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL WC Qualifier MD10",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-20",
+          "opponent": "Peru",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL WC Qualifier MD12",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-06",
+          "opponent": "Chile",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL WC Qualifier MD13",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-06-11",
+          "opponent": "Colombia",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "CONMEBOL WC Qualifier MD14",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-05",
+          "opponent": "Venezuela",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL WC Qualifier MD15",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-09-10",
+          "opponent": "Ecuador",
+          "scoreFor": 0,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "CONMEBOL WC Qualifier MD16",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-11",
+          "opponent": "Venezuela",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "CONMEBOL WC Qualifier MD17",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-15",
+          "opponent": "Puerto Rico",
+          "scoreFor": 6,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Friendly",
+          "venue": "N",
+          "confirmed": false
+        },
+        {
+          "date": "2025-11-15",
+          "opponent": "Angola",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Friendly",
+          "venue": "N",
+          "confirmed": false
+        }
+      ],
+      "notes": "Campeón del mundo 2022. Clasificado como cabeza de serie CONMEBOL. Ranking FIFA abril 2026: #3 (France #1, Spain #2). MD15-18 de clasificatoria CONMEBOL confirmados. Partidos vs Puerto Rico y Angola son amistosos. Fuentes: ESPN, FIFA.com, Goal.com"
+    },
+    "Argelia": {
+      "flag": "🇩🇿",
+      "ranking": 28,
+      "matches": [
+        {
+          "date": "2025-12-06",
+          "opponent": "Bahréin",
+          "scoreFor": 5,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Copa Árabe FIFA 2025 - Fase de grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-09",
+          "opponent": "Irak",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Copa Árabe FIFA 2025 - Fase de grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-12",
+          "opponent": "Emiratos Árabes Unidos",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "L",
+          "competition": "Copa Árabe FIFA 2025 - Cuartos de final (perdió por penaltis 6-7)",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-24",
+          "opponent": "Sudán",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 - Fase de grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-28",
+          "opponent": "Burkina Faso",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 - Fase de grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-31",
+          "opponent": "Guinea Ecuatorial",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "AFCON 2025 - Fase de grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-06",
+          "opponent": "RD Congo",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "AFCON 2025 - Octavos de final",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-01-10",
+          "opponent": "Nigeria",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "AFCON 2025 - Cuartos de final",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-27",
+          "opponent": "Guatemala",
+          "scoreFor": 7,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Friendly",
+          "venue": "H",
+          "confirmed": false
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Uruguay",
+          "scoreFor": 0,
+          "scoreAgainst": 0,
+          "result": "D",
+          "competition": "Friendly",
+          "venue": "N",
+          "confirmed": false
+        }
+      ],
+      "notes": "Clasificó a través de CAF (Africa). Participó en Copa Árabe (eliminado en QF por penaltis vs EAU) y AFCON 2025 (eliminado en QF por Nigeria). Ranking FIFA abril 2026: #28. Copa Árabe y AFCON son competencias oficiales FIFA/CAF. Fuentes: olympics.com, beinsports.com, algerianewsgate.com"
+    },
+    "Austria": {
+      "flag": "🇦🇹",
+      "ranking": 24,
+      "matches": [
+        {
+          "date": "2024-09-09",
+          "opponent": "Noruega",
+          "scoreFor": 1,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 3",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2024-10-10",
+          "opponent": "Kazajistán",
+          "scoreFor": 4,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 3",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-10-13",
+          "opponent": "Noruega",
+          "scoreFor": 5,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 3",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2024-11-17",
+          "opponent": "Eslovenia",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "UEFA Nations League 2024-25 Liga A Grupo 3",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-20",
+          "opponent": "Serbia",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "UEFA Nations League 2024-25 Playoff Ascenso (ida)",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-03-23",
+          "opponent": "Serbia",
+          "scoreFor": 0,
+          "scoreAgainst": 2,
+          "result": "L",
+          "competition": "UEFA Nations League 2024-25 Playoff Ascenso (vuelta)",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-09",
+          "opponent": "San Marino",
+          "scoreFor": 10,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificatoria UEFA WC 2026 Grupo H",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-10-12",
+          "opponent": "Rumanía",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Clasificatoria UEFA WC 2026 Grupo H",
+          "venue": "A",
+          "confirmed": false
+        },
+        {
+          "date": "2025-11-15",
+          "opponent": "Chipre",
+          "scoreFor": 2,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificatoria UEFA WC 2026 Grupo H",
+          "venue": "H",
+          "confirmed": true
+        },
+        {
+          "date": "2025-11-18",
+          "opponent": "Bosnia y Herzegovina",
+          "scoreFor": 1,
+          "scoreAgainst": 1,
+          "result": "D",
+          "competition": "Clasificatoria UEFA WC 2026 Grupo H",
+          "venue": "H",
+          "confirmed": true
+        }
+      ],
+      "notes": "Clasificó directamente ganando Grupo H UEFA (6V 1E 1D en 8 partidos, diferencia de goles +18). Eliminado en playoff de Nations League por Serbia. Retornó a la Copa del Mundo después de 28 años. Ranking FIFA abril 2026: #24. Nota: resultado Austria 2-1 Rumanía estimado basado en que ganaron el grupo. Fuentes: UEFA.com, ESPN, bigdsoccer.com"
+    },
+    "Jordania": {
+      "flag": "🇯🇴",
+      "ranking": 63,
+      "matches": [
+        {
+          "date": "2025-06-05",
+          "opponent": "Omán",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Clasificatoria AFC WC 2026 (3ª Ronda)",
+          "venue": "A",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-03",
+          "opponent": "Emiratos Árabes Unidos",
+          "scoreFor": 2,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Copa Árabe FIFA 2025 - Fase de grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-06",
+          "opponent": "Kuwait",
+          "scoreFor": 3,
+          "scoreAgainst": 1,
+          "result": "W",
+          "competition": "Copa Árabe FIFA 2025 - Fase de grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-09",
+          "opponent": "Egipto",
+          "scoreFor": 3,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Copa Árabe FIFA 2025 - Fase de grupos",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-12",
+          "opponent": "Irak",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Copa Árabe FIFA 2025 - Cuartos de final",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-15",
+          "opponent": "Arabia Saudita",
+          "scoreFor": 1,
+          "scoreAgainst": 0,
+          "result": "W",
+          "competition": "Copa Árabe FIFA 2025 - Semifinal",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2025-12-18",
+          "opponent": "Marruecos",
+          "scoreFor": 2,
+          "scoreAgainst": 3,
+          "result": "L",
+          "competition": "Copa Árabe FIFA 2025 - Final",
+          "venue": "N",
+          "confirmed": true
+        },
+        {
+          "date": "2026-03-27",
+          "opponent": "Costa Rica",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "Friendly",
+          "venue": "N",
+          "confirmed": false
+        },
+        {
+          "date": "2026-03-31",
+          "opponent": "Nigeria",
+          "scoreFor": 2,
+          "scoreAgainst": 2,
+          "result": "D",
+          "competition": "Friendly",
+          "venue": "N",
+          "confirmed": false
+        },
+        {
+          "date": "2026-05-31",
+          "opponent": "Suiza",
+          "scoreFor": 1,
+          "scoreAgainst": 4,
+          "result": "L",
+          "competition": "Friendly",
+          "venue": "A",
+          "confirmed": true
+        }
+      ],
+      "notes": "Primera clasificación de Jordania al Mundial. Selló el pase con 3-0 vs Omán (jun 2025). Finalista de la Copa Árabe FIFA 2025 - perdió la final vs Marruecos 2-3. Grupo C de Copa Árabe: líder con pleno de victorias. Ranking FIFA abril 2026: #63. Fuentes: fifa.com, beinsports.com, vavel.com, royanews.tv"
+    }
+  }
+}
