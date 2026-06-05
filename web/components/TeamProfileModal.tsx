@@ -142,6 +142,58 @@ function wikimediaCrest(name: string): string {
   return `https://commons.wikimedia.org/wiki/Special:FilePath/${file}`
 }
 
+// Local football crest logos (from /public/logos/)
+const LOCAL_CRESTS: Record<string, string> = {
+  'México': '/logos/mexico.png',
+  'Sudáfrica': '/logos/south-africa.png',
+  'Corea del Sur': '/logos/south-korea.png',
+  'Chequia': '/logos/czechia.png',
+  'Canadá': '/logos/canada.png',
+  'Bosnia y Herzegovina': '/logos/bosnia-herzegovina.png',
+  'Catar': '/logos/qatar.png',
+  'Suiza': '/logos/switzerland.png',
+  'Brasil': '/logos/brazil.png',
+  'Marruecos': '/logos/morocco.png',
+  'Escocia': '/logos/scotland.png',
+  'Haití': '/logos/haiti.png',
+  'Estados Unidos': '/logos/united-states.png',
+  'Paraguay': '/logos/paraguay.png',
+  'Australia': '/logos/australia.png',
+  'Turquía': '/logos/turkiye.png',
+  'Alemania': '/logos/germany.png',
+  'Curazao': '/logos/curacao.png',
+  'Costa de Marfil': '/logos/ivory-coast.png',
+  'Ecuador': '/logos/ecuador.png',
+  'Países Bajos': '/logos/netherlands.png',
+  'Japón': '/logos/japan.png',
+  'Suecia': '/logos/sweden.png',
+  'Túnez': '/logos/tunisia.png',
+  'Bélgica': '/logos/belgium.png',
+  'Irán': '/logos/iran.png',
+  'Nueva Zelanda': '/logos/new-zealand.png',
+  'Egipto': '/logos/egypt.png',
+  'España': '/logos/spain.png',
+  'Cabo Verde': '/logos/cape-verde.png',
+  'Arabia Saudita': '/logos/saudi-arabia.png',
+  'Uruguay': '/logos/uruguay.png',
+  'Francia': '/logos/france.png',
+  'Senegal': '/logos/senegal.png',
+  'Irak': '/logos/iraq.png',
+  'Noruega': '/logos/norway.png',
+  'Argentina': '/logos/argentina.png',
+  'Argelia': '/logos/algeria.png',
+  'Austria': '/logos/austria.png',
+  'Jordania': '/logos/jordan.png',
+  'Portugal': '/logos/portugal.png',
+  'RD Congo': '/logos/dr-congo.png',
+  'Uzbekistán': '/logos/uzbekistan.png',
+  'Colombia': '/logos/colombia.png',
+  'Inglaterra': '/logos/england.png',
+  'Croacia': '/logos/croatia.png',
+  'Ghana': '/logos/ghana.png',
+  'Panamá': '/logos/panama.png',
+}
+
 // Group background colors for panini card
 const GROUP_COLORS: Record<string, { bg: string; accent: string; text: string }> = {
   A: { bg: 'from-red-900 to-red-700', accent: 'bg-red-500', text: 'text-red-200' },
@@ -164,7 +216,7 @@ function PaniniCard({ teamName }: { teamName: string }) {
   const group = stats?.group ?? '?'
   const colors = GROUP_COLORS[group] ?? GROUP_COLORS.A
   const flagUrl = profile?.flagImageUrl ?? wikimediaFlag(teamName)
-  const crestUrl = profile?.crestImageUrl ?? wikimediaCrest(teamName)
+  const crestUrl = LOCAL_CRESTS[teamName] ?? profile?.crestImageUrl ?? wikimediaCrest(teamName)
   const totalMatches = stats ? stats.wins + stats.draws + stats.losses : 0
   const winPct = totalMatches > 0 ? Math.round((stats!.wins / totalMatches) * 100) : 0
   const goalDiff = stats ? stats.goalsFor - stats.goalsAgainst : 0
