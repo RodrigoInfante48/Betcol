@@ -3,6 +3,7 @@ import { useState, useMemo } from 'react'
 import Link from 'next/link'
 import { TEAMS, GROUP_STAGE_MATCHES } from '@/lib/worldcupData'
 import { calculateProbabilities, pctNum } from '@/lib/bettingCalc'
+import TeamProfileModal from '@/components/TeamProfileModal'
 
 const ALL_TEAM_NAMES = Object.keys(TEAMS).sort((a, b) => a.localeCompare(b, 'es'))
 
@@ -84,6 +85,7 @@ function TeamSelector({ value, onChange, label, color }: {
 export default function CompararPage() {
   const [homeTeam, setHomeTeam] = useState('Brasil')
   const [awayTeam, setAwayTeam] = useState('Argentina')
+  const [selectedTeamProfile, setSelectedTeamProfile] = useState<string | null>(null)
 
   const home = TEAMS[homeTeam]
   const away = TEAMS[awayTeam]
@@ -193,8 +195,8 @@ export default function CompararPage() {
             </h3>
 
             <div className="flex justify-between text-sm font-semibold mb-5">
-              <span className="text-blue-500 dark:text-blue-400">{home.flag} {home.name}</span>
-              <span className="text-orange-400">{away.name} {away.flag}</span>
+              <button onClick={() => setSelectedTeamProfile(homeTeam)} className="text-blue-500 dark:text-blue-400 hover:opacity-75 transition-opacity">{home.flag} {home.name}</button>
+              <button onClick={() => setSelectedTeamProfile(awayTeam)} className="text-orange-400 hover:opacity-75 transition-opacity">{away.name} {away.flag}</button>
             </div>
 
             <StatCompare label="Victorias" homeVal={home.wins} awayVal={away.wins} fmt={v => `${v}`} />
@@ -214,11 +216,13 @@ export default function CompararPage() {
               return (
                 <div key={team.name} className={`bg-gray-50 dark:bg-gray-900 border ${borderCls} rounded-2xl p-5`}>
                   <div className="flex items-center gap-3 mb-4">
-                    <span className="text-3xl">{team.flag}</span>
-                    <div>
-                      <p className={`font-bold text-base ${textCls}`}>{team.name}</p>
-                      <p className="text-xs text-gray-400 dark:text-gray-500">Grupo {team.group} · FIFA #{team.ranking}</p>
-                    </div>
+                    <button onClick={() => setSelectedTeamProfile(team.name)} className="flex items-center gap-3 hover:opacity-75 transition-opacity text-left">
+                      <span className="text-3xl">{team.flag}</span>
+                      <div>
+                        <p className={`font-bold text-base ${textCls}`}>{team.name}</p>
+                        <p className="text-xs text-gray-400 dark:text-gray-500">Grupo {team.group} · FIFA #{team.ranking}</p>
+                      </div>
+                    </button>
                   </div>
 
                   <div className="grid grid-cols-3 gap-3 text-center mb-4">
@@ -287,6 +291,10 @@ export default function CompararPage() {
         Estadísticas basadas en estimaciones de rendimiento histórico internacional. No son recomendaciones de apuesta.
         Para datos en tiempo real se recomienda integrar football-data.org o API-Football.
       </p>
+
+      {selectedTeamProfile && (
+        <TeamProfileModal teamName={selectedTeamProfile} onClose={() => setSelectedTeamProfile(null)} />
+      )}
     </div>
   )
 }

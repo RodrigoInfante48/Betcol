@@ -3,6 +3,7 @@ import { useState, useMemo, useRef } from 'react'
 import Link from 'next/link'
 import { GROUP_STAGE_MATCHES, TEAMS, getMatchesByDate } from '@/lib/worldcupData'
 import { calculateProbabilities, pct } from '@/lib/bettingCalc'
+import TeamProfileModal from '@/components/TeamProfileModal'
 
 const GROUP_COLORS: Record<string, string> = {
   A: 'bg-rose-900/40 text-rose-300 border-rose-700/40',
@@ -29,6 +30,7 @@ export default function PartidosPage() {
   const [dayFilter, setDayFilter] = useState<string>('Todos')
   const fileInputRef = useRef<HTMLInputElement>(null)
   const [uploadMsg, setUploadMsg] = useState('')
+  const [selectedTeamProfile, setSelectedTeamProfile] = useState<string | null>(null)
 
   const allDates = useMemo(() => {
     const s = new Set(GROUP_STAGE_MATCHES.map(m => m.date))
@@ -184,13 +186,18 @@ export default function PartidosPage() {
                   <div className="flex items-center gap-3">
                     {/* Home team */}
                     <div className="flex-1 flex items-center gap-2">
-                      <span className="text-xl">{home.flag}</span>
-                      <div>
-                        <p className="text-sm font-semibold text-gray-900 dark:text-gray-100 leading-tight">{home.name}</p>
-                        <div className="flex gap-0.5 mt-1">
-                          {home.form.slice(-3).map((r, i) => <FormBadge key={i} r={r} />)}
+                      <button
+                        onClick={e => { e.preventDefault(); e.stopPropagation(); setSelectedTeamProfile(match.homeTeam) }}
+                        className="flex items-center gap-2 text-left hover:opacity-75 transition-opacity"
+                      >
+                        <span className="text-xl">{home.flag}</span>
+                        <div>
+                          <p className="text-sm font-semibold text-gray-900 dark:text-gray-100 leading-tight">{home.name}</p>
+                          <div className="flex gap-0.5 mt-1">
+                            {home.form.slice(-3).map((r, i) => <FormBadge key={i} r={r} />)}
+                          </div>
                         </div>
-                      </div>
+                      </button>
                     </div>
 
                     {/* Center: probabilities */}
@@ -212,13 +219,18 @@ export default function PartidosPage() {
 
                     {/* Away team */}
                     <div className="flex-1 flex items-center gap-2 flex-row-reverse text-right">
-                      <span className="text-xl">{away.flag}</span>
-                      <div>
-                        <p className="text-sm font-semibold text-gray-900 dark:text-gray-100 leading-tight">{away.name}</p>
-                        <div className="flex gap-0.5 mt-1 justify-end">
-                          {away.form.slice(-3).map((r, i) => <FormBadge key={i} r={r} />)}
+                      <button
+                        onClick={e => { e.preventDefault(); e.stopPropagation(); setSelectedTeamProfile(match.awayTeam) }}
+                        className="flex items-center gap-2 flex-row-reverse text-right hover:opacity-75 transition-opacity"
+                      >
+                        <span className="text-xl">{away.flag}</span>
+                        <div>
+                          <p className="text-sm font-semibold text-gray-900 dark:text-gray-100 leading-tight">{away.name}</p>
+                          <div className="flex gap-0.5 mt-1 justify-end">
+                            {away.form.slice(-3).map((r, i) => <FormBadge key={i} r={r} />)}
+                          </div>
                         </div>
-                      </div>
+                      </button>
                     </div>
                   </div>
 
@@ -252,6 +264,10 @@ export default function PartidosPage() {
         Probabilidades calculadas con base en los últimos 10 partidos internacionales de cada selección.
         No son recomendaciones de apuesta.
       </p>
+
+      {selectedTeamProfile && (
+        <TeamProfileModal teamName={selectedTeamProfile} onClose={() => setSelectedTeamProfile(null)} />
+      )}
     </div>
   )
 }
