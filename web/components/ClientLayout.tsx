@@ -1,10 +1,33 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Sidebar from './Sidebar'
 
 export default function ClientLayout({ children }: { children: React.ReactNode }) {
   const [collapsed, setCollapsed] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [isDark, setIsDark] = useState(true)
+
+  useEffect(() => {
+    const saved = localStorage.getItem('theme') ?? 'dark'
+    const dark = saved === 'dark'
+    setIsDark(dark)
+    if (dark) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  }, [])
+
+  function toggleTheme() {
+    const next = !isDark
+    setIsDark(next)
+    localStorage.setItem('theme', next ? 'dark' : 'light')
+    if (next) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  }
 
   return (
     <>
@@ -16,7 +39,7 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
       )}
 
       <button
-        className="fixed top-4 left-4 z-40 lg:hidden flex items-center justify-center w-9 h-9 bg-gray-900 border border-gray-800 rounded-xl text-green-400 hover:text-green-300 transition-colors"
+        className="fixed top-4 left-4 z-40 lg:hidden flex items-center justify-center w-9 h-9 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl text-green-600 dark:text-green-400 hover:text-green-700 dark:hover:text-green-300 transition-colors"
         onClick={() => setMobileOpen(true)}
         aria-label="Abrir menú"
       >
@@ -32,6 +55,8 @@ export default function ClientLayout({ children }: { children: React.ReactNode }
         mobileOpen={mobileOpen}
         onToggleCollapse={() => setCollapsed(!collapsed)}
         onCloseMobile={() => setMobileOpen(false)}
+        isDark={isDark}
+        toggleTheme={toggleTheme}
       />
 
       <main
