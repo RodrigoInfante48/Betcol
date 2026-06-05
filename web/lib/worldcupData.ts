@@ -22,6 +22,23 @@ export interface WCMatch {
   matchday: 1 | 2 | 3
 }
 
+export interface Player {
+  name: string
+  position: 'GK' | 'DF' | 'MF' | 'FW'
+  number: number
+  club: string
+}
+
+export interface TeamProfile {
+  coach: string
+  formation: string
+  flagImageUrl: string
+  crestImageUrl: string
+  players: Player[]
+}
+
+export const TEAM_PROFILES: Record<string, TeamProfile> = {}
+
 export const TEAMS: Record<string, TeamData> = {
   // ── GRUPO A ── datos verificados 2026-06-03 · ver /data/wc2026/groups/grupo-A.json
   // Ranking FIFA: última actualización pública 01/04/2026
