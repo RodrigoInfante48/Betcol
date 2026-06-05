@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { GROUPS, TEAMS, GROUP_STAGE_MATCHES } from '@/lib/worldcupData'
 import { calculateProbabilities } from '@/lib/bettingCalc'
+import TeamProfileModal from '@/components/TeamProfileModal'
 
 const GROUP_LETTERS = ['A','B','C','D','E','F','G','H','I','J','K','L']
 
@@ -53,7 +54,7 @@ function MatchLine({ homeTeam, awayTeam, matchId, date, time, matchday }: {
   )
 }
 
-function GroupCard({ group }: { group: string }) {
+function GroupCard({ group, onTeamClick }: { group: string; onTeamClick: (team: string) => void }) {
   const teams = GROUPS[group] ?? []
   const matches = GROUP_STAGE_MATCHES.filter(m => m.group === group)
   const matchdays = [1, 2, 3] as const
@@ -65,7 +66,14 @@ function GroupCard({ group }: { group: string }) {
         <h3 className="font-bold text-gray-900 dark:text-gray-100 text-sm">Grupo {group}</h3>
         <div className="flex gap-1.5">
           {teams.map(t => (
-            <span key={t} title={t} className="text-base">{TEAMS[t]?.flag ?? '🏳️'}</span>
+            <button
+              key={t}
+              title={t}
+              onClick={() => onTeamClick(t)}
+              className="text-base hover:scale-125 transition-transform cursor-pointer"
+            >
+              {TEAMS[t]?.flag ?? '🏳️'}
+            </button>
           ))}
         </div>
       </div>
@@ -74,11 +82,15 @@ function GroupCard({ group }: { group: string }) {
       <div className="px-4 py-2 border-b border-gray-200 dark:border-gray-800">
         <div className="grid grid-cols-2 gap-x-2 gap-y-0.5">
           {teams.map((t, i) => (
-            <div key={t} className="flex items-center gap-1.5 py-0.5">
+            <button
+              key={t}
+              onClick={() => onTeamClick(t)}
+              className="flex items-center gap-1.5 py-0.5 hover:text-green-600 dark:hover:text-green-400 transition-colors text-left w-full group/team"
+            >
               <span className="text-gray-400 dark:text-gray-600 text-[10px] w-3">{i + 1}.</span>
               <span className="text-[10px] text-gray-500 dark:text-gray-400">{TEAMS[t]?.flag}</span>
-              <span className="text-xs text-gray-600 dark:text-gray-300">{t}</span>
-            </div>
+              <span className="text-xs text-gray-600 dark:text-gray-300 group-hover/team:text-green-600 dark:group-hover/team:text-green-400 transition-colors">{t}</span>
+            </button>
           ))}
         </div>
       </div>
@@ -144,6 +156,7 @@ function KnockoutBracket() {
 
 export default function LlavesPage() {
   const [tab, setTab] = useState<'grupos' | 'eliminatoria'>('grupos')
+  const [selectedTeamProfile, setSelectedTeamProfile] = useState<string | null>(null)
 
   return (
     <div>
@@ -188,7 +201,7 @@ export default function LlavesPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
             {GROUP_LETTERS.map(g => (
-              <GroupCard key={g} group={g} />
+              <GroupCard key={g} group={g} onTeamClick={setSelectedTeamProfile} />
             ))}
           </div>
         </>
@@ -200,6 +213,13 @@ export default function LlavesPage() {
         Probabilidades estimadas con base en últimos 10 partidos internacionales de cada selección.
         Fixture extraído de fuentes públicas (FIFA / Google). Los horarios son en hora Colombia (GMT-5).
       </div>
+
+      {selectedTeamProfile && (
+        <TeamProfileModal
+          teamName={selectedTeamProfile}
+          onClose={() => setSelectedTeamProfile(null)}
+        />
+      )}
     </div>
   )
 }
