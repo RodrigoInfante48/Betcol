@@ -37,7 +37,166 @@ export interface TeamProfile {
   players: Player[]
 }
 
-export const TEAM_PROFILES: Record<string, TeamProfile> = {}
+export const TEAM_PROFILES: Record<string, TeamProfile> = {
+
+  // ── GRUPO A ────────────────────────────────────────────────────────────────
+
+  'México': {
+    coach: 'Javier Aguirre',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Mexico.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Federaci%C3%B3n_Mexicana_de_F%C3%BAtbol_logo_(2025).svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Raúl Rangel',        position: 'GK', club: 'Guadalajara' },
+      { number: 12, name: 'Carlos Acevedo',      position: 'GK', club: 'Santos Laguna' },
+      { number: 13, name: 'Guillermo Ochoa',     position: 'GK', club: 'Salernitana' },
+      // Defensas
+      { number: 2,  name: 'Jorge Sánchez',       position: 'DF', club: 'Mallorca' },
+      { number: 3,  name: 'César Montes',        position: 'DF', club: 'Almería' },
+      { number: 5,  name: 'Johan Vásquez',       position: 'DF', club: 'Genoa' },
+      { number: 6,  name: 'Erik Lira',           position: 'DF', club: 'Cruz Azul' },
+      { number: 15, name: 'Israel Reyes',        position: 'DF', club: 'Puebla' },
+      { number: 23, name: 'Jesús Gallardo',      position: 'DF', club: 'Pumas UNAM' },
+      // Mediocampistas
+      { number: 4,  name: 'Edson Álvarez',       position: 'MF', club: 'West Ham United' },
+      { number: 7,  name: 'Luis Romo',           position: 'MF', club: 'Cruz Azul' },
+      { number: 8,  name: 'Álvaro Fidalgo',      position: 'MF', club: 'Real Betis' },
+      { number: 17, name: 'Rodrigo Huescas',     position: 'MF', club: 'Cruz Azul' },
+      { number: 18, name: 'Obed Vargas',         position: 'MF', club: 'Atlético de Madrid' },
+      { number: 20, name: 'Mateo Chávez',        position: 'MF', club: 'Guadalajara' },
+      { number: 24, name: 'Luis Chávez',         position: 'MF', club: 'Pachuca' },
+      { number: 26, name: 'Brian Gutiérrez',     position: 'MF', club: 'Chicago Fire' },
+      // Delanteros
+      { number: 9,  name: 'Raúl Jiménez',        position: 'FW', club: 'Fulham' },
+      { number: 10, name: 'Alexis Vega',         position: 'FW', club: 'Guadalajara' },
+      { number: 11, name: 'Santiago Giménez',    position: 'FW', club: 'AC Milan' },
+      { number: 14, name: 'Armando González',    position: 'FW', club: 'Guadalajara' },
+      { number: 16, name: 'Julián Quiñones',     position: 'FW', club: 'Club América' },
+      { number: 19, name: 'Gilberto Mora',       position: 'FW', club: 'Club Tijuana' },
+      { number: 21, name: 'César Huerta',        position: 'FW', club: 'Pumas UNAM' },
+      { number: 22, name: 'Guillermo Martínez',  position: 'FW', club: 'Puebla' },
+      { number: 25, name: 'Roberto Alvarado',    position: 'FW', club: 'Guadalajara' },
+    ],
+  },
+
+  'Sudáfrica': {
+    coach: 'Hugo Broos',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Africa.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/South_African_Football_Association_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Ronwen Williams',     position: 'GK', club: 'Mamelodi Sundowns' },
+      { number: 13, name: 'Ricardo Goss',        position: 'GK', club: 'TS Galaxy' },
+      { number: 16, name: 'Sipho Chaine',        position: 'GK', club: 'Orlando Pirates' },
+      // Defensas
+      { number: 2,  name: 'Thabang Matuludi',    position: 'DF', club: 'Polokwane City' },
+      { number: 3,  name: 'Khulumani Ndamane',   position: 'DF', club: 'Mamelodi Sundowns' },
+      { number: 6,  name: 'Aubrey Modiba',       position: 'DF', club: 'Mamelodi Sundowns' },
+      { number: 14, name: 'Mbekezeli Mbokazi',   position: 'DF', club: 'Chicago Fire' },
+      { number: 18, name: 'Samukele Kabini',     position: 'DF', club: 'Molde FK' },
+      { number: 19, name: 'Nkosinathi Sibisi',   position: 'DF', club: 'Orlando Pirates' },
+      { number: 20, name: 'Khuliso Mudau',       position: 'DF', club: 'Mamelodi Sundowns' },
+      { number: 21, name: 'Ime Okon',            position: 'DF', club: 'Hannover 96' },
+      { number: 24, name: 'Olwethu Makhanya',    position: 'DF', club: 'Philadelphia Union' },
+      { number: 26, name: 'Bradley Cross',       position: 'DF', club: 'Kaizer Chiefs' },
+      // Mediocampistas
+      { number: 4,  name: 'Teboho Mokoena',      position: 'MF', club: 'Mamelodi Sundowns' },
+      { number: 5,  name: 'Thalente Mbatha',     position: 'MF', club: 'Orlando Pirates' },
+      { number: 12, name: 'Thapelo Maseko',      position: 'MF', club: 'AEL Limassol' },
+      { number: 22, name: 'Jayden Adams',        position: 'MF', club: 'Mamelodi Sundowns' },
+      { number: 23, name: 'Sphephelo Sithole',   position: 'MF', club: 'Tondela' },
+      { number: 25, name: 'Kamogelo Sebelebele', position: 'MF', club: 'Orlando Pirates' },
+      // Delanteros
+      { number: 7,  name: 'Oswin Appollis',      position: 'FW', club: 'Orlando Pirates' },
+      { number: 8,  name: 'Tshepang Moremi',     position: 'FW', club: 'Orlando Pirates' },
+      { number: 9,  name: 'Lyle Foster',         position: 'FW', club: 'Burnley' },
+      { number: 10, name: 'Relebohile Mofokeng', position: 'FW', club: 'Orlando Pirates' },
+      { number: 11, name: 'Themba Zwane',        position: 'FW', club: 'Mamelodi Sundowns' },
+      { number: 15, name: 'Iqraam Rayners',      position: 'FW', club: 'Mamelodi Sundowns' },
+      { number: 17, name: 'Evidence Makgopa',    position: 'FW', club: 'Orlando Pirates' },
+    ],
+  },
+
+  'Corea del Sur': {
+    coach: 'Hong Myung-bo',
+    formation: '4-2-3-1',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_South_Korea.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Korea_Football_Association.svg',
+    players: [
+      // Porteros
+      { number: 12, name: 'Song Bum-keun',    position: 'GK', club: 'Jeonbuk Hyundai Motors' },
+      { number: 21, name: 'Jo Hyeon-woo',     position: 'GK', club: 'Ulsan HD' },
+      { number: 30, name: 'Kim Seung-gyu',    position: 'GK', club: 'FC Tokyo' },
+      // Defensas
+      { number: 2,  name: 'Lee Han-beom',     position: 'DF', club: 'FC Midtjylland' },
+      { number: 4,  name: 'Kim Min-jae',      position: 'DF', club: 'Bayern Munich' },
+      { number: 5,  name: 'Kim Tae-hyeon',    position: 'DF', club: 'Kashima Antlers' },
+      { number: 13, name: 'Lee Tae-seok',     position: 'DF', club: 'Austria Wien' },
+      { number: 14, name: 'Cho Wi-je',        position: 'DF', club: 'Jeonbuk Hyundai Motors' },
+      { number: 15, name: 'Kim Moon-hwan',    position: 'DF', club: 'Daejeon Citizen' },
+      { number: 16, name: 'Park Jin-seop',    position: 'DF', club: 'Zhejiang FC' },
+      { number: 22, name: 'Seol Young-woo',   position: 'DF', club: 'Red Star Belgrade' },
+      { number: 23, name: 'Jens Castrop',     position: 'DF', club: 'Borussia Mönchengladbach' },
+      // Mediocampistas
+      { number: 3,  name: 'Lee Ki-hyeok',     position: 'MF', club: 'Gangwon FC' },
+      { number: 6,  name: 'Hwang In-beom',    position: 'MF', club: 'Feyenoord' },
+      { number: 8,  name: 'Paik Seung-ho',    position: 'MF', club: 'Birmingham City' },
+      { number: 10, name: 'Lee Jae-sung',     position: 'MF', club: 'Mainz 05' },
+      { number: 17, name: 'Bae Jun-ho',       position: 'MF', club: 'Stoke City' },
+      { number: 19, name: 'Lee Kang-in',      position: 'MF', club: 'Paris Saint-Germain' },
+      { number: 24, name: 'Kim Jin-kyu',      position: 'MF', club: 'Jeonbuk Hyundai Motors' },
+      { number: 25, name: 'Eom Ji-sung',      position: 'MF', club: 'Swansea City' },
+      // Delanteros
+      { number: 7,  name: 'Son Heung-min',    position: 'FW', club: 'LAFC' },
+      { number: 9,  name: 'Cho Gue-sung',     position: 'FW', club: 'FC Midtjylland' },
+      { number: 11, name: 'Hwang Hee-chan',    position: 'FW', club: 'Wolverhampton Wanderers' },
+      { number: 18, name: 'Oh Hyeon-gyu',     position: 'FW', club: 'Besiktas' },
+      { number: 20, name: 'Yang Hyun-jun',    position: 'FW', club: 'Celtic' },
+      { number: 26, name: 'Lee Dong-gyeong',  position: 'FW', club: 'Ulsan HD' },
+    ],
+  },
+
+  'Chequia': {
+    coach: 'Miroslav Koubek',
+    formation: '3-4-2-1',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_Czech_Republic.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Football_Association_of_Czech_Republic.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Matěj Kovář',       position: 'GK', club: 'PSV Eindhoven' },
+      { number: 12, name: 'Ondřej Štanc',      position: 'GK', club: 'Slavia Prague' },
+      { number: 23, name: 'Lukáš Horníček',    position: 'GK', club: 'SC Braga' },
+      // Defensas
+      { number: 2,  name: 'Vladimír Coufal',   position: 'DF', club: 'Hoffenheim' },
+      { number: 3,  name: 'Ladislav Krejčí',   position: 'DF', club: 'Wolverhampton Wanderers' },
+      { number: 4,  name: 'Robin Hranáč',      position: 'DF', club: 'Hoffenheim' },
+      { number: 5,  name: 'Tomáš Holeš',       position: 'DF', club: 'Slavia Prague' },
+      { number: 6,  name: 'Štěpán Halovský',   position: 'DF', club: 'Slavia Prague' },
+      { number: 13, name: 'David Doudera',      position: 'DF', club: 'Slavia Prague' },
+      { number: 14, name: 'David Jurásek',      position: 'DF', club: 'Slavia Prague' },
+      { number: 15, name: 'David Zima',         position: 'DF', club: 'Slavia Prague' },
+      { number: 16, name: 'Jaroslav Zelený',    position: 'DF', club: 'Sparta Prague' },
+      // Mediocampistas
+      { number: 7,  name: 'Vladimír Darida',   position: 'MF', club: 'Hradec Králové' },
+      { number: 8,  name: 'Tomáš Souček',      position: 'MF', club: 'West Ham United' },
+      { number: 10, name: 'Pavel Šulc',        position: 'MF', club: 'Olympique Lyon' },
+      { number: 17, name: 'Lukáš Provod',      position: 'MF', club: 'Slavia Prague' },
+      { number: 18, name: 'Michal Sadílek',    position: 'MF', club: 'Slavia Prague' },
+      { number: 19, name: 'Lukáš Červ',        position: 'MF', club: 'Viktoria Plzeň' },
+      { number: 20, name: 'Alexander Sojka',   position: 'MF', club: 'Viktoria Plzeň' },
+      { number: 21, name: 'Denis Vácha',       position: 'MF', club: 'Viktoria Plzeň' },
+      { number: 22, name: 'Hugo Souček',       position: 'MF', club: 'Sparta Prague' },
+      // Delanteros
+      { number: 9,  name: 'Patrik Schick',     position: 'FW', club: 'Bayer Leverkusen' },
+      { number: 11, name: 'Adam Hložek',       position: 'FW', club: 'Hoffenheim' },
+      { number: 24, name: 'Tomáš Horák',       position: 'FW', club: 'Slavia Prague' },
+      { number: 25, name: 'Mojmír Chytil',     position: 'FW', club: 'Slavia Prague' },
+      { number: 26, name: 'Jan Kuchta',        position: 'FW', club: 'Sparta Prague' },
+    ],
+  },
+}
 
 export const TEAMS: Record<string, TeamData> = {
   // ── GRUPO A ── datos verificados 2026-06-03 · ver /data/wc2026/groups/grupo-A.json
