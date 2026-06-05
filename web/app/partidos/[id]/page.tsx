@@ -1,6 +1,9 @@
+'use client'
+import { useState } from 'react'
 import Link from 'next/link'
 import { getMatchById, TEAMS, GROUP_STAGE_MATCHES } from '@/lib/worldcupData'
 import { calculateProbabilities, pct, pctNum } from '@/lib/bettingCalc'
+import TeamProfileModal from '@/components/TeamProfileModal'
 
 function ProbCircle({ label, value, color }: { label: string; value: number; color: string }) {
   const pct = Math.round(value * 100)
@@ -94,6 +97,7 @@ function FormBadge({ r }: { r: string }) {
 export default function MatchDetailPage({ params }: { params: { id: string } }) {
   const { id } = params
   const match = getMatchById(id)
+  const [selectedTeamProfile, setSelectedTeamProfile] = useState<string | null>(null)
 
   if (!match) {
     return (
@@ -146,17 +150,17 @@ export default function MatchDetailPage({ params }: { params: { id: string } }) 
         </div>
 
         <div className="flex items-center justify-between gap-4">
-          <div className="flex-1 text-center">
+          <button onClick={() => setSelectedTeamProfile(match.homeTeam)} className="flex-1 text-center hover:opacity-75 transition-opacity">
             <div className="text-4xl mb-2">{home.flag}</div>
             <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100">{home.name}</h2>
             <p className="text-xs text-gray-400 dark:text-gray-500 mt-1">Ranking FIFA #{home.ranking}</p>
-          </div>
+          </button>
           <div className="text-2xl font-black text-gray-400 dark:text-gray-600 px-4">VS</div>
-          <div className="flex-1 text-center">
+          <button onClick={() => setSelectedTeamProfile(match.awayTeam)} className="flex-1 text-center hover:opacity-75 transition-opacity">
             <div className="text-4xl mb-2">{away.flag}</div>
             <h2 className="text-lg font-bold text-gray-900 dark:text-gray-100">{away.name}</h2>
             <p className="text-xs text-gray-400 dark:text-gray-500 mt-1">Ranking FIFA #{away.ranking}</p>
-          </div>
+          </button>
         </div>
       </div>
 
@@ -184,8 +188,8 @@ export default function MatchDetailPage({ params }: { params: { id: string } }) 
         <h3 className="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-4">Comparativa (últimos 10 partidos)</h3>
 
         <div className="flex justify-between text-sm font-semibold mb-4">
-          <span className="text-blue-500 dark:text-blue-400 flex items-center gap-2">{home.flag} {home.name}</span>
-          <span className="text-orange-400 flex items-center gap-2">{away.name} {away.flag}</span>
+          <button onClick={() => setSelectedTeamProfile(match.homeTeam)} className="text-blue-500 dark:text-blue-400 flex items-center gap-2 hover:opacity-75 transition-opacity">{home.flag} {home.name}</button>
+          <button onClick={() => setSelectedTeamProfile(match.awayTeam)} className="text-orange-400 flex items-center gap-2 hover:opacity-75 transition-opacity">{away.name} {away.flag}</button>
         </div>
 
         <StatRow label="Victorias" homeVal={home.wins} awayVal={away.wins} fmt={v => `${v}`} />
@@ -287,6 +291,10 @@ export default function MatchDetailPage({ params }: { params: { id: string } }) 
           </div>
         </div>
       </div>
+
+      {selectedTeamProfile && (
+        <TeamProfileModal teamName={selectedTeamProfile} onClose={() => setSelectedTeamProfile(null)} />
+      )}
 
       {/* Other group matches */}
       {groupMatches.length > 0 && (
