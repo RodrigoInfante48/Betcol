@@ -196,6 +196,164 @@ export const TEAM_PROFILES: Record<string, TeamProfile> = {
       { number: 26, name: 'Jan Kuchta',        position: 'FW', club: 'Sparta Prague' },
     ],
   },
+
+  // ── GRUPO B ────────────────────────────────────────────────────────────────
+
+  'Canadá': {
+    coach: 'Jesse Marsch',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Canada_%28Pantone%29.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Canada_Soccer_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Dayne St. Clair',        position: 'GK', club: 'Inter Miami' },
+      { number: 16, name: 'Maxime Crépeau',          position: 'GK', club: 'Orlando City' },
+      { number: 18, name: 'Owen Goodman',            position: 'GK', club: 'Barnsley' },
+      // Defensas
+      { number: 2,  name: 'Alistair Johnston',       position: 'DF', club: 'Celtic' },
+      { number: 3,  name: 'Alfie Jones',             position: 'DF', club: 'Middlesbrough' },
+      { number: 4,  name: 'Luc de Fougerolles',      position: 'DF', club: 'Dender EH' },
+      { number: 5,  name: 'Joel Waterman',           position: 'DF', club: 'Chicago Fire' },
+      { number: 13, name: 'Derek Cornelius',         position: 'DF', club: 'Rangers' },
+      { number: 15, name: 'Moïse Bombito',           position: 'DF', club: 'Nice' },
+      { number: 19, name: 'Alphonso Davies',         position: 'DF', club: 'Bayern Munich' },
+      { number: 22, name: 'Richie Laryea',           position: 'DF', club: 'Toronto FC' },
+      { number: 23, name: 'Niko Sigur',              position: 'DF', club: 'Hajduk Split' },
+      // Mediocampistas
+      { number: 6,  name: 'Mathieu Choinière',       position: 'MF', club: 'Los Angeles FC' },
+      { number: 7,  name: 'Stephen Eustáquio',       position: 'MF', club: 'Los Angeles FC' },
+      { number: 8,  name: 'Ismaël Koné',             position: 'MF', club: 'Sassuolo' },
+      { number: 11, name: 'Liam Millar',             position: 'MF', club: 'Hull City' },
+      { number: 14, name: 'Jacob Shaffelburg',       position: 'MF', club: 'Los Angeles FC' },
+      { number: 17, name: 'Tajon Buchanan',          position: 'MF', club: 'Villarreal' },
+      { number: 20, name: 'Ali Ahmed',               position: 'MF', club: 'Norwich City' },
+      { number: 21, name: 'Jonathan Osorio',         position: 'MF', club: 'Toronto FC' },
+      { number: 25, name: 'Nathan-Dylan Saliba',     position: 'MF', club: 'Anderlecht' },
+      { number: 26, name: 'Marcelo Flores',          position: 'MF', club: 'Tigres UANL' },
+      // Delanteros
+      { number: 9,  name: 'Cyle Larin',             position: 'FW', club: 'Southampton' },
+      { number: 10, name: 'Jonathan David',          position: 'FW', club: 'Juventus' },
+      { number: 12, name: 'Tani Oluwaseyi',          position: 'FW', club: 'Villarreal' },
+      { number: 24, name: 'Promise David',           position: 'FW', club: 'Union Saint-Gilloise' },
+    ],
+  },
+
+  'Bosnia y Herzegovina': {
+    coach: 'Sergej Barbarez',
+    formation: '4-2-3-1',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Bosnia_and_Herzegovina.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Football_Association_of_Bosnia_and_Herzegovina_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Nikola Vasilj',           position: 'GK', club: 'FC St. Pauli' },
+      { number: 12, name: 'Mladen Jurkas',           position: 'GK', club: 'Borac Banja Luka' },
+      { number: 22, name: 'Martin Zlomislić',        position: 'GK', club: 'HNK Rijeka' },
+      // Defensas
+      { number: 2,  name: 'Nihad Mujakić',           position: 'DF', club: 'Gaziantep FK' },
+      { number: 3,  name: 'Dennis Hadžikadunić',     position: 'DF', club: 'UC Sampdoria' },
+      { number: 4,  name: 'Tarik Muharemović',       position: 'DF', club: 'US Sassuolo' },
+      { number: 5,  name: 'Sead Kolašinac',          position: 'DF', club: 'Atalanta BC' },
+      { number: 7,  name: 'Amar Dedić',              position: 'DF', club: 'SL Benfica' },
+      { number: 18, name: 'Nikola Katić',            position: 'DF', club: 'Schalke 04' },
+      { number: 21, name: 'Stjepan Radeljić',        position: 'DF', club: 'HNK Rijeka' },
+      { number: 24, name: 'Nidal Čelić',             position: 'DF', club: 'RC Lens' },
+      // Mediocampistas
+      { number: 6,  name: 'Benjamin Tahirović',      position: 'MF', club: 'Brøndby IF' },
+      { number: 8,  name: 'Armin Gigović',           position: 'MF', club: 'BSC Young Boys' },
+      { number: 13, name: 'Ivan Bašić',              position: 'MF', club: 'FC Astana' },
+      { number: 14, name: 'Ivan Šunjić',             position: 'MF', club: 'Pafos FC' },
+      { number: 15, name: 'Amar Memić',              position: 'MF', club: 'FC Viktoria Plzeň' },
+      { number: 16, name: 'Amir Hadžiahmetović',     position: 'MF', club: 'Hull City' },
+      { number: 17, name: 'Dženis Burnić',           position: 'MF', club: 'Karlsruher SC' },
+      { number: 26, name: 'Ermin Mahmić',            position: 'MF', club: 'FC Slovan Liberec' },
+      // Delanteros
+      { number: 9,  name: 'Samed Baždar',            position: 'FW', club: 'Jagiellonia Białystok' },
+      { number: 10, name: 'Ermedin Demirović',       position: 'FW', club: 'VfB Stuttgart' },
+      { number: 11, name: 'Edin Džeko',              position: 'FW', club: 'Schalke 04' },
+      { number: 19, name: 'Kerim Alajbegović',       position: 'FW', club: 'RB Salzburg' },
+      { number: 20, name: 'Esmir Bajraktarević',     position: 'FW', club: 'PSV Eindhoven' },
+      { number: 23, name: 'Haris Tabaković',         position: 'FW', club: 'Borussia Mönchengladbach' },
+      { number: 25, name: 'Jovo Lukić',              position: 'FW', club: 'FC Universitatea Cluj' },
+    ],
+  },
+
+  'Catar': {
+    coach: 'Julen Lopetegui',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Qatar.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Qatar_Football_Association.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Mahmoud Abunada',         position: 'GK', club: 'Al-Rayyan SC' },
+      { number: 21, name: 'Salah Zakaria',           position: 'GK', club: 'Al-Duhail SC' },
+      { number: 22, name: 'Meshaal Barsham',         position: 'GK', club: 'Al-Sadd SC' },
+      // Defensas
+      { number: 2,  name: 'Pedro Miguel',            position: 'DF', club: 'Al-Sadd SC' },
+      { number: 3,  name: 'Lucas Mendes',            position: 'DF', club: 'Al-Wakrah SC' },
+      { number: 4,  name: 'Issa Laye',               position: 'DF', club: 'Al-Arabi SC' },
+      { number: 13, name: 'Ayoub Al-Alawi',          position: 'DF', club: 'Al-Gharafa SC' },
+      { number: 14, name: 'Homam Ahmed',             position: 'DF', club: 'Cultural Leonesa' },
+      { number: 16, name: 'Boualem Khoukhi',         position: 'DF', club: 'Al-Sadd SC' },
+      { number: 18, name: 'Sultan Al-Brake',         position: 'DF', club: 'Al-Duhail SC' },
+      { number: 25, name: 'Al-Hashmi Al-Hussain',    position: 'DF', club: 'Al-Arabi SC' },
+      // Mediocampistas
+      { number: 5,  name: 'Jassem Gaber',            position: 'MF', club: 'Al-Rayyan SC' },
+      { number: 6,  name: 'Abdulaziz Hatem',         position: 'MF', club: 'Al-Rayyan SC' },
+      { number: 8,  name: 'Edmilson Junior',         position: 'MF', club: 'Al-Duhail SC' },
+      { number: 12, name: 'Karim Boudiaf',           position: 'MF', club: 'Al-Duhail SC' },
+      { number: 20, name: 'Ahmed Fathi',             position: 'MF', club: 'Al-Arabi SC' },
+      { number: 23, name: 'Assim Madibo',            position: 'MF', club: 'Al-Wakrah SC' },
+      { number: 26, name: 'Mohamed Al-Mannai',       position: 'MF', club: 'Al-Shamal SC' },
+      // Delanteros
+      { number: 7,  name: 'Ahmed Alaa',              position: 'FW', club: 'Al-Rayyan SC' },
+      { number: 9,  name: 'Mohammed Muntari',        position: 'FW', club: 'Al-Gharafa SC' },
+      { number: 10, name: 'Hassan Al-Haydos',        position: 'FW', club: 'Al-Sadd SC' },
+      { number: 11, name: 'Akram Afif',              position: 'FW', club: 'Al-Sadd SC' },
+      { number: 15, name: 'Yusuf Abdurisag',         position: 'FW', club: 'Al-Wakrah SC' },
+      { number: 17, name: 'Ahmed Al-Ganehi',         position: 'FW', club: 'Al-Gharafa SC' },
+      { number: 19, name: 'Almoez Ali',              position: 'FW', club: 'Al-Duhail SC' },
+      { number: 24, name: 'Tahsin Mohammed',         position: 'FW', club: 'Al-Duhail SC' },
+    ],
+  },
+
+  'Suiza': {
+    coach: 'Murat Yakin',
+    formation: '4-4-2',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Switzerland.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Swiss_Football_Association.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Gregor Kobel',            position: 'GK', club: 'Borussia Dortmund' },
+      { number: 12, name: 'Yvon Mvogo',              position: 'GK', club: 'Lorient' },
+      { number: 21, name: 'Marvin Keller',           position: 'GK', club: 'BSC Young Boys' },
+      // Defensas
+      { number: 2,  name: 'Silvan Widmer',           position: 'DF', club: 'Mainz 05' },
+      { number: 3,  name: 'Nico Elvedi',             position: 'DF', club: 'Borussia Mönchengladbach' },
+      { number: 4,  name: 'Manuel Akanji',           position: 'DF', club: 'Inter Milan' },
+      { number: 5,  name: 'Miro Muheim',             position: 'DF', club: 'Hamburger SV' },
+      { number: 13, name: 'Ricardo Rodríguez',       position: 'DF', club: 'Real Betis' },
+      { number: 18, name: 'Eray Cömert',             position: 'DF', club: 'Valencia CF' },
+      { number: 24, name: 'Aurèle Amenda',           position: 'DF', club: 'Eintracht Frankfurt' },
+      { number: 25, name: 'Luca Jaquez',             position: 'DF', club: 'VfB Stuttgart' },
+      // Mediocampistas
+      { number: 6,  name: 'Denis Zakaria',           position: 'MF', club: 'AS Monaco' },
+      { number: 8,  name: 'Remo Freuler',            position: 'MF', club: 'Bologna FC' },
+      { number: 10, name: 'Granit Xhaka',            position: 'MF', club: 'Sunderland AFC' },
+      { number: 14, name: 'Ardon Jashari',           position: 'MF', club: 'AC Milan' },
+      { number: 15, name: 'Djibril Sow',             position: 'MF', club: 'FC Sevilla' },
+      { number: 17, name: 'Rubén Vargas',            position: 'MF', club: 'FC Sevilla' },
+      { number: 20, name: 'Michel Aebischer',        position: 'MF', club: 'AC Pisa' },
+      { number: 22, name: 'Fabian Rieder',           position: 'MF', club: 'FC Augsburg' },
+      // Delanteros
+      { number: 7,  name: 'Breel Embolo',            position: 'FW', club: 'Stade Rennais' },
+      { number: 9,  name: 'Johan Manzambi',          position: 'FW', club: 'SC Freiburg' },
+      { number: 11, name: 'Dan Ndoye',               position: 'FW', club: 'Nottingham Forest' },
+      { number: 16, name: 'Christian Fassnacht',     position: 'FW', club: 'BSC Young Boys' },
+      { number: 19, name: 'Noah Okafor',             position: 'FW', club: 'Leeds United' },
+      { number: 23, name: 'Zeki Amdouni',            position: 'FW', club: 'Burnley FC' },
+      { number: 26, name: 'Cédric Itten',            position: 'FW', club: 'Fortuna Düsseldorf' },
+    ],
+  },
 }
 
 export const TEAMS: Record<string, TeamData> = {
