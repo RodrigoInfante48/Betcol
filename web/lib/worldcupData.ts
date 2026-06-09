@@ -512,6 +512,153 @@ export const TEAM_PROFILES: Record<string, TeamProfile> = {
       { number: 26, name: 'Louicius Deedson',      position: 'FW', club: 'FC Dallas' },
     ],
   },
+
+  // ── GRUPO D ────────────────────────────────────────────────────────────────
+
+  'Estados Unidos': {
+    coach: 'Mauricio Pochettino',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_the_United_States.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/US_Soccer_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Matt Turner',            position: 'GK', club: 'Nottingham Forest' },
+      { number: 12, name: 'Patrick Schulte',         position: 'GK', club: 'Columbus Crew' },
+      { number: 13, name: 'Ethan Horvath',           position: 'GK', club: 'Cardiff City' },
+      // Defensas
+      { number: 2,  name: 'Sergiño Dest',            position: 'DF', club: 'PSV Eindhoven' },
+      { number: 3,  name: 'Tim Ream',                position: 'DF', club: 'Charlotte FC' },
+      { number: 4,  name: 'Mark McKenzie',           position: 'DF', club: 'Toulouse FC' },
+      { number: 5,  name: 'Walker Zimmermann',       position: 'DF', club: 'Nashville SC' },
+      { number: 6,  name: 'Antonee Robinson',        position: 'DF', club: 'Fulham' },
+      { number: 22, name: 'Joe Scally',              position: 'DF', club: 'Borussia Mönchengladbach' },
+      { number: 14, name: 'Cameron Carter-Vickers',  position: 'DF', club: 'Celtic' },
+      // Mediocampistas
+      { number: 8,  name: 'Weston McKennie',         position: 'MF', club: 'Juventus' },
+      { number: 15, name: 'Tyler Adams',             position: 'MF', club: 'Bournemouth' },
+      { number: 23, name: 'Yunus Musah',             position: 'MF', club: 'AC Milan' },
+      { number: 17, name: 'Johnny Cardoso',          position: 'MF', club: 'Real Betis' },
+      { number: 18, name: 'Luca de la Torre',        position: 'MF', club: 'Celta Vigo' },
+      { number: 20, name: 'Brenden Aaronson',        position: 'MF', club: 'Leeds United' },
+      { number: 7,  name: 'Giovanni Reyna',          position: 'MF', club: 'Nottingham Forest' },
+      // Delanteros
+      { number: 10, name: 'Christian Pulisic',       position: 'FW', club: 'AC Milan' },
+      { number: 11, name: 'Tim Weah',                position: 'FW', club: 'Juventus' },
+      { number: 9,  name: 'Folarin Balogun',         position: 'FW', club: 'Crystal Palace' },
+      { number: 16, name: 'Ricardo Pepi',            position: 'FW', club: 'Club Brugge' },
+      { number: 19, name: 'Josh Sargent',            position: 'FW', club: 'Norwich City' },
+      { number: 21, name: 'Caden Clark',             position: 'FW', club: 'RB Leipzig' },
+    ],
+  },
+
+  'Paraguay': {
+    coach: 'Gustavo Alfaro',
+    formation: '4-2-3-1',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Paraguay.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Asociaci%C3%B3n_Paraguaya_de_F%C3%BAtbol_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Antony Silva',            position: 'GK', club: 'Cerro Porteño' },
+      { number: 12, name: 'Gatito Fernández',        position: 'GK', club: 'Botafogo' },
+      { number: 23, name: 'Rodrigo Muñoz',           position: 'GK', club: 'Club América' },
+      // Defensas
+      { number: 2,  name: 'Robert Rojas',            position: 'DF', club: 'River Plate' },
+      { number: 3,  name: 'Fabián Balbuena',         position: 'DF', club: 'Nacional (PAR)' },
+      { number: 5,  name: 'Gustavo Gómez',           position: 'DF', club: 'Palmeiras' },
+      { number: 6,  name: 'Junior Alonso',           position: 'DF', club: 'Athletico Paranaense' },
+      { number: 15, name: 'Jorge Morel',             position: 'DF', club: 'Olimpia' },
+      { number: 16, name: 'Santiago Arzamendia',     position: 'DF', club: 'Cerro Porteño' },
+      { number: 22, name: 'Omar Alderete',           position: 'DF', club: 'Getafe CF' },
+      // Mediocampistas
+      { number: 4,  name: 'Mathías Villasanti',      position: 'MF', club: 'Grêmio' },
+      { number: 7,  name: 'Andrés Cubas',            position: 'MF', club: 'Getafe CF' },
+      { number: 8,  name: 'Richard Sánchez',         position: 'MF', club: 'Club América' },
+      { number: 13, name: 'Gabriel Ávalos',          position: 'MF', club: 'San Lorenzo' },
+      { number: 14, name: 'Matías Rojas',            position: 'MF', club: 'Racing Club' },
+      { number: 18, name: 'Alejandro Romero Gamarra',position: 'MF', club: 'New York Red Bulls' },
+      { number: 21, name: 'Ángel Cardozo Lucena',   position: 'MF', club: 'Cerro Porteño' },
+      // Delanteros
+      { number: 9,  name: 'Julio Enciso',            position: 'FW', club: 'Brighton & Hove Albion' },
+      { number: 10, name: 'Miguel Almirón',          position: 'FW', club: 'Newcastle United' },
+      { number: 11, name: 'Carlos González',         position: 'FW', club: 'Olimpia' },
+      { number: 17, name: 'Ramón Sosa',              position: 'FW', club: 'Nottingham Forest' },
+      { number: 19, name: 'Rodrigo Aguirre',         position: 'FW', club: 'Club Nacional' },
+      { number: 20, name: 'Alejandro Frutos',        position: 'FW', club: 'Olimpia' },
+    ],
+  },
+
+  'Australia': {
+    coach: 'Tony Popovic',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Australia.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Football_Australia_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Mathew Ryan',             position: 'GK', club: 'AZ Alkmaar' },
+      { number: 12, name: 'Joe Gauci',               position: 'GK', club: 'Adelaide United' },
+      { number: 23, name: 'Danny Vukovic',           position: 'GK', club: 'Central Coast Mariners' },
+      // Defensas
+      { number: 2,  name: 'Nathaniel Atkinson',      position: 'DF', club: 'St. Mirren' },
+      { number: 3,  name: 'Aziz Behich',             position: 'DF', club: 'Dundee United' },
+      { number: 4,  name: 'Harry Souttar',           position: 'DF', club: 'Leicester City' },
+      { number: 5,  name: 'Milos Degenek',           position: 'DF', club: 'Columbus Crew' },
+      { number: 6,  name: 'Bailey Wright',           position: 'DF', club: 'Sunderland' },
+      { number: 13, name: 'Lewis Miller',            position: 'DF', club: 'Hibernian' },
+      { number: 21, name: 'Kye Rowles',              position: 'DF', club: 'Heart of Midlothian' },
+      // Mediocampistas
+      { number: 7,  name: 'Aaron Mooy',              position: 'MF', club: 'Celtic' },
+      { number: 8,  name: 'Jackson Irvine',          position: 'MF', club: 'FC St. Pauli' },
+      { number: 10, name: 'Riley McGree',            position: 'MF', club: 'Middlesbrough' },
+      { number: 14, name: 'Keanu Baccus',            position: 'MF', club: 'St. Mirren' },
+      { number: 15, name: 'Aiden O\'Neill',          position: 'MF', club: 'Luton Town' },
+      { number: 16, name: 'Cameron Devlin',          position: 'MF', club: 'Heart of Midlothian' },
+      { number: 20, name: 'Marco Tilio',             position: 'MF', club: 'Celtic' },
+      // Delanteros
+      { number: 9,  name: 'Mitchell Duke',           position: 'FW', club: 'Macarthur FC' },
+      { number: 11, name: 'Mat Leckie',              position: 'FW', club: 'Melbourne City' },
+      { number: 17, name: 'Craig Goodwin',           position: 'FW', club: 'Adelaide United' },
+      { number: 18, name: 'Martin Boyle',            position: 'FW', club: 'Al-Faisaly' },
+      { number: 19, name: 'Awer Mabil',              position: 'FW', club: 'Cadiz CF' },
+      { number: 22, name: 'Jamie Maclaren',          position: 'FW', club: 'Melbourne City' },
+    ],
+  },
+
+  'Turquía': {
+    coach: 'Vincenzo Montella',
+    formation: '4-2-3-1',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Turkey.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Turkey_Football_Federation_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Mert Günok',              position: 'GK', club: 'Beşiktaş' },
+      { number: 12, name: 'Uğurcan Çakır',           position: 'GK', club: 'Trabzonspor' },
+      { number: 23, name: 'Altay Bayındır',          position: 'GK', club: 'Manchester United' },
+      // Defensas
+      { number: 2,  name: 'Zeki Çelik',             position: 'DF', club: 'AS Roma' },
+      { number: 3,  name: 'Ferdi Kadıoğlu',         position: 'DF', club: 'Brighton & Hove Albion' },
+      { number: 4,  name: 'Çağlar Söyüncü',         position: 'DF', club: 'Atlético de Madrid' },
+      { number: 5,  name: 'Merih Demiral',           position: 'DF', club: 'Al-Qadsiah' },
+      { number: 13, name: 'Abdülkerim Bardakçı',    position: 'DF', club: 'Galatasaray' },
+      { number: 15, name: 'Samet Akaydın',          position: 'DF', club: 'Fenerbahçe' },
+      { number: 22, name: 'Mert Müldür',             position: 'DF', club: 'Sassuolo' },
+      // Mediocampistas
+      { number: 6,  name: 'Salih Özcan',             position: 'MF', club: 'Borussia Dortmund' },
+      { number: 8,  name: 'Hakan Çalhanoğlu',        position: 'MF', club: 'Inter Milan' },
+      { number: 14, name: 'Kaan Ayhan',              position: 'MF', club: 'Galatasaray' },
+      { number: 16, name: 'İsmail Yüksek',           position: 'MF', club: 'Fenerbahçe' },
+      { number: 17, name: 'Orkun Kökçü',             position: 'MF', club: 'Benfica' },
+      { number: 18, name: 'Berkan Kutlu',            position: 'MF', club: 'Galatasaray' },
+      // Delanteros
+      { number: 7,  name: 'Kerem Aktürkoğlu',        position: 'FW', club: 'Benfica' },
+      { number: 9,  name: 'Cenk Tosun',              position: 'FW', club: 'Beşiktaş' },
+      { number: 10, name: 'Arda Güler',              position: 'FW', club: 'Real Madrid' },
+      { number: 11, name: 'Baris Alper Yilmaz',     position: 'FW', club: 'Galatasaray' },
+      { number: 19, name: 'Semih Kılıçsoy',         position: 'FW', club: 'Beşiktaş' },
+      { number: 20, name: 'Yusuf Yazıcı',            position: 'FW', club: 'LOSC Lille' },
+      { number: 21, name: 'Muhammed Şengezer',       position: 'FW', club: 'Trabzonspor' },
+    ],
+  },
+
 }
 
 export const TEAMS: Record<string, TeamData> = {
