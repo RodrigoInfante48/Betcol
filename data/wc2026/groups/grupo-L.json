@@ -1,6 +1,7 @@
 {
   "group": "L",
-  "lastUpdated": "2026-06-04",
+  "lastUpdated": "2026-06-10",
+  "squadsResearched": true,
   "teams": {
     "Inglaterra": {
       "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -428,7 +429,141 @@
           "confirmed": true
         }
       ],
-      "notes": "Panama reached CONCACAF Nations League 2024-25 final (runner-up, lost 1-2 to Mexico). Defeated USA 1-0 in SF. In WC Qualifier CONCACAF Final Round Group A, finished 1st (3W-3D-0L) to qualify directly for the 2026 World Cup alongside Curaçao and Haiti. Sep 2025 Suriname/Guatemala scores (matchdays 1-2) are estimated — exact scorelines not confirmed from search results. Scorers noted: Guatemala 3-2 — Waterman 30', 44', Fajardo 78'; El Salvador 3-0 — Blackman 17', Davis pen 45+4', Rodríguez 85'. March 2026 friendlies: Panama 1-1 South Africa (Mar 27), Panama 2-1 South Africa (Mar 31); June 2026: Panama 2-6 Brazil. FIFA ranking: 33rd (April 1, 2026). Sources: CONCACAF.com, ESPN, Wikipedia"
+      "notes": "Panama reached CONCACAF Nations League 2024-25 final (runner-up, lost 1-2 to Mexico). Defeated USA 1-0 in SF. In WC Qualifier CONCACAF Final Round Group A, finished 1st (3W-3D-0L) to qualify directly for the 2026 World Cup alongside Curaçao and Haiti. Sep 2025 Suriname/Guatemala scores (matchdays 1-2) are estimated — exact scorelines not confirmed from search results. Scorers noted: Guatemala 3-2 — Waterman 30', 44', Fajardo 78'; El Salvador 3-0 — Blackman 17', Davis pen 45+4', Rodríguez 85'. March 2026 friendlies: Panama 1-1 South Africa (Mar 27), Panama 2-1 South Africa (Mar 31); June 2026: Panama 2-6 Brazil. FIFA ranking: 33rd (April 1, 2026). Sources: CONCACAF.com, ESPN, Wikipedia",
+      "squad": {
+        "coach": "Thomas Christiansen",
+        "formation": "4-3-3",
+        "source": "FIFA.com, newsroompanama.com, beINSPORTS, 2026-06-10",
+        "players": [
+          { "number": 1,  "name": "Orlando Mosquera",       "position": "GK", "club": "Al-Fayha" },
+          { "number": 12, "name": "Luis Mejía",             "position": "GK", "club": "Club Nacional" },
+          { "number": 23, "name": "César Samudio",          "position": "GK", "club": "CD Marathon" },
+          { "number": 2,  "name": "César Blackman",         "position": "DF", "club": "Slovan Bratislava" },
+          { "number": 3,  "name": "Jorge Gutiérrez",        "position": "DF", "club": "Deportivo La Guaira" },
+          { "number": 4,  "name": "Fidel Escobar",          "position": "DF", "club": "Deportivo Saprissa" },
+          { "number": 5,  "name": "Edgardo Fariña",         "position": "DF", "club": "Pari Nizhny Novgorod" },
+          { "number": 6,  "name": "Andrés Andrade",         "position": "DF", "club": "LASK" },
+          { "number": 13, "name": "José Córdoba",           "position": "DF", "club": "Norwich City" },
+          { "number": 15, "name": "Roderick Miller",        "position": "DF", "club": "Turan Tovuz" },
+          { "number": 22, "name": "Amir Murillo",           "position": "DF", "club": "Beşiktaş" },
+          { "number": 24, "name": "Jiovani Ramos",          "position": "DF", "club": "Academia Puerto Cabello" },
+          { "number": 25, "name": "Eric Davis",             "position": "DF", "club": "CD Plaza Amador" },
+          { "number": 8,  "name": "Aníbal Godoy",           "position": "MF", "club": "San Diego FC" },
+          { "number": 10, "name": "Adalberto Carrasquilla", "position": "MF", "club": "Pumas UNAM" },
+          { "number": 11, "name": "Cesar Yanis",            "position": "MF", "club": "CD Cobresal" },
+          { "number": 14, "name": "Carlos Harvey",          "position": "MF", "club": "Minnesota United FC" },
+          { "number": 16, "name": "Yoel Bárcenas",          "position": "MF", "club": "Mazatlán FC" },
+          { "number": 17, "name": "Cristian Martínez",      "position": "MF", "club": "Ironi Kiryat Shmona" },
+          { "number": 18, "name": "José Luis Rodríguez",    "position": "MF", "club": "FC Juárez" },
+          { "number": 19, "name": "Alberto Quintero",       "position": "MF", "club": "CD Plaza Amador" },
+          { "number": 21, "name": "Azarías Londoño",        "position": "MF", "club": "CD Universidad Católica" },
+          { "number": 7,  "name": "Ismael Díaz",            "position": "FW", "club": "Club León" },
+          { "number": 9,  "name": "Cecilio Waterman",       "position": "FW", "club": "Universidad de Concepción" },
+          { "number": 20, "name": "José Fajardo",           "position": "FW", "club": "CD Universidad Católica" },
+          { "number": 26, "name": "Tomás Rodríguez",        "position": "FW", "club": "Deportivo Saprissa" }
+        ]
+      }
+    }
+  },
+  "squads": {
+    "Inglaterra": {
+      "coach": "Thomas Tuchel",
+      "formation": "4-2-3-1",
+      "source": "englandfootball.com, ESPN, skysports.com, 2026-06-10",
+      "players": [
+        { "number": 1,  "name": "Jordan Pickford",       "position": "GK", "club": "Everton" },
+        { "number": 13, "name": "Dean Henderson",         "position": "GK", "club": "Crystal Palace" },
+        { "number": 23, "name": "James Trafford",         "position": "GK", "club": "Burnley" },
+        { "number": 2,  "name": "Ezri Konsa",             "position": "DF", "club": "Aston Villa" },
+        { "number": 3,  "name": "Nico O'Reilly",          "position": "DF", "club": "Manchester City" },
+        { "number": 5,  "name": "John Stones",            "position": "DF", "club": "Manchester City" },
+        { "number": 6,  "name": "Marc Guéhi",             "position": "DF", "club": "Crystal Palace" },
+        { "number": 12, "name": "Tino Livramento",        "position": "DF", "club": "Newcastle United" },
+        { "number": 15, "name": "Dan Burn",               "position": "DF", "club": "Newcastle United" },
+        { "number": 24, "name": "Reece James",            "position": "DF", "club": "Chelsea" },
+        { "number": 25, "name": "Djed Spence",            "position": "DF", "club": "Genoa" },
+        { "number": 26, "name": "Jarell Quansah",         "position": "DF", "club": "Liverpool" },
+        { "number": 4,  "name": "Declan Rice",            "position": "MF", "club": "Arsenal" },
+        { "number": 8,  "name": "Elliot Anderson",        "position": "MF", "club": "Nottingham Forest" },
+        { "number": 14, "name": "Jordan Henderson",       "position": "MF", "club": "Ajax" },
+        { "number": 16, "name": "Kobbie Mainoo",          "position": "MF", "club": "Manchester United" },
+        { "number": 17, "name": "Morgan Rogers",          "position": "MF", "club": "Aston Villa" },
+        { "number": 21, "name": "Eberechi Eze",           "position": "MF", "club": "Crystal Palace" },
+        { "number": 7,  "name": "Bukayo Saka",            "position": "FW", "club": "Arsenal" },
+        { "number": 9,  "name": "Harry Kane",             "position": "FW", "club": "Bayern Munich" },
+        { "number": 10, "name": "Jude Bellingham",        "position": "FW", "club": "Real Madrid" },
+        { "number": 11, "name": "Marcus Rashford",        "position": "FW", "club": "Aston Villa" },
+        { "number": 18, "name": "Anthony Gordon",         "position": "FW", "club": "Liverpool" },
+        { "number": 19, "name": "Ollie Watkins",          "position": "FW", "club": "Aston Villa" },
+        { "number": 20, "name": "Noni Madueke",           "position": "FW", "club": "Chelsea" },
+        { "number": 22, "name": "Ivan Toney",             "position": "FW", "club": "Al-Ahli" }
+      ]
+    },
+    "Croacia": {
+      "coach": "Zlatko Dalić",
+      "formation": "4-2-3-1",
+      "source": "UEFA.com, FIFA.com, Goal.com, 2026-06-10",
+      "players": [
+        { "number": 1,  "name": "Dominik Livaković",      "position": "GK", "club": "Dinamo Zagreb" },
+        { "number": 23, "name": "Dominik Kotarski",       "position": "GK", "club": "Al-Qadsiah" },
+        { "number": 24, "name": "Ivor Pandur",            "position": "GK", "club": "Girona" },
+        { "number": 2,  "name": "Josip Stanišić",         "position": "DF", "club": "Bayern München" },
+        { "number": 3,  "name": "Joško Gvardiol",         "position": "DF", "club": "Manchester City" },
+        { "number": 4,  "name": "Martin Erlić",           "position": "DF", "club": "Midtjylland" },
+        { "number": 5,  "name": "Duje Ćaleta-Car",        "position": "DF", "club": "Real Sociedad" },
+        { "number": 6,  "name": "Marin Pongračić",        "position": "DF", "club": "Fiorentina" },
+        { "number": 21, "name": "Josip Šutalo",           "position": "DF", "club": "Ajax" },
+        { "number": 22, "name": "Luka Vušković",          "position": "DF", "club": "Hamburger SV" },
+        { "number": 8,  "name": "Mateo Kovačić",          "position": "MF", "club": "Manchester City" },
+        { "number": 9,  "name": "Luka Sučić",             "position": "MF", "club": "Real Sociedad" },
+        { "number": 10, "name": "Luka Modrić",            "position": "MF", "club": "AC Milan" },
+        { "number": 11, "name": "Nikola Vlašić",          "position": "MF", "club": "Torino" },
+        { "number": 14, "name": "Mario Pašalić",          "position": "MF", "club": "Atalanta" },
+        { "number": 15, "name": "Kristijan Jakić",        "position": "MF", "club": "Augsburg" },
+        { "number": 16, "name": "Martin Baturina",        "position": "MF", "club": "Como" },
+        { "number": 17, "name": "Petar Sučić",            "position": "MF", "club": "Internazionale" },
+        { "number": 19, "name": "Nikola Moro",            "position": "MF", "club": "Bologna" },
+        { "number": 26, "name": "Toni Fruk",              "position": "MF", "club": "Rijeka" },
+        { "number": 7,  "name": "Ivan Perišić",           "position": "FW", "club": "PSV Eindhoven" },
+        { "number": 12, "name": "Igor Matanović",         "position": "FW", "club": "Freiburg" },
+        { "number": 13, "name": "Petar Musa",             "position": "FW", "club": "FC Dallas" },
+        { "number": 18, "name": "Andrej Kramarić",        "position": "FW", "club": "Hoffenheim" },
+        { "number": 20, "name": "Marco Pašalić",          "position": "FW", "club": "Orlando City SC" },
+        { "number": 25, "name": "Ante Budimir",           "position": "FW", "club": "Osasuna" }
+      ]
+    },
+    "Ghana": {
+      "coach": "Carlos Queiroz",
+      "formation": "4-3-3",
+      "source": "ghanafa.org, beINSPORTS, ESPN, 2026-06-10",
+      "notes": "Kudos Mohammed absent por lesión. 15 debutantes en el squad.",
+      "players": [
+        { "number": 1,  "name": "Lawrence Ati-Zigi",      "position": "GK", "club": "FC St. Gallen" },
+        { "number": 12, "name": "Joseph Anang",           "position": "GK", "club": "Leicester City" },
+        { "number": 16, "name": "Benjamin Asare",         "position": "GK", "club": "Kotoko SC" },
+        { "number": 3,  "name": "Caleb Yirenkyi",         "position": "DF", "club": "Crystal Palace" },
+        { "number": 4,  "name": "Jerome Opoku",           "position": "DF", "club": "Udinese" },
+        { "number": 6,  "name": "Abdul Mumin",            "position": "DF", "club": "Rayo Vallecano" },
+        { "number": 13, "name": "Alidu Seidu",            "position": "DF", "club": "Stade Rennais" },
+        { "number": 14, "name": "Gideon Mensah",          "position": "DF", "club": "Auxerre" },
+        { "number": 17, "name": "Baba Abdul Rahman",      "position": "DF", "club": "Lecce" },
+        { "number": 18, "name": "Marvin Senaya",          "position": "DF", "club": "Auxerre" },
+        { "number": 23, "name": "Derrick Luckassen",      "position": "DF", "club": "PEC Zwolle" },
+        { "number": 24, "name": "Kwasi Sibo",             "position": "DF", "club": "Sporting Charleroi" },
+        { "number": 5,  "name": "Thomas Partey",          "position": "MF", "club": "Villarreal" },
+        { "number": 15, "name": "Elisha Owusu",           "position": "MF", "club": "Auxerre" },
+        { "number": 25, "name": "Augustine Boakye",       "position": "MF", "club": "RB Leipzig" },
+        { "number": 26, "name": "Prince Kwabena Adu",     "position": "MF", "club": "FC Zürich" },
+        { "number": 7,  "name": "Kamaldeen Sulemana",     "position": "FW", "club": "Southampton" },
+        { "number": 8,  "name": "Abdul Fatawu Issahaku",  "position": "FW", "club": "Leicester City" },
+        { "number": 9,  "name": "Jordan Ayew",            "position": "FW", "club": "Leicester City" },
+        { "number": 10, "name": "Brandon Thomas-Asante",  "position": "FW", "club": "West Bromwich Albion" },
+        { "number": 11, "name": "Antoine Semenyo",        "position": "FW", "club": "Bournemouth" },
+        { "number": 19, "name": "Ernest Nuamah",          "position": "FW", "club": "Olympique Lyon" },
+        { "number": 20, "name": "Kojo Oppong Peprah",     "position": "FW", "club": "OGC Nice" },
+        { "number": 21, "name": "Iñaki Williams",         "position": "FW", "club": "Athletic Club" },
+        { "number": 22, "name": "Christopher Bonsu Baah", "position": "FW", "club": "Molde FK" }
+      ]
     }
   }
 }
