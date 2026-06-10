@@ -1109,6 +1109,8 @@ export const TEAM_PROFILES: Record<string, TeamProfile> = {
     ],
   },
 
+  // ── GRUPO H ────────────────────────────────────────────────────────────────
+
   // Grupo H
   'España': {
     coach: 'Luis de la Fuente',
@@ -1241,6 +1243,152 @@ export const TEAM_PROFILES: Record<string, TeamProfile> = {
       { number: 9,  name: 'Darwin Núñez',           position: 'FW', club: 'Al Hilal' },
       { number: 11, name: 'Rodrigo Aguirre',        position: 'FW', club: 'Tigres' },
       { number: 19, name: 'Federico Viñas',         position: 'FW', club: 'Real Oviedo' },
+    ],
+  },
+
+  // ── GRUPO I ────────────────────────────────────────────────────────────────
+
+  'Francia': {
+    coach: 'Didier Deschamps',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_France.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/FFF_logo_2024.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Mike Maignan',          position: 'GK', club: 'AC Milan' },
+      { number: 16, name: 'Alphonse Areola',        position: 'GK', club: 'West Ham United' },
+      { number: 23, name: 'Brice Samba',            position: 'GK', club: 'Lens' },
+      // Defensas
+      { number: 2,  name: 'Benjamin Pavard',        position: 'DF', club: 'Inter Milan' },
+      { number: 3,  name: 'Lucas Hernández',        position: 'DF', club: 'Paris Saint-Germain' },
+      { number: 4,  name: 'Dayot Upamecano',        position: 'DF', club: 'Bayern München' },
+      { number: 5,  name: 'Jules Koundé',           position: 'DF', club: 'Barcelona' },
+      { number: 20, name: 'Theo Hernández',         position: 'DF', club: 'AC Milan' },
+      { number: 21, name: 'Ibrahima Konaté',        position: 'DF', club: 'Liverpool' },
+      { number: 22, name: 'Jonathan Clauss',        position: 'DF', club: 'Nice' },
+      // Mediocampistas
+      { number: 6,  name: 'Eduardo Camavinga',      position: 'MF', club: 'Real Madrid' },
+      { number: 8,  name: 'Aurélien Tchouaméni',   position: 'MF', club: 'Real Madrid' },
+      { number: 11, name: 'Ousmane Dembélé',        position: 'MF', club: 'Paris Saint-Germain' },
+      { number: 13, name: 'N\'Golo Kanté',          position: 'MF', club: 'Al-Ittihad' },
+      { number: 14, name: 'Adrien Rabiot',          position: 'MF', club: 'Marseille' },
+      { number: 18, name: 'Mattéo Guendouzi',       position: 'MF', club: 'Marseille' },
+      { number: 19, name: 'Youssouf Fofana',        position: 'MF', club: 'AC Milan' },
+      // Delanteros
+      { number: 7,  name: 'Antoine Griezmann',      position: 'FW', club: 'Atlético de Madrid' },
+      { number: 9,  name: 'Olivier Giroud',         position: 'FW', club: 'Los Angeles FC' },
+      { number: 10, name: 'Kylian Mbappé',          position: 'FW', club: 'Real Madrid' },
+      { number: 12, name: 'Randal Kolo Muani',      position: 'FW', club: 'Juventus' },
+      { number: 15, name: 'Marcus Thuram',          position: 'FW', club: 'Inter Milan' },
+      { number: 17, name: 'Bradley Barcola',        position: 'FW', club: 'Paris Saint-Germain' },
+    ],
+  },
+
+  'Senegal': {
+    coach: 'Aliou Cissé',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Senegal.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Logo_of_the_Senegal_national_football_team.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Édouard Mendy',          position: 'GK', club: 'Al-Ahli' },
+      { number: 16, name: 'Seny Dieng',             position: 'GK', club: 'Middlesbrough' },
+      { number: 23, name: 'Alfred Gomis',           position: 'GK', club: 'Rennes' },
+      // Defensas
+      { number: 2,  name: 'Formose Mendy',          position: 'DF', club: 'Lorient' },
+      { number: 3,  name: 'Abdou Diallo',           position: 'DF', club: 'RB Leipzig' },
+      { number: 4,  name: 'Pape Abou Cissé',        position: 'DF', club: 'Olympiakos' },
+      { number: 5,  name: 'Kalidou Koulibaly',      position: 'DF', club: 'Al-Hilal' },
+      { number: 12, name: 'Ismail Jakobs',          position: 'DF', club: 'Monaco' },
+      { number: 20, name: 'Fodé Ballo-Touré',       position: 'DF', club: 'Fulham' },
+      { number: 21, name: 'Moussa Niakhaté',        position: 'DF', club: 'Nottingham Forest' },
+      // Mediocampistas
+      { number: 6,  name: 'Nampalys Mendy',         position: 'MF', club: 'Nice' },
+      { number: 8,  name: 'Cheikhou Kouyaté',       position: 'MF', club: 'Nottingham Forest' },
+      { number: 14, name: 'Pathé Ciss',             position: 'MF', club: 'Rayo Vallecano' },
+      { number: 15, name: 'Lamine Camara',          position: 'MF', club: 'Monaco' },
+      { number: 17, name: 'Pape Matar Sarr',        position: 'MF', club: 'Tottenham Hotspur' },
+      { number: 18, name: 'Habib Diallo',           position: 'MF', club: 'Strasbourg' },
+      { number: 19, name: 'Idrissa Gueye',          position: 'MF', club: 'Everton' },
+      // Delanteros
+      { number: 7,  name: 'Ismaïla Sarr',           position: 'FW', club: 'Crystal Palace' },
+      { number: 9,  name: 'Boulaye Dia',            position: 'FW', club: 'Lazio' },
+      { number: 10, name: 'Sadio Mané',             position: 'FW', club: 'Al-Nassr' },
+      { number: 11, name: 'Famara Diédhiou',        position: 'FW', club: 'Al-Qadsiah' },
+      { number: 13, name: 'Nicolas Jackson',        position: 'FW', club: 'Chelsea' },
+      { number: 22, name: 'Iliman Ndiaye',          position: 'FW', club: 'Marseille' },
+    ],
+  },
+
+  'Irak': {
+    coach: 'Jesús Casas',
+    formation: '4-2-3-1',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Iraq.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Iraq_FA.png',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Jalal Hassan',           position: 'GK', club: 'Al-Zawraa' },
+      { number: 12, name: 'Mohammed Hamid',         position: 'GK', club: 'Erbil SC' },
+      { number: 22, name: 'Dhurgham Ismail',        position: 'GK', club: 'Al-Quwa Al-Jawiya' },
+      // Defensas
+      { number: 2,  name: 'Ali Adnan',              position: 'DF', club: 'Boluspor' },
+      { number: 3,  name: 'Rebin Sulaka',           position: 'DF', club: 'Al-Shorta' },
+      { number: 4,  name: 'Saman Ridha',            position: 'DF', club: 'Al-Zawraa' },
+      { number: 5,  name: 'Mustafa Nadhim',         position: 'DF', club: 'Al-Quwa Al-Jawiya' },
+      { number: 6,  name: 'Hussein Ali',            position: 'DF', club: 'Al-Naft' },
+      { number: 15, name: 'Alaa Abbas',             position: 'DF', club: 'Al-Zawraa' },
+      { number: 21, name: 'Saad Natiq',             position: 'DF', club: 'Al-Quwa Al-Jawiya' },
+      // Mediocampistas
+      { number: 7,  name: 'Amjad Attwan',           position: 'MF', club: 'Al-Shorta' },
+      { number: 8,  name: 'Osama Rashid',           position: 'MF', club: 'Vitesse' },
+      { number: 10, name: 'Amar Mohammed',          position: 'MF', club: 'Al-Quwa Al-Jawiya' },
+      { number: 13, name: 'Ali Faez',               position: 'MF', club: 'Al-Zawraa' },
+      { number: 14, name: 'Bashar Resan',           position: 'MF', club: 'Westerlo' },
+      { number: 16, name: 'Aymen Hussein',          position: 'MF', club: 'Al-Shorta' },
+      { number: 18, name: 'Mazin Faisal',           position: 'MF', club: 'Al-Naft' },
+      // Delanteros
+      { number: 9,  name: 'Alaa Ali',               position: 'FW', club: 'Al-Zawraa' },
+      { number: 11, name: 'Ahmed Yasin',            position: 'FW', club: 'Al-Quwa Al-Jawiya' },
+      { number: 17, name: 'Mohanad Ali',            position: 'FW', club: 'Al-Shorta' },
+      { number: 19, name: 'Ibrahim Bayesh',         position: 'FW', club: 'Al-Zawraa' },
+      { number: 20, name: 'Fallah Shaker',          position: 'FW', club: 'Al-Quwa Al-Jawiya' },
+      { number: 23, name: 'Manaf Yousif',           position: 'FW', club: 'Al-Shorta' },
+    ],
+  },
+
+  'Noruega': {
+    coach: 'Ståle Solbakken',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Norway.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Norway_Football_Federation_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Ørjan Nyland',           position: 'GK', club: 'Southampton' },
+      { number: 12, name: 'Jørgen Strand Larsen',   position: 'GK', club: 'Celta Vigo' },
+      { number: 23, name: 'Markus Kolke',           position: 'GK', club: 'Werder Bremen' },
+      // Defensas
+      { number: 2,  name: 'Julian Ryerson',         position: 'DF', club: 'Borussia Dortmund' },
+      { number: 3,  name: 'Birger Meling',          position: 'DF', club: 'Nantes' },
+      { number: 4,  name: 'Andreas Hanche-Olsen',   position: 'DF', club: 'Gent' },
+      { number: 5,  name: 'Leo Skiri Østigård',     position: 'DF', club: 'Napoli' },
+      { number: 6,  name: 'Stian Gregersen',        position: 'DF', club: 'Marseille' },
+      { number: 15, name: 'Bard Finne',             position: 'DF', club: 'Rosenborg' },
+      { number: 21, name: 'Kristian Thorstvedt',    position: 'DF', club: 'Sassuolo' },
+      // Mediocampistas
+      { number: 7,  name: 'Sander Berge',           position: 'MF', club: 'Fulham' },
+      { number: 8,  name: 'Morten Thorsby',         position: 'MF', club: 'Union Berlin' },
+      { number: 10, name: 'Martin Ødegaard',        position: 'MF', club: 'Arsenal' },
+      { number: 13, name: 'Fredrik Aursnes',        position: 'MF', club: 'Benfica' },
+      { number: 16, name: 'Patrick Berg',           position: 'MF', club: 'Lens' },
+      { number: 17, name: 'Mathias Normann',        position: 'MF', club: 'Standard Liège' },
+      { number: 20, name: 'Andreas Skov Olsen',     position: 'MF', club: 'Club Brugge' },
+      // Delanteros
+      { number: 9,  name: 'Erling Haaland',         position: 'FW', club: 'Manchester City' },
+      { number: 11, name: 'Mohamed Elyounoussi',    position: 'FW', club: 'Fenerbahçe' },
+      { number: 14, name: 'Alexander Sørloth',      position: 'FW', club: 'Atlético de Madrid' },
+      { number: 18, name: 'Ola Solbakken',          position: 'FW', club: 'Roma' },
+      { number: 19, name: 'Antonio Nusa',           position: 'FW', club: 'RB Leipzig' },
+      { number: 22, name: 'Tobias Børkeeiet',       position: 'FW', club: 'Rosenborg' },
     ],
   },
 
