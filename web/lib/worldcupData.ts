@@ -1392,6 +1392,153 @@ export const TEAM_PROFILES: Record<string, TeamProfile> = {
     ],
   },
 
+  // ── GRUPO J ────────────────────────────────────────────────────────────────
+
+  'Argentina': {
+    coach: 'Lionel Scaloni',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Argentina.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Argentina_Football_Association_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Emiliano Martínez',     position: 'GK', club: 'Aston Villa' },
+      { number: 12, name: 'Walter Benítez',         position: 'GK', club: 'PSG' },
+      { number: 23, name: 'Gerónimo Rulli',         position: 'GK', club: 'Atlético de Madrid' },
+      // Defensas
+      { number: 2,  name: 'Gonzalo Montiel',        position: 'DF', club: 'Nottingham Forest' },
+      { number: 3,  name: 'Nicolás Tagliafico',     position: 'DF', club: 'Olympique Lyonnais' },
+      { number: 4,  name: 'Facundo Medina',         position: 'DF', club: 'RC Lens' },
+      { number: 8,  name: 'Marcos Acuña',           position: 'DF', club: 'Sevilla FC' },
+      { number: 13, name: 'Cristian Romero',        position: 'DF', club: 'Tottenham Hotspur' },
+      { number: 14, name: 'Lisandro Martínez',      position: 'DF', club: 'Manchester United' },
+      { number: 19, name: 'Nicolás Otamendi',       position: 'DF', club: 'Benfica' },
+      { number: 26, name: 'Nahuel Molina',          position: 'DF', club: 'Atlético de Madrid' },
+      // Mediocampistas
+      { number: 5,  name: 'Leandro Paredes',        position: 'MF', club: 'AS Roma' },
+      { number: 7,  name: 'Rodrigo De Paul',        position: 'MF', club: 'Atlético de Madrid' },
+      { number: 15, name: 'Exequiel Palacios',      position: 'MF', club: 'Bayer Leverkusen' },
+      { number: 16, name: 'Thiago Almada',          position: 'MF', club: 'Botafogo' },
+      { number: 17, name: 'Giovani Lo Celso',       position: 'MF', club: 'Real Betis' },
+      { number: 18, name: 'Alexis Mac Allister',    position: 'MF', club: 'Liverpool' },
+      { number: 24, name: 'Enzo Fernández',         position: 'MF', club: 'Chelsea' },
+      // Delanteros
+      { number: 9,  name: 'Julián Álvarez',         position: 'FW', club: 'Atlético de Madrid' },
+      { number: 10, name: 'Lionel Messi',           position: 'FW', club: 'Inter Miami CF' },
+      { number: 11, name: 'Alejandro Garnacho',     position: 'FW', club: 'Manchester United' },
+      { number: 20, name: 'Paulo Dybala',           position: 'FW', club: 'AS Roma' },
+      { number: 21, name: 'Nicolás González',       position: 'FW', club: 'Juventus' },
+      { number: 22, name: 'Lautaro Martínez',       position: 'FW', club: 'Inter' },
+    ],
+  },
+
+  'Argelia': {
+    coach: 'Vladimir Petković',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Algeria.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Football_Federation_of_Algeria_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: "Raïs M'Bolhi",           position: 'GK', club: 'Philadelphia Union' },
+      { number: 12, name: 'Alexandre Oukidja',      position: 'GK', club: 'RC Metz' },
+      { number: 23, name: 'Youcef Gaouaoui',        position: 'GK', club: 'Stade de Reims' },
+      // Defensas
+      { number: 2,  name: 'Mehdi Zeffane',          position: 'DF', club: 'Al-Ittihad Club' },
+      { number: 3,  name: 'Ramy Bensebaini',        position: 'DF', club: 'Borussia Dortmund' },
+      { number: 5,  name: 'Aïssa Mandi',            position: 'DF', club: 'Al-Qadsiah' },
+      { number: 6,  name: 'Djamel Benlamri',        position: 'DF', club: 'CS Constantine' },
+      { number: 14, name: 'Abdelkader Bedrane',     position: 'DF', club: 'USM Alger' },
+      { number: 21, name: 'Soufiane Ghafar',        position: 'DF', club: 'MC Alger' },
+      { number: 22, name: 'Lyès Haouam',            position: 'DF', club: 'MC Oran' },
+      // Mediocampistas
+      { number: 4,  name: 'Haris Belkebla',         position: 'MF', club: 'Stade Brestois' },
+      { number: 7,  name: 'Nabil Bentaleb',         position: 'MF', club: 'Angers SCO' },
+      { number: 8,  name: 'Ramiz Zerrouki',         position: 'MF', club: 'Feyenoord' },
+      { number: 10, name: 'Saïd Benrahma',          position: 'MF', club: 'Olympique Lyonnais' },
+      { number: 11, name: 'Houssem Aouar',          position: 'MF', club: 'AS Roma' },
+      { number: 15, name: 'Ismail Bennacer',        position: 'MF', club: 'AC Milan' },
+      { number: 17, name: 'Hicham Boudaoui',        position: 'MF', club: 'OGC Nice' },
+      // Delanteros
+      { number: 9,  name: 'Islam Slimani',          position: 'FW', club: 'CA Brest' },
+      { number: 13, name: 'Andy Delort',            position: 'FW', club: 'OGC Nice' },
+      { number: 16, name: 'Youcef Belaïli',         position: 'FW', club: 'Angers SCO' },
+      { number: 18, name: 'Baghdad Bounedjah',      position: 'FW', club: 'Al-Sadd' },
+      { number: 19, name: 'Zinedine Ferhat',        position: 'FW', club: 'Vitesse' },
+      { number: 20, name: 'Yacine Brahimi',         position: 'FW', club: 'Al-Qadsiah' },
+    ],
+  },
+
+  'Austria': {
+    coach: 'Ralf Rangnick',
+    formation: '4-2-3-1',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Austria.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/%C3%96sterreichischer_Fu%C3%9Fball-Bund_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Patrick Pentz',          position: 'GK', club: 'Bayer Leverkusen' },
+      { number: 12, name: 'Daniel Bachmann',        position: 'GK', club: 'Watford FC' },
+      { number: 23, name: 'Heinz Lindner',          position: 'GK', club: 'FC Basel' },
+      // Defensas
+      { number: 2,  name: 'Stefan Posch',           position: 'DF', club: 'Bologna FC' },
+      { number: 3,  name: 'Maximilian Wöber',       position: 'DF', club: 'Borussia Mönchengladbach' },
+      { number: 5,  name: 'Kevin Danso',            position: 'DF', club: 'RC Lens' },
+      { number: 6,  name: 'Philipp Lienhart',       position: 'DF', club: 'SC Freiburg' },
+      { number: 14, name: 'Phillipp Mwene',         position: 'DF', club: 'PSV Eindhoven' },
+      { number: 15, name: 'Leopold Querfeld',       position: 'DF', club: 'FK Austria Wien' },
+      { number: 22, name: 'Alexander Prass',        position: 'DF', club: 'SK Sturm Graz' },
+      // Mediocampistas
+      { number: 4,  name: 'Nicolas Seiwald',        position: 'MF', club: 'RB Leipzig' },
+      { number: 7,  name: 'Patrick Wimmer',         position: 'MF', club: 'VfL Wolfsburg' },
+      { number: 8,  name: 'Florian Grillitsch',     position: 'MF', club: 'Hoffenheim' },
+      { number: 10, name: 'Christoph Baumgartner',  position: 'MF', club: 'RB Leipzig' },
+      { number: 13, name: 'Konrad Laimer',          position: 'MF', club: 'Bayern Munich' },
+      { number: 16, name: 'Xaver Schlager',         position: 'MF', club: 'RB Leipzig' },
+      { number: 18, name: 'Marcel Sabitzer',        position: 'MF', club: 'Borussia Dortmund' },
+      // Delanteros
+      { number: 9,  name: 'Marko Arnautovic',       position: 'FW', club: 'Bologna FC' },
+      { number: 11, name: 'Michael Gregoritsch',    position: 'FW', club: 'SC Freiburg' },
+      { number: 17, name: 'Florian Kainz',          position: 'FW', club: '1. FC Köln' },
+      { number: 19, name: 'Romano Schmid',          position: 'FW', club: 'Werder Bremen' },
+      { number: 20, name: 'Andreas Weimann',        position: 'FW', club: 'Bristol City' },
+      { number: 21, name: 'Sasa Kalajdzic',         position: 'FW', club: 'Eintracht Frankfurt' },
+    ],
+  },
+
+  'Jordania': {
+    coach: 'Hussein Ammouta',
+    formation: '4-4-2',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Jordan.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Jordan_Football_Association_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Yazeed Abulaila',        position: 'GK', club: 'Al-Faisaly' },
+      { number: 12, name: 'Mohanned Abu-Sbaih',     position: 'GK', club: 'Al-Wehdah' },
+      { number: 23, name: 'Ahmad Al-Rawabdeh',      position: 'GK', club: 'Al-Ramtha' },
+      // Defensas
+      { number: 2,  name: 'Yazan Al-Arab',          position: 'DF', club: 'Al-Jazeera' },
+      { number: 3,  name: 'Baha Faisal',            position: 'DF', club: 'Al-Jazeera' },
+      { number: 4,  name: 'Ahmad Smadi',            position: 'DF', club: 'Al-Faisaly' },
+      { number: 5,  name: 'Abdallah Nasib',         position: 'DF', club: 'Al-Faisaly' },
+      { number: 6,  name: 'Ali Al-Husban',          position: 'DF', club: 'Al-Wehdat' },
+      { number: 14, name: 'Salam Rashed',           position: 'DF', club: 'Al-Ramtha' },
+      { number: 22, name: 'Khalid Bani-Attiyeh',    position: 'DF', club: 'Al-Ahli' },
+      // Mediocampistas
+      { number: 7,  name: 'Ehsan Haddad',           position: 'MF', club: 'Al-Faisaly' },
+      { number: 8,  name: 'Musa Suleiman',          position: 'MF', club: 'Al-Qadsiah' },
+      { number: 10, name: 'Noor Al-Rawabdeh',       position: 'MF', club: 'Al-Faisaly' },
+      { number: 15, name: 'Ali Olwan',              position: 'MF', club: 'Al-Jazeera' },
+      { number: 16, name: 'Ahmad Habashneh',        position: 'MF', club: 'Al-Wehdat' },
+      { number: 17, name: 'Mahmoud Abu-Mufarreh',   position: 'MF', club: 'Al-Jazeera' },
+      // Delanteros
+      { number: 9,  name: 'Yazan Al-Naimat',        position: 'FW', club: 'Al-Qadsiah' },
+      { number: 11, name: 'Mousa Al-Tamari',        position: 'FW', club: 'RC Lens' },
+      { number: 13, name: 'Osama Rashid',           position: 'FW', club: 'Al-Faisaly' },
+      { number: 18, name: 'Yahia Al-Shammari',      position: 'FW', club: 'Al-Ittihad' },
+      { number: 19, name: 'Ahmad Hasan Saleh',      position: 'FW', club: 'Al-Wehdat' },
+      { number: 20, name: 'Zaid Al-Haj',            position: 'FW', club: 'Al-Baqaa' },
+      { number: 21, name: 'Abdallah Jaber',         position: 'FW', club: 'Al-Ramtha' },
+    ],
+  },
+
 }
 
 export const TEAMS: Record<string, TeamData> = {
