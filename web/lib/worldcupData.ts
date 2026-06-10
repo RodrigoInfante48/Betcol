@@ -963,6 +963,152 @@ export const TEAM_PROFILES: Record<string, TeamProfile> = {
     ],
   },
 
+  // ── GRUPO G ────────────────────────────────────────────────────────────────
+
+  'Bélgica': {
+    coach: 'Domenico Tedesco',
+    formation: '4-2-3-1',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Belgium.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Royal_Belgian_Football_Association_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Koen Casteels',        position: 'GK', club: 'VfL Wolfsburg' },
+      { number: 12, name: 'Matz Sels',             position: 'GK', club: 'Nottingham Forest' },
+      { number: 23, name: 'Thomas Kaminski',       position: 'GK', club: 'Luton Town' },
+      // Defensas
+      { number: 2,  name: 'Timothy Castagne',      position: 'DF', club: 'Fulham' },
+      { number: 3,  name: 'Wout Faes',             position: 'DF', club: 'Leicester City' },
+      { number: 4,  name: 'Arthur Theate',         position: 'DF', club: 'Stade Rennais' },
+      { number: 5,  name: 'Zeno Debast',           position: 'DF', club: 'Sporting CP' },
+      { number: 6,  name: 'Brandon Mechele',       position: 'DF', club: 'Club Brugge' },
+      { number: 15, name: 'Maxim De Cuyper',       position: 'DF', club: 'Club Brugge' },
+      // Mediocampistas
+      { number: 7,  name: 'Kevin De Bruyne',       position: 'MF', club: 'Manchester City' },
+      { number: 8,  name: 'Youri Tielemans',       position: 'MF', club: 'Aston Villa' },
+      { number: 14, name: 'Amadou Onana',          position: 'MF', club: 'Aston Villa' },
+      { number: 16, name: 'Orel Mangala',          position: 'MF', club: 'Everton' },
+      { number: 17, name: 'Arthur Vermeeren',      position: 'MF', club: 'Atlético de Madrid' },
+      { number: 18, name: 'Charles De Ketelaere',  position: 'MF', club: 'Atalanta' },
+      { number: 22, name: 'Alexis Saelemaekers',   position: 'MF', club: 'AS Roma' },
+      // Delanteros
+      { number: 9,  name: 'Romelu Lukaku',         position: 'FW', club: 'Napoli' },
+      { number: 10, name: 'Jeremy Doku',           position: 'FW', club: 'Manchester City' },
+      { number: 11, name: 'Lois Openda',           position: 'FW', club: 'RB Leipzig' },
+      { number: 13, name: 'Leandro Trossard',      position: 'FW', club: 'Arsenal' },
+      { number: 19, name: 'Johan Bakayoko',        position: 'FW', club: 'AC Milan' },
+      { number: 20, name: 'Dodi Lukebakio',        position: 'FW', club: 'Sevilla' },
+      { number: 21, name: 'Thorgan Hazard',        position: 'FW', club: 'PSG' },
+    ],
+  },
+
+  'Irán': {
+    coach: 'Amir Ghalenoei',
+    formation: '4-2-3-1',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Iran.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Football_Federation_of_the_Islamic_Republic_of_Iran_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Alireza Beiranvand',    position: 'GK', club: 'Royal Antwerp' },
+      { number: 12, name: 'Amir Abedzadeh',        position: 'GK', club: 'CS Marítimo' },
+      { number: 13, name: 'Hossein Hosseini',      position: 'GK', club: 'Tractor SC' },
+      // Defensas
+      { number: 2,  name: 'Sadegh Moharrami',      position: 'DF', club: 'Dinamo Zagreb' },
+      { number: 3,  name: 'Milad Mohammadi',       position: 'DF', club: 'Akhmat Grozny' },
+      { number: 4,  name: 'Morteza Pouraliganji',  position: 'DF', club: 'Al-Sadd' },
+      { number: 5,  name: 'Majid Hosseini',        position: 'DF', club: 'Kayserispor' },
+      { number: 6,  name: 'Shoja Khalilzadeh',     position: 'DF', club: 'Persepolis' },
+      { number: 15, name: 'Abolfazl Jalali',       position: 'DF', club: 'Sepahan' },
+      { number: 22, name: 'Roozbeh Cheshmi',       position: 'DF', club: 'Esteghlal' },
+      // Mediocampistas
+      { number: 8,  name: 'Saeid Ezatolahi',       position: 'MF', club: 'Celta de Vigo' },
+      { number: 10, name: 'Saman Ghoddos',         position: 'MF', club: 'Brentford' },
+      { number: 14, name: 'Ahmad Noorollahi',      position: 'MF', club: 'Al-Sadd' },
+      { number: 16, name: 'Mehdi Torabi',          position: 'MF', club: 'Persepolis' },
+      { number: 17, name: 'Omid Noorafkan',        position: 'MF', club: 'Saipa' },
+      { number: 23, name: 'Alireza Jahanbakhsh',   position: 'MF', club: 'Feyenoord' },
+      // Delanteros
+      { number: 7,  name: 'Ali Gholizadeh',        position: 'FW', club: 'Charleroi' },
+      { number: 9,  name: 'Mehdi Taremi',          position: 'FW', club: 'Inter Milan' },
+      { number: 11, name: 'Sardar Azmoun',         position: 'FW', club: 'AS Roma' },
+      { number: 18, name: 'Allahyar Sayyadmanesh', position: 'FW', club: 'Kasımpaşa' },
+      { number: 19, name: 'Karim Ansarifard',      position: 'FW', club: 'Nottingham Forest' },
+      { number: 20, name: 'Mehdi Ghayedi',         position: 'FW', club: 'Hannover 96' },
+      { number: 21, name: 'Kaveh Rezaei',          position: 'FW', club: 'Charleroi' },
+    ],
+  },
+
+  'Nueva Zelanda': {
+    coach: 'Darren Bazeley',
+    formation: '4-3-3',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_New_Zealand.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/New_Zealand_Football_crest.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Ollie Sail',            position: 'GK', club: 'FC Copenhagen' },
+      { number: 12, name: 'Stefan Marinovic',      position: 'GK', club: 'Vancouver FC' },
+      { number: 23, name: 'Michael Woud',          position: 'GK', club: 'NEC Nijmegen' },
+      // Defensas
+      { number: 2,  name: 'Nando de Wit',          position: 'DF', club: 'AZ Alkmaar' },
+      { number: 3,  name: 'Liberato Cacace',       position: 'DF', club: 'Empoli' },
+      { number: 4,  name: 'Michael Boxall',        position: 'DF', club: 'Minnesota United' },
+      { number: 5,  name: 'Tim Payne',             position: 'DF', club: 'Portland Timbers' },
+      { number: 6,  name: 'Winston Reid',          position: 'DF', club: 'Brentford' },
+      { number: 15, name: 'Dane Ingham',           position: 'DF', club: 'Auckland City' },
+      { number: 16, name: 'Logan Rogerson',        position: 'DF', club: 'Wigan Athletic' },
+      // Mediocampistas
+      { number: 7,  name: 'Joe Bell',              position: 'MF', club: 'FC Cincinnati' },
+      { number: 8,  name: 'Elijah Just',           position: 'MF', club: 'FC St. Gallen' },
+      { number: 10, name: 'Ben Old',               position: 'MF', club: 'Hull City' },
+      { number: 17, name: 'Callum McCowatt',       position: 'MF', club: 'Hammarby IF' },
+      { number: 18, name: 'Marko Stamenic',        position: 'MF', club: 'FC Copenhagen' },
+      { number: 19, name: 'Marco Rojas',           position: 'MF', club: 'Western United' },
+      // Delanteros
+      { number: 9,  name: 'Chris Wood',            position: 'FW', club: 'Nottingham Forest' },
+      { number: 11, name: 'Matthew Garbett',       position: 'FW', club: 'Portland Timbers' },
+      { number: 13, name: 'Gianni Stensness',      position: 'FW', club: 'Vitesse' },
+      { number: 14, name: 'Callan Elliot',         position: 'FW', club: 'Wellington Phoenix' },
+      { number: 20, name: 'Myer Bevan',            position: 'FW', club: 'Hammarby IF' },
+      { number: 21, name: 'Kosta Barbarouses',     position: 'FW', club: 'Montreal Impact' },
+      { number: 22, name: 'Rene Poulsen',          position: 'FW', club: 'Randers FC' },
+    ],
+  },
+
+  'Egipto': {
+    coach: 'Hossam Hassan',
+    formation: '4-2-3-1',
+    flagImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Egypt.svg',
+    crestImageUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/Egyptian_Football_Association_logo.svg',
+    players: [
+      // Porteros
+      { number: 1,  name: 'Mohamed El-Shenawy',    position: 'GK', club: 'Al-Ahly' },
+      { number: 12, name: 'Ahmed El-Shenawy',      position: 'GK', club: 'Pyramids FC' },
+      { number: 23, name: 'Mahmoud Gad',           position: 'GK', club: 'Zamalek' },
+      // Defensas
+      { number: 2,  name: 'Mahmoud Hamada',        position: 'DF', club: 'Pyramids FC' },
+      { number: 3,  name: 'Ayman Ashraf',          position: 'DF', club: 'Al-Ahly' },
+      { number: 4,  name: 'Akram Tawfik',          position: 'DF', club: 'Al-Ahly' },
+      { number: 5,  name: 'Ahmed Hegazi',          position: 'DF', club: 'Al-Ittihad' },
+      { number: 6,  name: 'Karim Hafez',           position: 'DF', club: 'Zamalek' },
+      { number: 22, name: 'Mahmoud El-Wensh',      position: 'DF', club: 'Zamalek' },
+      // Mediocampistas
+      { number: 7,  name: 'Omar Gaber',            position: 'MF', club: 'Los Angeles FC' },
+      { number: 8,  name: 'Mohamed Elneny',        position: 'MF', club: 'Arsenal' },
+      { number: 14, name: 'Tarek Hamed',           position: 'MF', club: 'Al-Ahly' },
+      { number: 16, name: 'Amr El-Sulaya',         position: 'MF', club: 'Al-Ahly' },
+      { number: 17, name: 'Galal Magdy',           position: 'MF', club: 'Pyramids FC' },
+      { number: 18, name: 'Hassan Hamid',          position: 'MF', club: 'FC Wil' },
+      { number: 24, name: 'Marwan Attia',          position: 'MF', club: 'Zamalek' },
+      // Delanteros
+      { number: 9,  name: 'Mostafa Mohamed',       position: 'FW', club: 'Galatasaray' },
+      { number: 10, name: 'Mohamed Salah',         position: 'FW', club: 'Liverpool' },
+      { number: 11, name: 'Omar Marmoush',         position: 'FW', club: 'Manchester City' },
+      { number: 13, name: 'Trezeguet',             position: 'FW', club: 'Trabzonspor' },
+      { number: 15, name: 'Ibrahim Adel',          position: 'FW', club: 'Fiorentina' },
+      { number: 20, name: 'Ahmed Sayed Zizo',      position: 'FW', club: 'Pyramids FC' },
+      { number: 21, name: 'Karim El-Debes',        position: 'FW', club: 'Hellas Verona' },
+    ],
+  },
+
 }
 
 export const TEAMS: Record<string, TeamData> = {
