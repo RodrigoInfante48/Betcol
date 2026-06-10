@@ -1,4 +1,5 @@
 import type { TeamData } from './worldcupData'
+import { getPrediction } from './perplexityPredictions'
 
 export interface MatchProbabilities {
   pHome: number
@@ -103,6 +104,50 @@ export function calculateProbabilities(home: TeamData, away: TeamData): MatchPro
     favoritoName,
     favoritoPct,
   }
+}
+
+/**
+ * Devuelve probabilidades usando Perplexity si existe la predicción para ese matchId,
+ * y cae al cálculo matemático si no.
+ */
+export function calculateProbabilitiesForMatch(
+  matchId: string,
+  home: TeamData,
+  away: TeamData,
+): MatchProbabilities {
+  const perplexity = getPrediction(matchId)
+
+  if (perplexity) {
+    const { pHome, pDraw, pAway, expectedGoalsHome, expectedGoalsAway, pOver25 } = perplexity
+    const lambdaHome = expectedGoalsHome
+    const lambdaAway = expectedGoalsAway
+    const expectedTotal = lambdaHome + lambdaAway
+    const pHomeScoress = pAtLeastOne(lambdaHome)
+    const pAwayScoress = pAtLeastOne(lambdaAway)
+    const pBothScore = pHomeScoress * pAwayScoress
+
+    let favorito: 'home' | 'draw' | 'away'
+    let favoritoName: string
+    let favoritoPct: number
+
+    if (pHome >= pDraw && pHome >= pAway) {
+      favorito = 'home'; favoritoName = home.name; favoritoPct = pHome
+    } else if (pAway >= pDraw && pAway >= pHome) {
+      favorito = 'away'; favoritoName = away.name; favoritoPct = pAway
+    } else {
+      favorito = 'draw'; favoritoName = 'Empate'; favoritoPct = pDraw
+    }
+
+    return {
+      pHome, pDraw, pAway,
+      lambdaHome, lambdaAway, expectedTotal,
+      pOver25, pUnder25: 1 - pOver25,
+      pBothScore, pNoBothScore: 1 - pBothScore,
+      favorito, favoritoName, favoritoPct,
+    }
+  }
+
+  return calculateProbabilities(home, away)
 }
 
 export function pct(val: number): string {
