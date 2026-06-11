@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { getMatchById, TEAMS, GROUP_STAGE_MATCHES } from '@/lib/worldcupData'
-import { calculateProbabilities, pct, pctNum } from '@/lib/bettingCalc'
+import { calculateProbabilitiesForMatch, pct, pctNum } from '@/lib/bettingCalc'
 import TeamProfileModal from '@/components/TeamProfileModal'
 
 function ProbCircle({ label, value, color }: { label: string; value: number; color: string }) {
@@ -115,7 +115,7 @@ export default function MatchDetailPage({ params }: { params: { id: string } }) 
     return <div className="text-gray-400 dark:text-gray-500 p-8">Datos de equipo no disponibles.</div>
   }
 
-  const probs = calculateProbabilities(home, away)
+  const probs = calculateProbabilitiesForMatch(match.id, home, away)
 
   const formatDate = (d: string, t: string) => {
     const date = new Date(d + 'T12:00:00')

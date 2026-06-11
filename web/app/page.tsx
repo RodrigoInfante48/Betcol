@@ -2,7 +2,7 @@
 import { useState, useMemo, useRef } from 'react'
 import Link from 'next/link'
 import { GROUP_STAGE_MATCHES, TEAMS, getMatchesByDate } from '@/lib/worldcupData'
-import { calculateProbabilities, pct } from '@/lib/bettingCalc'
+import { calculateProbabilitiesForMatch, pct } from '@/lib/bettingCalc'
 import TeamProfileModal from '@/components/TeamProfileModal'
 
 const GROUP_COLORS: Record<string, string> = {
@@ -166,7 +166,7 @@ export default function PartidosPage() {
               const home = TEAMS[match.homeTeam]
               const away = TEAMS[match.awayTeam]
               if (!home || !away) return null
-              const probs = calculateProbabilities(home, away)
+              const probs = calculateProbabilitiesForMatch(match.id, home, away)
 
               return (
                 <Link

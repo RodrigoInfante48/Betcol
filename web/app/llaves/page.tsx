@@ -2,7 +2,7 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { GROUPS, TEAMS, GROUP_STAGE_MATCHES } from '@/lib/worldcupData'
-import { calculateProbabilities } from '@/lib/bettingCalc'
+import { calculateProbabilitiesForMatch } from '@/lib/bettingCalc'
 import TeamProfileModal from '@/components/TeamProfileModal'
 
 const GROUP_LETTERS = ['A','B','C','D','E','F','G','H','I','J','K','L']
@@ -24,7 +24,7 @@ function MatchLine({ homeTeam, awayTeam, matchId, date, time, matchday }: {
   const away = TEAMS[awayTeam]
   if (!home || !away) return null
 
-  const probs = calculateProbabilities(home, away)
+  const probs = calculateProbabilitiesForMatch(matchId, home, away)
   const dateStr = new Date(date + 'T12:00:00').toLocaleDateString('es-CO', { day: 'numeric', month: 'short' })
   const [h, m] = time.split(':')
   const hour = parseInt(h)
