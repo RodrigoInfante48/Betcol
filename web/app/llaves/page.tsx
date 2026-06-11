@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { GROUPS, TEAMS, GROUP_STAGE_MATCHES } from '@/lib/worldcupData'
 import { calculateProbabilitiesForMatch } from '@/lib/bettingCalc'
 import TeamProfileModal from '@/components/TeamProfileModal'
+import WorldCupBracket from '@/components/WorldCupBracket'
 
 const GROUP_LETTERS = ['A','B','C','D','E','F','G','H','I','J','K','L']
 
@@ -119,40 +120,6 @@ function GroupCard({ group, onTeamClick }: { group: string; onTeamClick: (team: 
   )
 }
 
-function KnockoutBracket() {
-  const rounds = [
-    { label: 'Eliminatoria de 32', slots: 16, note: 'Los 2 mejores de cada grupo + 8 mejores 3ros' },
-    { label: 'Octavos de final', slots: 8, note: '' },
-    { label: 'Cuartos de final', slots: 4, note: '' },
-    { label: 'Semifinales', slots: 2, note: '' },
-    { label: 'Gran Final', slots: 1, note: '19 de julio · 2:00 p.m.' },
-  ]
-
-  return (
-    <div className="space-y-4">
-      <div className="p-4 bg-yellow-500/10 dark:bg-yellow-500/10 border border-yellow-700/30 rounded-xl text-sm text-yellow-600 dark:text-yellow-400">
-        <strong>⚠️ Fase eliminatoria pendiente</strong> — Los cruces se definen al terminar la fase de grupos (28 junio – 3 julio 2026).
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-3">
-        {rounds.map(round => (
-          <div key={round.label} className="bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-4">
-            <h4 className="text-xs font-bold text-gray-600 dark:text-gray-300 mb-2">{round.label}</h4>
-            {round.note && <p className="text-[10px] text-gray-400 dark:text-gray-600 mb-3">{round.note}</p>}
-            <div className="space-y-1.5">
-              {Array.from({ length: round.slots }).map((_, i) => (
-                <div key={i} className="flex items-center gap-2 py-1.5 px-2 rounded bg-gray-200/40 dark:bg-gray-800/40 border border-gray-300/30 dark:border-gray-700/30">
-                  <span className="text-[10px] text-gray-400 dark:text-gray-600 w-4">{i * 2 + 1}.</span>
-                  <span className="text-[10px] text-gray-400 dark:text-gray-600 flex-1">A definir</span>
-                  <span className="text-[10px] text-gray-300 dark:text-gray-700">vs A definir</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  )
-}
 
 export default function LlavesPage() {
   const [tab, setTab] = useState<'grupos' | 'eliminatoria'>('grupos')
@@ -207,7 +174,7 @@ export default function LlavesPage() {
         </>
       )}
 
-      {tab === 'eliminatoria' && <KnockoutBracket />}
+      {tab === 'eliminatoria' && <WorldCupBracket />}
 
       <div className="mt-6 p-3 bg-gray-50 dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl text-xs text-gray-400 dark:text-gray-600">
         Probabilidades estimadas con base en últimos 10 partidos internacionales de cada selección.
