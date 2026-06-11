@@ -79,6 +79,9 @@ export default function PartidosPage() {
     return `${h12}:${m} ${ampm}`
   }
 
+  const approxScore = (lh: number, la: number) =>
+    `${Math.round(lh)}-${Math.round(la)}`
+
   return (
     <div>
       {/* Header */}
@@ -236,10 +239,15 @@ export default function PartidosPage() {
 
                   {/* Bottom: favorite tag + cta */}
                   <div className="flex items-center justify-between mt-3 pt-2 border-t border-gray-200/60 dark:border-gray-800/60">
-                    <span className="text-[11px] text-gray-400 dark:text-gray-500">
-                      Favorito: <span className="text-green-600 dark:text-green-400 font-medium">{probs.favoritoName}</span>
-                      <span className="text-gray-400 dark:text-gray-600 ml-1">({pct(probs.favoritoPct)})</span>
-                    </span>
+                    <div className="flex flex-col gap-0.5">
+                      <span className="text-[11px] text-gray-400 dark:text-gray-500">
+                        Favorito: <span className="text-green-600 dark:text-green-400 font-medium">{probs.favoritoName}</span>
+                        <span className="text-gray-400 dark:text-gray-600 ml-1">({pct(probs.favoritoPct)})</span>
+                      </span>
+                      <span className="text-[10px] text-gray-300 dark:text-gray-700 tracking-wide">
+                        Resultado aprox: <span className="font-mono">{approxScore(probs.lambdaHome, probs.lambdaAway)}</span>
+                      </span>
+                    </div>
                     <span className="text-[11px] text-gray-400 dark:text-gray-600 group-hover:text-green-600 dark:group-hover:text-green-400 transition-colors flex items-center gap-1">
                       Ver análisis
                       <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
