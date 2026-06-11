@@ -1,5 +1,6 @@
 'use client'
-import { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
+import { TEAMS, GROUPS } from '@/lib/worldcupData'
 
 /* ─── Layout constants ─── */
 const CARD_H = 96   // px per bracket slot
@@ -64,6 +65,53 @@ R32_DEF.forEach(m => { R32_IDX[m.id] = m })
 const ALL_REFS: Record<string, MatchRef> = {}
 ;[...R16_DEF, ...QF_DEF, ...SF_DEF, FINAL_DEF].forEach(m => { ALL_REFS[m.id] = m })
 
+/* ─── R32 auto-population helpers ─── */
+function getSortedGroupTeams(group: string): string[] {
+  return [...(GROUPS[group] ?? [])].sort(
+    (a, b) => (TEAMS[a]?.ranking ?? 999) - (TEAMS[b]?.ranking ?? 999)
+  )
+}
+
+function computeDefaultR32Teams(): Record<string, string> {
+  const sorted: Record<string, string[]> = {}
+  for (const g of Object.keys(GROUPS)) sorted[g] = getSortedGroupTeams(g)
+
+  // Best 3rd-place teams sorted by ranking
+  const thirdPlace = Object.values(sorted)
+    .map(teams => teams[2])
+    .filter(Boolean)
+    .sort((a, b) => (TEAMS[a]?.ranking ?? 999) - (TEAMS[b]?.ranking ?? 999))
+
+  const result: Record<string, string> = {}
+  let t3 = 0
+  for (const match of R32_DEF) {
+    for (const side of ['h', 'a'] as const) {
+      const label = side === 'h' ? match.hl : match.al
+      const key = `${match.id}:${side}`
+      const m12 = label.match(/^([12])°\s+([A-L])$/)
+      if (m12) {
+        result[key] = sorted[m12[2]]?.[+m12[1] - 1] ?? ''
+        continue
+      }
+      if (/^3°/.test(label)) {
+        result[key] = thirdPlace[t3++] ?? ''
+      }
+    }
+  }
+  return result
+}
+
+function getR32Options(slotLabel: string): string[] {
+  const m12 = slotLabel.match(/^[12]°\s+([A-L])$/)
+  if (m12) return GROUPS[m12[1]] ?? []
+  if (/^3°/.test(slotLabel)) {
+    return Object.keys(GROUPS)
+      .map(g => getSortedGroupTeams(g)[2])
+      .filter(Boolean)
+  }
+  return []
+}
+
 /* ─── Utility functions ─── */
 
 // Top pixel position for match at round k, index i within that round
@@ -85,16 +133,18 @@ function getTeamLabel(
   matchId: string,
   side: 'h' | 'a',
   scores: Record<string, Score>,
+  r32Teams: Record<string, string>,
 ): string {
   if (R32_IDX[matchId]) {
-    return side === 'h' ? R32_IDX[matchId].hl : R32_IDX[matchId].al
+    const key = `${matchId}:${side}`
+    return r32Teams[key] || (side === 'h' ? R32_IDX[matchId].hl : R32_IDX[matchId].al)
   }
   const ref = ALL_REFS[matchId]
   if (!ref) return '?'
   const sourceId = side === 'h' ? ref.hf : ref.af
   const w = getWinner(sourceId, scores)
   if (!w) return '···'
-  return getTeamLabel(sourceId, w, scores)
+  return getTeamLabel(sourceId, w, scores, r32Teams)
 }
 
 function getMatchDate(matchId: string): string {
@@ -104,16 +154,19 @@ function getMatchDate(matchId: string): string {
 
 /* ─── Match Card ─── */
 function MatchCard({
-  id, scores, onScore,
+  id, scores, onScore, r32Teams, onR32Team,
 }: {
   id: string
   scores: Record<string, Score>
   onScore: (id: string, s: Score) => void
+  r32Teams: Record<string, string>
+  onR32Team: (key: string, name: string) => void
 }) {
   const sc = scores[id] ?? { h: '', a: '' }
-  const hl = getTeamLabel(id, 'h', scores)
-  const al = getTeamLabel(id, 'a', scores)
+  const hl = getTeamLabel(id, 'h', scores, r32Teams)
+  const al = getTeamLabel(id, 'a', scores, r32Teams)
   const date = getMatchDate(id)
+  const isR32 = !!R32_IDX[id]
 
   const hNum = sc.h !== '' ? parseInt(sc.h) : null
   const aNum = sc.a !== '' ? parseInt(sc.a) : null
@@ -142,17 +195,43 @@ function MatchCard({
   const teamRow = (side: 'h' | 'a', label: string) => {
     const isWinner = winner === side
     const goalVal = side === 'h' ? sc.h : sc.a
+    const flag = TEAMS[label]?.flag ?? ''
+    const slotLabel = isR32 ? (side === 'h' ? R32_IDX[id].hl : R32_IDX[id].al) : ''
+    const r32Key = `${id}:${side}`
+    const options = isR32 ? getR32Options(slotLabel) : []
+
     return (
       <div className={`flex items-center gap-1 px-2 py-1.5 ${isWinner ? 'bg-green-500/10' : ''}`}>
-        <span className={`text-[11px] flex-1 min-w-0 truncate font-medium leading-tight ${
-          isPending
-            ? 'text-gray-400 dark:text-gray-600 italic'
-            : isWinner
-            ? 'text-green-700 dark:text-green-300 font-semibold'
-            : 'text-gray-700 dark:text-gray-300'
-        }`}>
-          {label}
-        </span>
+        {isR32 ? (
+          <div className="flex flex-1 min-w-0 items-center gap-1">
+            <span className="text-sm leading-none flex-shrink-0">{flag}</span>
+            <select
+              value={r32Teams[r32Key] ?? ''}
+              onChange={(e: React.ChangeEvent<HTMLSelectElement>) => onR32Team(r32Key, e.target.value)}
+              className={`text-[10px] flex-1 min-w-0 bg-transparent border-none outline-none font-medium leading-tight cursor-pointer ${
+                isWinner
+                  ? 'text-green-700 dark:text-green-300 font-semibold'
+                  : 'text-gray-700 dark:text-gray-300'
+              }`}
+            >
+              {options.map(t => (
+                <option key={t} value={t} className="bg-white dark:bg-gray-900 text-gray-800">
+                  {t}
+                </option>
+              ))}
+            </select>
+          </div>
+        ) : (
+          <span className={`text-[11px] flex-1 min-w-0 truncate font-medium leading-tight ${
+            isPending
+              ? 'text-gray-400 dark:text-gray-600 italic'
+              : isWinner
+              ? 'text-green-700 dark:text-green-300 font-semibold'
+              : 'text-gray-700 dark:text-gray-300'
+          }`}>
+            {flag && !isPending ? `${flag} ` : ''}{label}
+          </span>
+        )}
         <div className="flex items-center gap-0.5 flex-shrink-0">
           <button
             onClick={() => bump(side, -1)}
@@ -221,12 +300,14 @@ function MatchCard({
 
 /* ─── Round Column ─── */
 function RoundColumn({
-  roundIndex, matchIds, scores, onScore,
+  roundIndex, matchIds, scores, onScore, r32Teams, onR32Team,
 }: {
   roundIndex: number
   matchIds: string[]
   scores: Record<string, Score>
   onScore: (id: string, s: Score) => void
+  r32Teams: Record<string, string>
+  onR32Team: (key: string, name: string) => void
 }) {
   return (
     <div className="relative flex-shrink-0" style={{ width: CARD_W, height: TOTAL_H }}>
@@ -236,7 +317,13 @@ function RoundColumn({
           className="absolute left-0 right-0"
           style={{ top: topY(roundIndex, i), height: CARD_H }}
         >
-          <MatchCard id={id} scores={scores} onScore={onScore} />
+          <MatchCard
+            id={id}
+            scores={scores}
+            onScore={onScore}
+            r32Teams={r32Teams}
+            onR32Team={onR32Team}
+          />
         </div>
       ))}
     </div>
@@ -286,36 +373,55 @@ const ROUNDS = [
   { label: 'Final',            sub: '19 jul',         roundIndex: 4, matchIds: [FINAL_DEF.id] },
 ]
 
-const LS_KEY = 'wc2026_bracket_v1'
+const LS_KEY = 'wc2026_bracket_v2'
 
 export default function WorldCupBracket() {
   const [scores, setScores] = useState<Record<string, Score>>({})
+  const [r32Teams, setR32Teams] = useState<Record<string, string>>({})
   const [hydrated, setHydrated] = useState(false)
 
   useEffect(() => {
+    const defaults = computeDefaultR32Teams()
     try {
       const saved = localStorage.getItem(LS_KEY)
-      if (saved) setScores(JSON.parse(saved))
-    } catch {}
+      if (saved) {
+        const data = JSON.parse(saved)
+        if (data.scores) setScores(data.scores)
+        setR32Teams(data.r32Teams ?? defaults)
+      } else {
+        setR32Teams(defaults)
+      }
+    } catch {
+      setR32Teams(defaults)
+    }
     setHydrated(true)
   }, [])
 
+  // Persist on every state change after hydration
+  useEffect(() => {
+    if (!hydrated) return
+    try {
+      localStorage.setItem(LS_KEY, JSON.stringify({ scores, r32Teams }))
+    } catch {}
+  }, [scores, r32Teams, hydrated])
+
   function onScore(id: string, s: Score) {
-    setScores(prev => {
-      const next = { ...prev, [id]: s }
-      try { localStorage.setItem(LS_KEY, JSON.stringify(next)) } catch {}
-      return next
-    })
+    setScores((prev: Record<string, Score>) => ({ ...prev, [id]: s }))
+  }
+
+  function onR32Team(key: string, name: string) {
+    setR32Teams((prev: Record<string, string>) => ({ ...prev, [key]: name }))
   }
 
   function reset() {
     if (!confirm('¿Reiniciar todo el bracket? Se borrarán todos los marcadores.')) return
     setScores({})
+    setR32Teams(computeDefaultR32Teams())
     try { localStorage.removeItem(LS_KEY) } catch {}
   }
 
   // Count filled matches for progress indicator
-  const filledCount = Object.values(scores).filter(s => s.h !== '' && s.a !== '').length
+  const filledCount = (Object.values(scores) as Score[]).filter(s => s.h !== '' && s.a !== '').length
 
   if (!hydrated) {
     return (
@@ -331,9 +437,9 @@ export default function WorldCupBracket() {
       <div className="flex items-start justify-between gap-4 flex-wrap">
         <div className="space-y-1">
           <p className="text-xs text-gray-500 dark:text-gray-400">
-            Usa <span className="font-semibold text-gray-700 dark:text-gray-300">− y +</span> para ingresar goles partido a partido.
-            El ganador avanza automáticamente al siguiente cruce.
-            En empate, elige el ganador de <span className="font-semibold">penaltis (L = local, V = visitante)</span>.
+            Los equipos de la Eliminatoria 32 están pre-cargados por ranking FIFA — puedes cambiarlos con el selector.
+            Usa <span className="font-semibold text-gray-700 dark:text-gray-300">− y +</span> para ingresar goles.
+            El ganador avanza automáticamente. En empate, elige <span className="font-semibold">penaltis (L = local, V = visitante)</span>.
           </p>
           {filledCount > 0 && (
             <p className="text-[11px] text-green-600 dark:text-green-500">
@@ -372,6 +478,8 @@ export default function WorldCupBracket() {
                   matchIds={r.matchIds}
                   scores={scores}
                   onScore={onScore}
+                  r32Teams={r32Teams}
+                  onR32Team={onR32Team}
                 />
                 {ri < ROUNDS.length - 1 && (
                   <Connectors fromRound={r.roundIndex} toRound={ROUNDS[ri + 1].roundIndex} />
