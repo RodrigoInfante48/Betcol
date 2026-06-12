@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react'
-import { TEAMS, GROUPS } from '@/lib/worldcupData'
+import { TEAMS, GROUPS, GROUP_STAGE_MATCHES } from '@/lib/worldcupData'
 
 /* ─── Layout constants ─── */
 const CARD_H = 96   // px per bracket slot
@@ -8,8 +8,11 @@ const CARD_W = 168  // px per round column
 const CONN_W = 22   // px for SVG connectors between rounds
 const TOTAL_H = 16 * CARD_H // 1536px
 
+const GROUPS_LS_KEY = 'wc2026_groups_v1'
+
 /* ─── Types ─── */
 type Score = { h: string; a: string; pen?: 'h' | 'a' }
+type GroupScore = { h: string; a: string }
 
 /* ─── Bracket data ─── */
 const R32_DEF = [
@@ -72,9 +75,42 @@ function getSortedGroupTeams(group: string): string[] {
   )
 }
 
-function computeDefaultR32Teams(): Record<string, string> {
+function computeGroupStandingsSorted(group: string, groupScores: Record<string, GroupScore>): string[] {
+  const teams = GROUPS[group] ?? []
+  const matches = GROUP_STAGE_MATCHES.filter(m => m.group === group)
+
+  const stats: Record<string, { pts: number; gd: number; gf: number }> = {}
+  for (const t of teams) stats[t] = { pts: 0, gd: 0, gf: 0 }
+
+  let hasResults = false
+  for (const match of matches) {
+    const sc = groupScores[match.id]
+    if (!sc || sc.h === '' || sc.a === '') continue
+    hasResults = true
+    const h = parseInt(sc.h), a = parseInt(sc.a)
+    stats[match.homeTeam].gf += h
+    stats[match.homeTeam].gd += h - a
+    stats[match.awayTeam].gf += a
+    stats[match.awayTeam].gd += a - h
+    if (h > a) stats[match.homeTeam].pts += 3
+    else if (h === a) { stats[match.homeTeam].pts += 1; stats[match.awayTeam].pts += 1 }
+    else stats[match.awayTeam].pts += 3
+  }
+
+  if (!hasResults) return getSortedGroupTeams(group)
+
+  return [...teams].sort((a, b) => {
+    const sa = stats[a], sb = stats[b]
+    if (sb.pts !== sa.pts) return sb.pts - sa.pts
+    if (sb.gd !== sa.gd) return sb.gd - sa.gd
+    if (sb.gf !== sa.gf) return sb.gf - sa.gf
+    return (TEAMS[a]?.ranking ?? 999) - (TEAMS[b]?.ranking ?? 999)
+  })
+}
+
+function computeDefaultR32Teams(groupScores: Record<string, GroupScore> = {}): Record<string, string> {
   const sorted: Record<string, string[]> = {}
-  for (const g of Object.keys(GROUPS)) sorted[g] = getSortedGroupTeams(g)
+  for (const g of Object.keys(GROUPS)) sorted[g] = computeGroupStandingsSorted(g, groupScores)
 
   // Best 3rd-place teams sorted by ranking
   const thirdPlace = Object.values(sorted)
@@ -379,9 +415,21 @@ export default function WorldCupBracket() {
   const [scores, setScores] = useState<Record<string, Score>>({})
   const [r32Teams, setR32Teams] = useState<Record<string, string>>({})
   const [hydrated, setHydrated] = useState(false)
+  const [hasGroupResults, setHasGroupResults] = useState(false)
 
   useEffect(() => {
-    const defaults = computeDefaultR32Teams()
+    let groupScores: Record<string, GroupScore> = {}
+    try {
+      const savedGroups = localStorage.getItem(GROUPS_LS_KEY)
+      if (savedGroups) {
+        groupScores = JSON.parse(savedGroups)
+        setHasGroupResults(
+          Object.values(groupScores).some((s: GroupScore) => s.h !== '' && s.a !== '')
+        )
+      }
+    } catch {}
+
+    const defaults = computeDefaultR32Teams(groupScores)
     try {
       const saved = localStorage.getItem(LS_KEY)
       if (saved) {
@@ -413,10 +461,24 @@ export default function WorldCupBracket() {
     setR32Teams((prev: Record<string, string>) => ({ ...prev, [key]: name }))
   }
 
+  function recalcFromGroups() {
+    let groupScores: Record<string, GroupScore> = {}
+    try {
+      const saved = localStorage.getItem(GROUPS_LS_KEY)
+      if (saved) groupScores = JSON.parse(saved)
+    } catch {}
+    setR32Teams(computeDefaultR32Teams(groupScores))
+  }
+
   function reset() {
     if (!confirm('¿Reiniciar todo el bracket? Se borrarán todos los marcadores.')) return
+    let groupScores: Record<string, GroupScore> = {}
+    try {
+      const saved = localStorage.getItem(GROUPS_LS_KEY)
+      if (saved) groupScores = JSON.parse(saved)
+    } catch {}
     setScores({})
-    setR32Teams(computeDefaultR32Teams())
+    setR32Teams(computeDefaultR32Teams(groupScores))
     try { localStorage.removeItem(LS_KEY) } catch {}
   }
 
@@ -437,7 +499,7 @@ export default function WorldCupBracket() {
       <div className="flex items-start justify-between gap-4 flex-wrap">
         <div className="space-y-1">
           <p className="text-xs text-gray-500 dark:text-gray-400">
-            Los equipos de la Eliminatoria 32 están pre-cargados por ranking FIFA — puedes cambiarlos con el selector.
+            Los equipos están pre-cargados por {hasGroupResults ? 'posición real en grupos' : 'ranking FIFA'} — puedes cambiarlos con el selector.
             Usa <span className="font-semibold text-gray-700 dark:text-gray-300">− y +</span> para ingresar goles.
             El ganador avanza automáticamente. En empate, elige <span className="font-semibold">penaltis (L = local, V = visitante)</span>.
           </p>
@@ -447,12 +509,22 @@ export default function WorldCupBracket() {
             </p>
           )}
         </div>
-        <button
-          onClick={reset}
-          className="flex-shrink-0 text-xs text-red-500 border border-red-200 dark:border-red-900/60 px-3 py-1.5 rounded-lg hover:bg-red-50 dark:hover:bg-red-950/50 transition-colors"
-        >
-          Reiniciar
-        </button>
+        <div className="flex gap-2 flex-shrink-0">
+          {hasGroupResults && (
+            <button
+              onClick={recalcFromGroups}
+              className="text-xs text-blue-500 border border-blue-200 dark:border-blue-900/60 px-3 py-1.5 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-950/50 transition-colors"
+            >
+              Recalcular desde grupos
+            </button>
+          )}
+          <button
+            onClick={reset}
+            className="text-xs text-red-500 border border-red-200 dark:border-red-900/60 px-3 py-1.5 rounded-lg hover:bg-red-50 dark:hover:bg-red-950/50 transition-colors"
+          >
+            Reiniciar
+          </button>
+        </div>
       </div>
 
       {/* Bracket — horizontally scrollable */}
